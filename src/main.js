@@ -21,8 +21,8 @@ class theme {
   theme.scrollbarColor = '#30363d';
   theme.borderColor = '#30363d';
   theme.popupBorderColor = '#30363d';
-  theme.borderRadius = '6px';
-  theme.popupBorderRadius = '6px';
+  theme.borderRadius = '4px';
+  theme.popupBorderRadius = '4px';
   theme.popupIconColor = '#ffffff';
   theme.popupTextColor = '#ffffff';
   theme.popupActiveColor = '#e6fa10';
