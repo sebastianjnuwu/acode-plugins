@@ -1,0 +1,14 @@
+{
+  "id": "acode.theme.vscode",
+  "name": "Theme Visual Studio",
+  "main": "dist/main.js",
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "files": [],
+  "author": {
+    "name": "sebastianjnuwu",
+    "email": "sebastianjnuwu@gmail.com",
+    "github": "sebastianjnuwu"
+  }
+}
