@@ -4,6 +4,7 @@
   "main": "dist/main.js",
   "version": "1.0.0",
   "readme": "readme.md",
+  "minVersionCode": 289,
   "icon": "icon.png",
   "files": [],
   "author": {
