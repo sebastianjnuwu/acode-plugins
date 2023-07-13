@@ -1,28 +1,71 @@
-# Theme Visual Studio
+<div align="center">
+<h1>Theme Visual Studio</h1>
+</div>
 
 <div align="center"> 
  <img alt="profile" src="https://cdn.discordapp.com/attachments/1128027443245105184/1128029287342166047/vscode.png" width="60%" />
-  
-  <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-orange.svg"/></a>
+  <br>
+  <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-purple.svg"/>
+  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.0.2-purple"/>
 
- <i>The <strong>"Theme Visual Studio"</strong> plugin is an add-on for the Acode application that allows you to adjust the editor's visual theme to resemble Visual Studio Code.</i>
- <br>
- - Similar look and feel to Visual Studio Code.
- - Improves the programming experience.
- - Easy to set up and use!
- <br>
+<p>The <strong>"Theme Visual Studio"</strong> is a plugin for <i>acode</i> that provides several themes for the app including themes used in <i>Visual Studio.</i></p>
+
+ - Themes similar to Visual Studio Code.
+ - Best experience programming in acode.
+ - Easy and fast to set up and use.
+ 
 </div>
 
-<strong>Select theme:</strong> Start using the theme most similar to vscode now, download this plugin and follow: `Acode > Settings > Themes > Theme Visual Studio`.
+## Updates
+<details>
+    <summary>Details</summary>
+    <br>
+    <details>
+        <summary>
+            <code><strong>v1.0.2</strong></code>
+        </summary>
+        <ul>
+            <li>Added the theme <code>Visual Studio Dracula</code> for Acode.</li>
+        </ul>
+    </details>
+    <details>
+        <summary>
+            <code><strong>v1.0.1</strong></code>
+        </summary>
+        <ul>
+            <li>Added the theme <code>Theme Visual Studio</code> for Acode.</li>
+        </ul>
+    </details>
+</details>
+<br>
+
+## • Theme Visual Studio
+
+<strong>Select theme:</strong> Start using the theme: `Acode > Settings > Themes > Theme Visual Studio`.
 
 <table>
   <tr>
     <td>
   <img src="https://cdn.discordapp.com/attachments/1128027443245105184/1128051525722312754/Screenshot_20230710-1652172.jpg" alt="Screenshot 1"/></td>
-  <td><img src="https://cdn.discordapp.com/attachments/1128027443245105184/1128051525051228180/Screenshot_20230710-1648312.jpg" alt="Screenshot 2" /></td>
+  <td><img src="https://cdn.discordapp.com/attachments/1128027443245105184/1129036081225027604/Screenshot_20230713-1004392.jpg" alt="Screenshot 2" /></td>
   <td><img src="https://cdn.discordapp.com/attachments/1128027443245105184/1128051524673732608/Screenshot_20230710-1648262.jpg" alt="Screenshot 3" /></td>
   <td><img src="https://cdn.discordapp.com/attachments/1128027443245105184/1128051524334002216/Screenshot_20230710-1648102.jpg" alt="Screenshot 4" /> </td>
   <td><img src="https://cdn.discordapp.com/attachments/1128027443245105184/1128051523981672458/Screenshot_20230710-1648012.jpg" alt="Screenshot 5" /></td>
+  </tr>
+</table>
+
+## • Visual Studio Dracula
+
+<strong>Select theme:</strong> Start using the theme: `Acode > Settings > Themes > Visual Studio Dracula`.
+
+<table>
+  <tr>
+    <td>
+  <img src="https://cdn.discordapp.com/attachments/1128027443245105184/1129191794148655155/Screenshot_20230713-202327.jpg" alt="Screenshot 1"/></td>
+  <td><img src="https://cdn.discordapp.com/attachments/1128027443245105184/1129191793922166814/Screenshot_20230713-202320.jpg" alt="Screenshot 2" /></td>
+  <td><img src="https://cdn.discordapp.com/attachments/1128027443245105184/1129191793666301992/Screenshot_20230713-202312.jpg" alt="Screenshot 3" /></td>
+  <td><img src="https://cdn.discordapp.com/attachments/1128027443245105184/1129191793418846298/Screenshot_20230713-202305.jpg" alt="Screenshot 4" /></td>
+  <td><img src="https://cdn.discordapp.com/attachments/1128027443245105184/1129191790105350174/Screenshot_20230713-202256.jpg" alt="Screenshot 5" /></td>
   </tr>
 </table>
 
