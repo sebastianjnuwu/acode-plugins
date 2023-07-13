@@ -16,7 +16,7 @@
  
 </div>
 
-## Updates
+## • Updates
 <details>
     <summary>Details</summary>
     <br>
