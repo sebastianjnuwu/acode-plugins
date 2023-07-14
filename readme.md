@@ -78,7 +78,7 @@
 
 <strong>Open source:</strong> Want to see the code? click [here](https://github.com/sebastianjnuwu/acode-theme-vscode) and don't forget the little star!
 
-<strong>Report Bugs:</strong> Found bugs? know how to fix report [here!](https://github.com/sebastianjnuwu/acode-theme-vscode/issues)
+<strong>Report Bugs:</strong> Found bugs? Report now by clicking [here!](https://github.com/sebastianjnuwu/acode-theme-vscode/issues)
 
 <strong>pull request:</strong> Do you think something can improve? come contribute click [here!](https://github.com/sebastianjnuwu/acode-theme-vscode/pulls)
 
