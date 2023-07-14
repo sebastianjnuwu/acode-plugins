@@ -18,7 +18,7 @@
 
 ## • Updates
 <details>
-    <summary>Details</summary>
+    <summary>See some details about the versions.</summary>
     <br>
     <details>
         <summary>
@@ -36,8 +36,15 @@
             <li>Added the theme <code>Theme Visual Studio</code> for Acode.</li>
         </ul>
     </details>
+ <details>
+        <summary>
+            <code><strong>v1.0.0</strong></code>
+        </summary>
+        <ul>
+            <li> Unpublished version, due to the study of creation..</li>
+        </ul>
+    </details>
 </details>
-<br>
 
 ## • Theme Visual Studio
 
@@ -73,4 +80,6 @@
 
 <strong>Report Bugs:</strong> Found bugs? know how to fix report [here!](https://github.com/sebastianjnuwu/acode-theme-vscode/issues)
 
-> 💞 Thanks for using our theme!
+<strong>pull request:</strong> Do you think something can improve? come contribute click [here!](https://github.com/sebastianjnuwu/acode-theme-vscode/pulls)
+
+> 💜 Thanks for using our theme!
