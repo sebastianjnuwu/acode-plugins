@@ -1,0 +1,15 @@
+{
+  "id": "sebastianjnuwu.material.icons",
+  "name": "Material icons",
+  "main": "dist/main.js",
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "minVersionCode": 289,
+  "icon": "icon.png",
+  "files": [],
+  "author": {
+    "name": "sebastianjnuwu",
+    "email": "sebastianjnuwu@gmail.com",
+    "github": "sebastianjnuwu"
+  }
+}

@@ -1,0 +1,13 @@
+:root {
+  --astro: url('');
+}
+
+.file_type_astro::before {
+  display: inline-block;
+  content: '';
+  background-image: var(--astro);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
