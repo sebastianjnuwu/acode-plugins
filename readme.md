@@ -3,7 +3,7 @@
 </div>
 
 <div align="center"> 
- <img alt="profile" src="https://cdn.discordapp.com/attachments/1128027443245105184/1128029287342166047/vscode.png" width="60%" />
+ <img alt="profile" src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/material-icons/icon.png" width="60%" />
   <br>
   <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-purple.svg"/>
   <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.0.0-purple"/>
@@ -30,10 +30,10 @@
     </details>
 </details><br>
 
-<strong>Open source:</strong> Want to see the code? click <a href="https://github.com/sebastianjnuwu/acode-material-icons">here</a> and don't forget the little star!<br>
+<strong>Open source:</strong> Want to see the code? click <a href="https://github.com/sebastianjnuwu/acode-plugins/tree/material-icons">here</a> and don't forget the little star!<br>
 
-<strong>Report Bugs:</strong> Found bugs? Report now by clicking <a href="https://github.com/sebastianjnuwu/acode-material-icons">here!</a><br>
+<strong>Report Bugs:</strong> Found bugs? Report now by clicking <a href="https://github.com/sebastianjnuwu/acode-plugins/issues">here!</a><br>
 
-<strong>pull request:</strong> Do you think something can improve? come contribute click <a href="https://github.com/sebastianjnuwu/acode-material-icons">here!</a>
+<strong>pull request:</strong> Do you think something can improve? come contribute click <a href="https://github.com/sebastianjnuwu/acode-plugins/pulls">here!</a>
 
 > 💜 Thanks for using these icons!
