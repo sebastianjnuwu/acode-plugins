@@ -1,11 +1,8 @@
-:root {
-  --astro: url('');
-}
 
 .file_type_astro::before {
   display: inline-block;
   content: '';
-  background-image: var(--astro);
+  background-image: url('https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/material-icons/icons/astro.svg');
   background-size: contain;
   background-repeat: no-repeat;
   height: 1em;
