@@ -22,6 +22,14 @@
     <br>
     <details>
         <summary>
+    <code><strong>v1.0.3</strong></code>
+        </summary>
+        <ul>
+            <li> Some bugs fixed, enjoy your themes.</li>
+        </ul>
+    </details>
+      <details>
+        <summary>
             <code><strong>v1.0.2</strong></code>
         </summary>
         <ul>
@@ -34,14 +42,6 @@
         </summary>
         <ul>
             <li>Added the theme <code>Theme Visual Studio</code> for Acode.</li>
-        </ul>
-    </details>
- <details>
-        <summary>
-            <code><strong>v1.0.0</strong></code>
-        </summary>
-        <ul>
-            <li> Unpublished version, due to the study of creation..</li>
         </ul>
     </details>
 </details>
@@ -76,10 +76,10 @@
   </tr>
 </table>
 
-<strong>Open source:</strong> Want to see the code? click [here](https://github.com/sebastianjnuwu/acode-theme-vscode) and don't forget the little star!
+<strong>Open source:</strong> Want to see the code? click [here](https://github.com/sebastianjnuwu/acode-plugins) and don't forget the little star!
 
-<strong>Report Bugs:</strong> Found bugs? Report now by clicking [here!](https://github.com/sebastianjnuwu/acode-theme-vscode/issues)
+<strong>Report Bugs:</strong> Found bugs? Report now by clicking [here!](https://github.com/sebastianjnuwu/acode-plugins/issues)
 
-<strong>pull request:</strong> Do you think something can improve? come contribute click [here!](https://github.com/sebastianjnuwu/acode-theme-vscode/pulls)
+<strong>pull request:</strong> Do you think something can improve? come contribute click [here!](https://github.com/sebastianjnuwu/acode-plugins/pulls)
 
 > 💜 Thanks for using our theme!
