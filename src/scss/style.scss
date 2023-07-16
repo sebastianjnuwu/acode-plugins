@@ -80,16 +80,6 @@
   width: 1em;
 }
 
-.file_type_npm::before {
-  display: inline-block;
-  content: '';
-  background-image: url(#{$npm});
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 1em;
-  width: 1em;
-}
-
 .file_type_jsconfig::before {
   display: inline-block;
   content: '';
