@@ -1,5 +1,5 @@
 import plugin from "../plugin.json";
-import style from "./icons.scss";
+import style from "./scss/style.scss";
 
 class icons {
   async init() {

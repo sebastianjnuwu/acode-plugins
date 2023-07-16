@@ -9,7 +9,8 @@
     "icons"
   ],
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "svg": "node .vscode/svg-vonverte.js"
   },
   "dependencies": {
     "html-tag-js": "^1.1.22"
