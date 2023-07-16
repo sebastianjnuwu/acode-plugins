@@ -6,7 +6,7 @@
  <img alt="profile" src="https://cdn.discordapp.com/attachments/1128027443245105184/1128029287342166047/vscode.png" width="60%" />
   <br>
   <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-purple.svg"/>
-  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.0.2-purple"/>
+  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.0.4-purple"/>
 
 <p>The <strong>"Theme Visual Studio"</strong> is a plugin for <i>acode</i> that provides several themes for the app including themes used in <i>Visual Studio.</i></p>
 
@@ -22,10 +22,11 @@
     <br>
     <details>
         <summary>
-    <code><strong>v1.0.3</strong></code>
+    <code><strong>v1.0.3/1.0.4</strong></code>
         </summary>
         <ul>
             <li> Some bugs fixed, enjoy your themes.</li>
+            <li> Added the theme <code>Visual Studio Standard</code> </li>
         </ul>
     </details>
       <details>

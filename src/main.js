@@ -8,7 +8,9 @@ class theme {
 
   this.setup_theme_purple_dark('Theme Visual Studio');
   
-  this.setup_theme_dracula('Visual Studio Dracula')
+  this.setup_theme_dracula('Visual Studio Dracula');
+  
+  this.setup_theme_standard('Visual Studio Standard');
 
  };
 
@@ -76,6 +78,36 @@ class theme {
     themes.add(dracula);
     themes.apply(name);
 };
+
+  async setup_theme_standard(name) {
+  const standard = new ThemeBuilder(name, 'dark', 'free');
+
+  standard.primaryColor = '#282c34';
+  standard.popupBackgroundColor = '#2d313a';
+  standard.darkenedPrimaryColor = '#1e2128';
+  standard.primaryTextColor = '#ffff';
+  standard.secondaryColor = '#21252b';
+  standard.secondaryTextColor = '#fff';
+  standard.activeColor = '#61afef';
+  standard.activeIconColor = '#61afef';
+  standard.linkTextColor = '#007ee5ad';
+  standard.errorTextColor = '#e06c75';
+  standard.scrollbarColor = '#ffff';
+  standard.borderColor = '#007ee5ad';
+  standard.popupBorderColor = '#007ee5ad';
+  standard.borderRadius = '4px';
+  standard.popupBorderRadius = '4px';
+  standard.popupIconColor = '#007ee5ad';
+  standard.popupTextColor = '#ffff';
+  standard.popupActiveColor = '#f9ff24';
+  standard.boxShadowColor = '#00000033';
+  standard.buttonActiveColor = '#61afefae';
+  standard.buttonBackgroundColor = '#61afef';
+  standard.buttonTextColor = '#282c34';
+
+  themes.add(standard);
+  themes.apply(name);
+}
 
 }
 
