@@ -20,36 +20,6 @@
   width: 1em;
 }
 
-.file_type_sequelize::before {
-  display: inline-block;
-  content: '';
-  background-image: url(#{$sequelize});
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 1em;
-  width: 1em;
-}
-
-.file_type_readme::before {
-  display: inline-block;
-  content: '';
-  background-image: url(#{$readme});
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 1em;
-  width: 1em;
-}
-
-.file_type_replit::before {
-  display: inline-block;
-  content: '';
-  background-image: url(#{$replit});
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 1em;
-  width: 1em;
-}
-
 .file_type_nix::before {
   display: inline-block;
   content: '';
@@ -64,16 +34,6 @@
   display: inline-block;
   content: '';
   background-image: url(#{$prettier});
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 1em;
-  width: 1em;
-}
-
-.file_type_husky::before {
-  display: inline-block;
-  content: '';
-  background-image: url(#{$husky});
   background-size: contain;
   background-repeat: no-repeat;
   height: 1em;
@@ -104,6 +64,26 @@
   display: inline-block;
   content: '';
   background-image: url(#{$tsx});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_typescript::before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$typescript});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_javascript::before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$javascript});
   background-size: contain;
   background-repeat: no-repeat;
   height: 1em;
