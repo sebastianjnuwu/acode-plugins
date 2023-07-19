@@ -11,10 +11,10 @@ class theme {
   this.setup_theme_dracula('Visual Studio Dracula');
   
   this.setup_theme_standard('Visual Studio Standard');
+  
+  this.setup_theme_cobalt('Visual Studio Cobalt');
 
  };
-
-  async destroy() {};
   
   async setup_theme_purple_dark(name) {
  
@@ -107,8 +107,40 @@ class theme {
 
   themes.add(standard);
   themes.apply(name);
-}
+};
 
+  async setup_theme_cobalt(name) {
+  const cobalt = new ThemeBuilder(name, 'dark', 'free');
+
+  cobalt.primaryColor = '#002240';
+  cobalt.popupBackgroundColor = '#002240';
+  cobalt.darkenedPrimaryColor = '#002240';
+  cobalt.primaryTextColor = '#ffffff';
+  cobalt.secondaryColor = '#003660';
+  cobalt.secondaryTextColor = '#ffffff';
+  cobalt.activeColor = '#ff9500';
+  cobalt.activeIconColor = '#ff9500';
+  cobalt.linkTextColor = '#1577ff';
+  cobalt.errorTextColor = '#ff0000';
+  cobalt.scrollbarColor = '#808080';
+  cobalt.borderColor = '#003660';
+  cobalt.popupBorderColor = '#003660';
+  cobalt.borderRadius = '3px';
+  cobalt.popupBorderRadius = '3px';
+  cobalt.popupIconColor = '#ffffff';
+  cobalt.popupTextColor = '#ffffff';
+  cobalt.popupActiveColor = '#e6ff15';
+  cobalt.boxShadowColor = '#00000033';
+  cobalt.buttonActiveColor = '#ff9500aa';
+  cobalt.buttonBackgroundColor = '#ff9500';
+  cobalt.buttonTextColor = '#fff';
+
+  themes.add(cobalt);
+  themes.apply(name);
+};
+
+  async destroy() {};
+  
 }
 
 if (window.acode) {
