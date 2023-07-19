@@ -6,7 +6,7 @@
  <img alt="profile" src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/material-icons/icon.png" width="60%" />
   <br>
   <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-purple.svg"/>
-  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.0.2-purple"/>
+  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.0.3-purple"/>
 
 <p>The <strong>"Material icons"</strong> is a plugin for <i>acode</i> that allows you to add icons that don't exist in the app and change the existing ones!</i></p>
 
@@ -20,6 +20,14 @@
 <details>
     <summary>See some details about the versions.</summary>
     <br>
+    <details>
+        <summary>
+            <code><strong>v1.0.3</strong></code>
+        </summary>
+      <ul>
+  <li>icons: <code>webpack, postcss</code></li>
+     </ul>
+    </details>
     <details>
         <summary>
             <code><strong>v1.0.2</strong></code>

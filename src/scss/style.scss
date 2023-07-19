@@ -1,6 +1,16 @@
 @import './icons.scss';
 
-.file_type_astro::before {
+.file_type_npm:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$npm});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_astro:before {
   display: inline-block;
   content: '';
   background-image: url(#{$astro});
@@ -10,7 +20,7 @@
   width: 1em;
 }
 
-.file_type_tsconfig::before {
+.file_type_tsconfig:before {
   display: inline-block;
   content: '';
   background-image: url(#{$tsconfig});
@@ -20,7 +30,7 @@
   width: 1em;
 }
 
-.file_type_nix::before {
+.file_type_nix:before {
   display: inline-block;
   content: '';
   background-image: url(#{$nix});
@@ -30,7 +40,7 @@
   width: 1em;
 }
 
-.file_type_prettier::before {
+.file_type_prettier:before {
   display: inline-block;
   content: '';
   background-image: url(#{$prettier});
@@ -40,7 +50,7 @@
   width: 1em;
 }
 
-.file_type_jsconfig::before {
+.file_type_jsconfig:before {
   display: inline-block;
   content: '';
   background-image: url(#{$jsconfig});
@@ -50,7 +60,7 @@
   width: 1em;
 }
 
-.file_type_jsx::before {
+.file_type_jsx:before {
   display: inline-block;
   content: '';
   background-image: url(#{$jsx});
@@ -60,7 +70,7 @@
   width: 1em;
 }
 
-.file_type_tsx::before {
+.file_type_tsx:before {
   display: inline-block;
   content: '';
   background-image: url(#{$tsx});
@@ -70,7 +80,7 @@
   width: 1em;
 }
 
-.file_type_typescript::before {
+.file_type_typescript:before {
   display: inline-block;
   content: '';
   background-image: url(#{$typescript});
@@ -80,10 +90,40 @@
   width: 1em;
 }
 
-.file_type_javascript::before {
+.file_type_javascript:before {
   display: inline-block;
   content: '';
   background-image: url(#{$javascript});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_webpack:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$webpack});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_postcss:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$postcss});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_postcssconfig:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$postcss});
   background-size: contain;
   background-repeat: no-repeat;
   height: 1em;
