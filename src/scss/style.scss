@@ -129,3 +129,43 @@
   height: 1em;
   width: 1em;
 }
+
+.file_type_html:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$html});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_css:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$css});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_scss:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$scss});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_sass:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$scss});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
