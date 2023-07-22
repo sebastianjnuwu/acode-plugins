@@ -10,6 +10,76 @@
   width: 1em;
 }
 
+.file_type_yaml:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$yaml});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_yml:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$yaml});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_java:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$java});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_docker:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$docker});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_dockerfile:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$docker});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_eslint:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$eslint});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
+.file_type_android:before {
+  display: inline-block;
+  content: '';
+  background-image: url(#{$android});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1em;
+  width: 1em;
+}
+
 .file_type_astro:before {
   display: inline-block;
   content: '';
