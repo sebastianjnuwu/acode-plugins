@@ -6,7 +6,7 @@
  <img alt="profile" src="https://cdn.discordapp.com/attachments/1128027443245105184/1128029287342166047/vscode.png" width="60%" />
   <br>
   <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-purple.svg"/>
-  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.0.5-purple"/>
+  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.0.6-purple"/>
 
 <p>The <strong>"Theme Visual Studio"</strong> is a plugin for <i>acode</i> that provides several themes for the app including themes used in <i>Visual Studio.</i></p>
 
@@ -20,6 +20,15 @@
 <details>
     <summary>See some details about the versions.</summary>
     <br>
+      <details>
+        <summary>
+            <code><strong>v1.0.6</strong></code>
+        </summary>
+        <ul>
+         <li>Source code optimization.</li>
+         <li>ECMAScript 6 being used.</li>
+        </ul>
+    </details>
       <details>
         <summary>
             <code><strong>v1.0.5</strong></code>

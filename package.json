@@ -1,14 +1,23 @@
 {
   "name": "acode-theme-vscode",
   "description": "Visual studio theme for acode!",
-  "version": "1.0.5",
+  "version": "1.0.6",
+  "type": "module",
   "license": "Apache-2.0",
   "author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
-  "keywords": [ "vscode" , "acode", "theme" ],
+  "keywords": [
+    "vscode",
+    "acode",
+    "theme"
+  ],
   "scripts": {
-    "build": "webpack --mode production"
+    "zip": "node .acode/build.js",
+    "build": "webpack",
+    "release": "webpack --mode production"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "colors": "^1.4.0",
     "html-tag-js": "^1.1.22"
   },
   "devDependencies": {
@@ -18,7 +27,7 @@
     "@babel/preset-env": "^7.18.10",
     "babel-loader": "^9.1.0",
     "jszip": "^3.10.1",
-    "live-server": "^1.2.2",
+    "postcss-loader": "^7.3.3",
     "webpack": "^5.76.0",
     "webpack-cli": "^5.0.0"
   },
@@ -29,11 +38,11 @@
     "terser": ">=5.14.2 ",
     "glob-parent": ">=5.1.2"
   },
- "repository": {
+  "repository": {
     "type": "git",
-    "url": "https://github.com/sebastianjnuwu/acode-theme-vscode"
+    "url": "https://github.com/sebastianjnuwu/acode-plugins"
   },
   "bugs": {
-    "url": "https://github.com/sebastianjnuwu/acode-theme-vscode/issues"
+    "url": "https://github.com/sebastianjnuwu/acode-plugins/issues"
   }
 }
