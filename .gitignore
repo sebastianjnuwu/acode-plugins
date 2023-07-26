@@ -1,6 +1,7 @@
 # Skipping junk files to repository 
-node_modules
 package-lock.json
+yarn-error.log
+node_modules
 yarn.lock
-dist.zip
+*.zip
 dist

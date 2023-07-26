@@ -1,33 +1,35 @@
-import plugin from "../plugin.json";
-import style from "./scss/style.scss";
+// importing necessary files
+import plugin from '../plugin.json';
+import style from './styles/style.scss';
 
-class icons {
-  async init() {
-     
-   this.style = tag("style", { textContent: style });
-   
-   document.head.append(this.style);
-    
-  }
+// main class
+class icon {
+	// function to start
+	async init() {
+		// eslint-disable-next-line no-undef
+		this.style = tag('style', { textContent: style });
+		// eslint-disable-next-line no-undef
+		document.head.append(this.style);
+	}
 
-  async destroy() {
-    // destroy
-  }
+	// function to kill
+	async destroy() {
+		// removing applied style
+		this.style.remove();
+	}
 }
 
+// eslint-disable-next-line no-undef
 if (window.acode) {
-  const acodePlugin = new icons();
-  acode.setPluginInit(
-    plugin.id,
-    (baseUrl, $page, { cacheFileUrl, cacheFile }) => {
-      if (!baseUrl.endsWith("/")) {
-        baseUrl += "/";
-      }
-      acodePlugin.baseUrl = baseUrl;
-      acodePlugin.init($page, cacheFile, cacheFileUrl);
-    }
-  );
-  acode.setPluginUnmount(plugin.id, () => {
-    acodePlugin.destroy();
-  });
+	// eslint-disable-next-line no-undef
+	acode.setPluginInit(plugin.id, async (url, page, { cacheFileUrl, cacheFile }) => {
+		if (!url.endsWith('/')) return (url += '/');
+
+		// settings
+		new icon().url = url;
+		new icon().init(page, cacheFile, cacheFileUrl);
+	});
+
+	// eslint-disable-next-line no-undef
+	acode.setPluginUnmount(plugin.id, () => new icon().destroy());
 }

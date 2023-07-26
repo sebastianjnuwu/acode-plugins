@@ -1,7 +1,8 @@
 {
   "name": "acode-material-icons",
   "description": "Icons for customizing Acode!",
-  "version": "1.0.5",
+  "version": "1.0.6",
+  "type": "module",
   "license": "Apache-2.0",
   "author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
   "keywords": [
@@ -9,8 +10,11 @@
     "icons"
   ],
   "scripts": {
-    "build": "webpack --mode production",
-    "svg": "node .vscode/svg-vonverte.js"
+    "zip": "node .acode/build.js",
+    "build": "webpack",
+    "release": "webpack --mode production",
+    "lint": "eslint src --fix",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "html-tag-js": "^1.1.22"
@@ -18,16 +22,23 @@
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.18.13",
+    "prettier": "^2.8.4",
+    "eslint": "^8.32.0",
+    "colors": "^1.4.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.18.10",
     "autoprefixer": "^10.4.14",
     "babel-loader": "^9.1.0",
+    "css-loader": "^6.8.1",
     "jszip": "^3.10.1",
     "postcss": "^8.4.21",
-    "postcss-loader": "^7.0.2",
+    "postcss-loader": "^7.3.3",
     "raw-loader": "^4.0.2",
     "sass": "^1.57.1",
-    "sass-loader": "^13.2.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
     "webpack": "^5.76.0",
     "webpack-cli": "^5.0.0"
   },

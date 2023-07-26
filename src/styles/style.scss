@@ -1,4 +1,4 @@
-@import './icons.scss';
+@import './variables.scss';
 
 .file_type_npm:before {
   display: inline-block;
@@ -34,16 +34,6 @@
   display: inline-block;
   content: '';
   background-image: url(#{$java});
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 1em;
-  width: 1em;
-}
-
-.file_type_docker:before {
-  display: inline-block;
-  content: '';
-  background-image: url(#{$docker});
   background-size: contain;
   background-repeat: no-repeat;
   height: 1em;
@@ -180,16 +170,6 @@
   width: 1em;
 }
 
-.file_type_postcss:before {
-  display: inline-block;
-  content: '';
-  background-image: url(#{$postcss});
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 1em;
-  width: 1em;
-}
-
 .file_type_postcssconfig:before {
   display: inline-block;
   content: '';
@@ -221,16 +201,6 @@
 }
 
 .file_type_scss:before {
-  display: inline-block;
-  content: '';
-  background-image: url(#{$scss});
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 1em;
-  width: 1em;
-}
-
-.file_type_sass:before {
   display: inline-block;
   content: '';
   background-image: url(#{$scss});
