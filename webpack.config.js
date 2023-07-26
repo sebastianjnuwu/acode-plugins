@@ -1,5 +1,4 @@
 import { exec } from 'node:child_process';
-import postcss from './postcss.config.js'
 import path from 'node:path';
 
 const build = (bash) => {
@@ -33,19 +32,7 @@ const main = (env, options) => {
             },
           },
         ],
-      },
-      {
-      test: /\.css$/,
-      use: [{
-          loader: 'postcss-loader',
-          options: {
-            postcssOptions: postcss,
-          },
-        },
-      ],
-    },
-      
-      ],
+      }],
     },
     plugins: [
       {
