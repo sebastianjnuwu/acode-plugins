@@ -1,19 +1,18 @@
 {
-  "name": "acode-material-icons",
-  "description": "Icons for customizing Acode!",
-  "version": "1.0.6",
+  "name": "acode-theme-editor",
+  "description": "Themes to use in the Acode editor!",
+  "version": "1.0.2",
   "type": "module",
   "license": "Apache-2.0",
   "author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
   "keywords": [
     "acode",
-    "icons"
+    "editor"
   ],
   "scripts": {
     "zip": "node .acode/build.js",
     "build": "webpack",
     "release": "webpack --mode production",
-    "lint": "eslint src --fix",
     "prettier": "prettier --write ."
   },
   "dependencies": {
@@ -23,10 +22,7 @@
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.18.13",
     "prettier": "^2.8.4",
-    "eslint": "^8.32.0",
     "colors": "^1.4.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.18.10",
     "autoprefixer": "^10.4.14",
