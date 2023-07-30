@@ -25,9 +25,10 @@
             <code><strong>v1.0.2</strong></code>
         </summary>
       <ul>
+
       <li>Fixing bugs: theme when leaving acode was reset was fixed by <a href="https://github.com/legend-sabbir">Legend-sabbir</a> 💜</li> 
     </ul>
-    </details>
+  </details>
 </details>
 
 ## • Theme Night Owl
