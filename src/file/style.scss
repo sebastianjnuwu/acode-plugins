@@ -1,7 +1,27 @@
 $base: "https://localhost/__cdvfile_files-external__/plugins/sebastianjnuwu.material.icons/icons/";
 
 $icons: (
-  "babel": "babel.svg"
+  "astro": "astro.svg",
+  "babel": "babel.svg",
+  "dependabot": "dependabot.svg",
+  "docker": "docker.svg",
+  "eslint": "eslint.svg",
+  "git": "git.svg",
+  "jsx": "jsx.svg",
+  "jsconfig": "jsconfig.svg",
+  "license": "license.svg",
+  "nix": "nix.svg",
+  "npm": "npm.svg",
+  "pandaconfig": "panda.svg",
+  "prettier": "prettier.svg",
+  "readme": "readme.svg",
+  "renovate": "renovate.svg",
+  "replit": "replit.svg",
+  "robots": "robots.svg",
+  "tsx": "tsx.svg",
+  "tsconfig": "tsconfig.svg",
+  "webpack": "webpack.svg",
+  "yaml": "yaml.svg"
 );
 
 @each $class, $url in $icons {

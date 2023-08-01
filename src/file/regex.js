@@ -1,28 +1,28 @@
+/* 
+ to add a new icon with an extension it is necessary to send it to the "icons" folder and add it to the "$icons" variable in the "src/file/style.scss" file 
+*/
+
 const regex = {
-  android: /\.(apk|aab|slim)$/i,
-  babel: /(^\.babelrc$)|(^babel\.config\.json$)|(^\.babelrc\.js$)|(^\.babelrc\.json$)/i,
   astro: /\.astro$/i,
-  css: /\.css$/i,
+  babel: /(^\.babelrc$)|(^babel\.config\.json$)|(^\.babelrc\.js$)|(^\.babelrc\.json$)|(\.jsx?$)/i,
+  dependabot: /\.dependabot\.yml$/i,
   docker: /\.docker(file|ignore)$/i,
   eslint: /(^\.eslintrc(\.(json5|yaml|toml))?$|eslint\.config\.(js|json)$|\.eslintignore)/i,
   git: /(^\.gitignore$)|(^\.gitmodules$)|(^\.gitattributes)/i,
-  html: /\.html$/i,
-  image: /\.(png|jpg|jpeg|gif|bmp|ico|webp)$/i,
-  java: /\.java$/i,
-  javascript: /\.js\.map$/i,
   jsconfig: /^jsconfig\.json$/i,
+  jsx: /\.jsx$/i,
   license: /^(license|LICENSE|License)$/i,
   nix: /\.nix$/i,
   npm: /(^package\.json$)|(^package-lock\.json$)|(^\.npmrc$)/i,
   pandaconfig: /panda\.config\.(js|ts)$/i,
-  postcssconfig: /(^\.postcssrc(\.(json5|yaml|toml))?$|postcss\.config\.(js|json)$)/i,
   prettier: /(^\.prettierrc(\.(json5|yaml|toml))?$|prettier\.config\.(js|json)$)/i,
+  readme: /^README(\.\w+)?$/i,
+  renovate: /^renovate\.json$/i,
+  replit: /^\.replit$/i,
   robots: /^robots\.txt$/i,
-  scss: /\.scss$/i,
-  tsconfig: /^tsconfig\.json$/i,
+  tsconfig: /^tsconfig(\.json|\.json5|\.yaml|\.yml)?$/i,
   tsx: /\.tsx$/i,
-  typescript: /\.d\.ts$/i,
-  webpack: /^webpack\.config\.js$/i,
+  webpack: /^webpack(\.config)?(\.js|\.cjs|\.ts|\.mjs|\.json)$/i,
   yaml: /\.(yaml|yml)$/i,
 };
 
