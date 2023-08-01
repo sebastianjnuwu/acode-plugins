@@ -28,7 +28,11 @@
     <li>Added and modified 21 icons</li>
      </ul>
     </details>
-</details><br>
+</details>
+
+## • Add new icons 
+
+Want to add new icons? visit our repository and make your contribution for new icons and extensions.
 
 <strong>Open source:</strong> Want to see the code? click <a href="https://github.com/sebastianjnuwu/acode-plugins/tree/material-icons">here</a> and don't forget the little star!<br>
 
