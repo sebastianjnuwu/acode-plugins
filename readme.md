@@ -22,18 +22,22 @@
     <br>
     <details>
         <summary>
-            <code><strong>v1.0.6</strong></code>
+            <code><strong>v1.0.7</strong></code>
         </summary>
       <ul>
-  <li>Source code update and updating some icons!</li>
+    <li>Added and modified 21 icons</li>
      </ul>
     </details>
-</details><br>
+</details>
+
+## • Add new icons 
+
+Want to add new icons? visit our repository and make your contribution for new icons and extensions.
 
 <strong>Open source:</strong> Want to see the code? click <a href="https://github.com/sebastianjnuwu/acode-plugins/tree/material-icons">here</a> and don't forget the little star!<br>
 
 <strong>Report Bugs:</strong> Found bugs? Report now by clicking <a href="https://github.com/sebastianjnuwu/acode-plugins/issues">here!</a><br>
 
-<strong>pull request:</strong> Do you think something can improve? come contribute click <a href="https://github.com/sebastianjnuwu/acode-plugins/pulls">here!</a>
+<strong>Pull request:</strong> Do you think something can improve? come contribute click <a href="https://github.com/sebastianjnuwu/acode-plugins/pulls">here!</a>
 
 > 💜 Thanks for using these icons!

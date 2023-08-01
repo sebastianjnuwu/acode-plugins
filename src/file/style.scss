@@ -1,0 +1,40 @@
+$base: "https://localhost/__cdvfile_files-external__/plugins/sebastianjnuwu.material.icons/icons/";
+
+$icons: (
+  "astro": "astro.svg",
+  "babel": "babel.svg",
+  "dependabot": "dependabot.svg",
+  "docker": "docker.svg",
+  "eslint": "eslint.svg",
+  "git": "git.svg",
+  "jsx": "jsx.svg",
+  "image": "image.svg",
+  "jsconfig": "jsconfig.svg",
+  "postcss": "postcss.svg",
+  "license": "license.svg",
+  "nix": "nix.svg",
+  "npm": "npm.svg",
+  "pandaconfig": "panda.svg",
+  "prettier": "prettier.svg",
+  "readme": "readme.svg",
+  "renovate": "renovate.svg",
+  "replit": "replit.svg",
+  "robots": "robots.svg",
+  "tsx": "tsx.svg",
+  "tsconfig": "tsconfig.svg",
+  "webpack": "webpack.svg",
+  "yarn": "yarn.svg",
+  "yaml": "yaml.svg"
+);
+
+@each $class, $url in $icons {
+  .file_type_#{$class}:before {
+    display: inline-block;
+    content: '';
+    background-image: url(#{$base} + #{$url});
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1em;
+    width: 1em;
+  }
+}
