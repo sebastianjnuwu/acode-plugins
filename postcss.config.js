@@ -3,7 +3,8 @@ import autoprefixer from 'autoprefixer';
 export default {
   plugins: [
     autoprefixer({
-      // best setup for you?
+      overrideBrowserslist: ['last 2 versions', '> 1%'],
+      cascade: false,
     }),
   ],
 };
