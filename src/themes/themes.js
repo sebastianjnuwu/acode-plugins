@@ -31,7 +31,7 @@ export function theme_purple_dark(name) {
 
 	themes.add(purple_dark);
 	themes.apply(name);
-}
+};
 
 export function theme_dracula(name) {
 	const dracula = new ThemeBuilder(name, 'dark', 'free');
@@ -61,7 +61,7 @@ export function theme_dracula(name) {
 
 	themes.add(dracula);
 	themes.apply(name);
-}
+};
 
 export function theme_standard(name) {
 	const standard = new ThemeBuilder(name, 'dark', 'free');
@@ -91,7 +91,7 @@ export function theme_standard(name) {
 
 	themes.add(standard);
 	themes.apply(name);
-}
+};
 
 export function theme_cobalt(name) {
 	const cobalt = new ThemeBuilder(name, 'dark', 'free');
@@ -121,4 +121,34 @@ export function theme_cobalt(name) {
 
 	themes.add(cobalt);
 	themes.apply(name);
-}
+};
+
+export function theme_night_owl(name) {
+    const night_owl = new ThemeBuilder(name, 'dark', 'free');
+
+    night_owl.primaryColor = '#011627';
+    night_owl.popupBackgroundColor = '#1d3b53';
+    night_owl.darkenedPrimaryColor = '#011627';
+    night_owl.primaryTextColor = '#d6deeb';
+    night_owl.secondaryColor = '#1d3b53d4';
+    night_owl.secondaryTextColor = '#d6deeb';
+    night_owl.activeColor = '#2c2aff';
+    night_owl.activeIconColor = '#2c2aff';
+    night_owl.linkTextColor = '#2c2affe0';
+    night_owl.errorTextColor = '#ef5350'; 
+    night_owl.scrollbarColor = '#5a7b8cff';
+    night_owl.borderColor = '#5a7b8cff';
+    night_owl.popupBorderColor = '#5a7b8cff';
+    night_owl.borderRadius = '6px';
+    night_owl.popupBorderRadius = '6px';
+    night_owl.popupIconColor = '#d6deeb';
+    night_owl.popupTextColor = '#d6deeb';
+    night_owl.popupActiveColor = '#e6ff15';
+    night_owl.boxShadowColor = '#00000033';
+    night_owl.buttonActiveColor = '#0016eda3';
+    night_owl.buttonBackgroundColor = '#0016ed';
+    night_owl.buttonTextColor = '#d6deeb';
+
+    themes.add(night_owl);
+    themes.apply(name);
+}; 
