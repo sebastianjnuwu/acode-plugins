@@ -81,6 +81,6 @@
 
 <strong>Report Bugs:</strong> Found bugs? Report now by clicking [here!](https://github.com/sebastianjnuwu/acode-plugins/issues)
 
-<strong>pull request:</strong> Do you think something can improve? come contribute click [here!](https://github.com/sebastianjnuwu/acode-plugins/pulls)
+<strong>Pull request:</strong> Do you think something can improve? come contribute click [here!](https://github.com/sebastianjnuwu/acode-plugins/pulls)
 
 > 💜 Thanks for using our theme!
