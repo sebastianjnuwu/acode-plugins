@@ -16,6 +16,7 @@ const regex = {
   nix: /\.nix$/i,
   npm: /(^package\.json$)|(^package-lock\.json$)|(^\.npmrc$)/i,
   pandaconfig: /panda\.config\.(js|ts)$/i,
+  pawn: /\.(pwn|amx)$/i,
   prettier: /(^\.prettierrc(\.(json5|yaml|toml))?$|prettier\.config\.(js|json)$)/i,
   postcssconfig: /(^\.postcssrc(\.(json5|yaml|toml))?$|postcss\.config\.(js|json)$)/i,
   readme: /^README\.(md|MD)$/i,

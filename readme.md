@@ -6,7 +6,7 @@
  <img alt="profile" src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/material-icons/icon.png" width="60%" />
   <br>
   <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-purple.svg"/>
-  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.0.8-purple"/>
+  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.0.9-purple"/>
 
 <p>The <strong>"Material icons"</strong> is a plugin for <i>acode</i> that allows you to add icons that don't exist in the app and change the existing ones!</p>
 
@@ -22,20 +22,20 @@
     <br>
   <details>
     <summary>
-      <code><strong>v1.0.8</strong></code>
+      <code><strong>v1.0.9</strong></code>
      </summary>
     <ul>
-  <li>added stan icon: *.stan</li>
+  <li>Added pawn icon: *.pwn and *.amx</li>
     </ul>
    </details>
   <details>
-        <summary>
-            <code><strong>v1.0.7</strong></code>
-        </summary>
-      <ul>
-    <li>Added and modified 21 icons</li>
-     </ul>
-    </details>
+    <summary>
+      <code><strong>v1.0.8</strong></code>
+     </summary>
+    <ul>
+  <li>Added stan icon: *.stan</li>
+    </ul>
+   </details>
 </details>
 
 ## • Add new icons 
