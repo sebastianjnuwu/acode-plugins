@@ -1,7 +1,7 @@
 {
   "name": "acode-material-icons",
   "description": "Icons for customizing Acode!",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "module",
   "license": "Apache-2.0",
   "author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
@@ -13,7 +13,6 @@
     "zip": "node .acode/build.js",
     "build": "webpack",
     "release": "webpack --mode production",
-    "lint": "eslint src --fix",
     "prettier": "prettier --write ."
   },
   "dependencies": {

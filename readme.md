@@ -6,7 +6,7 @@
  <img alt="profile" src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/material-icons/icon.png" width="60%" />
   <br>
   <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-purple.svg"/>
-  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.1.0-purple"/>
+  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.1.1-purple"/>
 
 <p>The <strong>"Material icons"</strong> is a plugin for <i>acode</i> that allows you to add icons that don't exist in the app and change the existing ones!</p>
 
@@ -16,36 +16,9 @@
 
 </div>
 
-## • Updates
-<details>
-    <summary>See some details about the versions.</summary>
-    <br>
-  <details>
-    <summary>
-      <code><strong>v1.1.0</strong></code>
-     </summary>
-    <ul>
-  <li>Added roblox icon: <code>*.rbxl, *.rbxlx, *.rbxm, *.rbxmx</code></li>
-  <li>Fix prettier icon regex bug!</li>
-    </ul>
-   </details>
-  <details>
-    <summary>
-      <code><strong>v1.0.9</strong></code>
-     </summary>
-    <ul>
-  <li>Added pawn icon: *.pwn and *.amx</li>
-    </ul>
-   </details>
-</details>
-
-## • Add new icons 
-
-Want to add new icons? visit our repository and make your contribution for new icons and extensions.
-
 <strong>Open source:</strong> Want to see the code? click <a href="https://github.com/sebastianjnuwu/acode-plugins/tree/material-icons">here</a> and don't forget the little star!<br>
 
-<strong>Report Bugs:</strong> Found bugs? Report now by clicking <a href="https://github.com/sebastianjnuwu/acode-plugins/issues">here!</a><br>
+<strong>Report bugs:</strong> Found bugs? Report now by clicking <a href="https://github.com/sebastianjnuwu/acode-plugins/issues">here!</a><br>
 
 <strong>Pull request:</strong> Do you think something can improve? come contribute click <a href="https://github.com/sebastianjnuwu/acode-plugins/pulls">here!</a>
 
