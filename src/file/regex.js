@@ -13,6 +13,7 @@ const regex = {
   image: /\.(png|jpg|jpeg|gif|bmp|ico|webp)$/i,
   jsx: /\.jsx$/i,
   license: /^(license|LICENSE|License)$/i,
+  http: /\.http$/i,
   nix: /\.nix$/i,
   npm: /(^package\.json$)|(^package-lock\.json$)|(^\.npmrc$)/i,
   pandaconfig: /panda\.config\.(js|ts)$/i,
