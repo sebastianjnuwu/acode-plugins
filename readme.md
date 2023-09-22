@@ -37,6 +37,8 @@
 
 <strong>Pull request:</strong> Do you think something can improve? come contribute click [here!](https://github.com/sebastianjnuwu/acode-plugins/pulls)
 
-<strong>Sponsor:</strong> [www.github.com/sponsors/sebastianjnuwu](https://github.com/sponsors/sebastianjnuwu)
-
-> 💜 Thanks for using our theme!
+<div align="center">
+ <a href='https://ko-fi.com/sebastianjnuwu' target='_blank'>
+  <img style='border:0px;height:40px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+ </a>
+</div>
