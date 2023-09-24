@@ -8,6 +8,7 @@ const regex = {
   deno: /^deno\.(json|jsonc|lock)$/i,
   dependabot: /^(\.dependabot|dependabot\.yml)$/i,
   docker: /\.docker(file|ignore)$/i,
+  font: /\.(woff|woff2|otf|suit|bmap|fnt|eot|odttf|ttf|mrf|ntf)$/i,
   eslint: /(^\.eslintrc(\.(json5|yaml|toml))?$|eslint\.config\.(js|json)$|\.eslintignore)/i,
   git: /(^\.gitignore$)|(^\.gitconfig$)|(^\.gitmodules$)|(^\.gitattributes)/i,
   jsconfig: /^jsconfig\.json$/i,
