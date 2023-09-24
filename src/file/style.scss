@@ -1,8 +1,9 @@
 $base: "https://localhost/__cdvfile_files-external__/plugins/sebastianjnuwu.material.icons/icons/";
 
-$icons: (
+$file_type_icons: (
   "astro": "astro.svg",
   "babel": "babel.svg",
+  "deno": "deno.svg",
   "dependabot": "dependabot.svg",
   "docker": "docker.svg",
   "eslint": "eslint.svg",
@@ -23,6 +24,7 @@ $icons: (
   "replit": "replit.svg",
   "roblox": "roblox.svg",
   "robots": "robots.svg",
+  "spwn": "spwn.svg",
   "stan": "stan.svg",
   "tsx": "tsx.svg",
   "tsconfig": "tsconfig.svg",
@@ -31,7 +33,7 @@ $icons: (
   "yaml": "yaml.svg"
 );
 
-@each $class, $url in $icons {
+@each $class, $url in $file_type_icons {
   .file_type_#{$class}:before {
     display: inline-block;
     content: '';

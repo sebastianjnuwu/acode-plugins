@@ -1,18 +1,19 @@
 /* 
- to add a new icon with an extension it is necessary to send it to the "icons" folder and add it to the "$icons" variable in the "src/file/style.scss" file 
+ to add a new icon with an extension it is necessary to send it to the "icons" folder and add it to the "$icons" variable in the "src/file/style.scss" file
 */
 
 const regex = {
   astro: /\.astro$/i,
   babel: /(^\.babelrc$)|(^babel\.config\.json$)|(^\.babelrc\.js$)|(^\.babelrc\.json$)/i,
+  deno: /^deno\.(json|jsonc|lock)$/i,
   dependabot: /^(\.dependabot|dependabot\.yml)$/i,
   docker: /\.docker(file|ignore)$/i,
   eslint: /(^\.eslintrc(\.(json5|yaml|toml))?$|eslint\.config\.(js|json)$|\.eslintignore)/i,
-  git: /(^\.gitignore$)|(^\.gitmodules$)|(^\.gitattributes)/i,
+  git: /(^\.gitignore$)|(^\.gitconfig$)|(^\.gitmodules$)|(^\.gitattributes)/i,
   jsconfig: /^jsconfig\.json$/i,
   image: /\.(png|jpg|jpeg|gif|bmp|ico|webp)$/i,
   jsx: /\.jsx$/i,
-  license: /^(license|LICENSE|License)$/i,
+  license: /^(license\.(txt)|LICENSE|License)$/i,
   http: /\.http$/i,
   nix: /\.nix$/i,
   npm: /(^package\.json$)|(^package-lock\.json$)|(^\.npmrc$)/i,
@@ -26,11 +27,12 @@ const regex = {
   procfile: /^Procfile$/i,  
   roblox: /.*\.(rbxl|rbxlx|rbxm|rbxmx)$/i,
   robots: /^robots\.txt$/i,
+  spwn: /\.spwn$/i,
   stan: /\.stan$/i,
   tsconfig: /^tsconfig(\.json|\.json5|\.yaml|\.yml)?$/i,
   tsx: /\.tsx$/i,
   webpack: /^webpack\.config\.js$/i,
-  yarn: /^yarn\.lock$/i,
+  yarn: /(^yarn\.lock$)|(^\.yarnrc$)/i,
   yaml: /\.(yaml|yml)$/i,
 };
 
