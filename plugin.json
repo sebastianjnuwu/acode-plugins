@@ -1,8 +1,8 @@
 {
   "id": "sebastianjnuwu.material.icons",
-  "name": "Material icons",
+  "name": "Material Icons",
   "main": "dist/main.js",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "readme": "readme.md",
   "minVersionCode": 289,
   "icon": "icon.png",
