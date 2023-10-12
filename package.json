@@ -1,6 +1,6 @@
 {
   "name": "acode-material-icons",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "type": "module",
   "license": "Apache-2.0",
   "author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
@@ -9,9 +9,6 @@
     "build": "webpack",
     "release": "webpack --mode production",
     "prettier": "prettier --write ."
-  },
-  "dependencies": {
-    "html-tag-js": "^1.1.22"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",

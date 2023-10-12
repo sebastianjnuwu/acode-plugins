@@ -6,7 +6,7 @@
  <img alt="profile" src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/material-icons/icon.png" width="60%" />
   <br>
   <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-purple.svg"/>
-  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.1.5-purple"/>
+  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.1.6-purple"/>
 
 <p>The <strong>"Material icons"</strong> is a plugin for <i>acode</i> that allows you to add icons that don't exist in the app and change the existing ones!</p>
 
@@ -24,6 +24,7 @@
 
 <div align="center">
  <a href='https://ko-fi.com/sebastianjnuwu' target='_blank'>
-  <img style='border:0px;height:40px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+  <img style='border-radius: 20px;height:40px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' />
  </a>
+ <a href="https://www.buymeacoffee.com/sebastianjnuwu"target='_blank'><img style="height:40px;border-radius: 20px;" src="https://img.buymeacoffee.com/button-api/?text=Buy me a cookie&emoji=🍪&slug=sebastianjnuwu&button_colour=BD5FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" /></a>
 </div>

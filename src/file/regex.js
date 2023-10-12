@@ -29,6 +29,7 @@ const regex = {
   roblox: /.*\.(rbxl|rbxlx|rbxm|rbxmx)$/i,
   robots: /^robots\.txt$/i,
   spwn: /\.spwn$/i,
+  tailwind: /^tailwind(\.ts|\.config\.(js|cjs|mjs|ts|cts|mts))$/i,
   stan: /\.stan$/i,
   tsconfig: /^tsconfig(\.json|\.json5|\.yaml|\.yml)?$/i,
   tsx: /\.tsx$/i,
