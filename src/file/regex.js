@@ -4,6 +4,7 @@
 
 const regex = {
   astro: /\.astro$/i,
+  biome: /^biome\.json$/i,
   babel: /(^\.babelrc$)|(^babel\.config\.json$)|(^\.babelrc\.js$)|(^\.babelrc\.json$)/i,
   deno: /^deno\.(json|jsonc|lock)$/i,
   dependabot: /^(\.dependabot|dependabot\.yml)$/i,
