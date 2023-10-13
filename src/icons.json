@@ -1471,12 +1471,13 @@
 	{
 		"name": "tailwindcss",
 		"fileNames": [
-			"tailwind.js",
-			"tailwind.ts",
-			"tailwind.config.js",
-			"tailwind.config.cjs",
-			"tailwind.config.ts",
-			"tailwind.config.cts"
+      "tailwind.ts",
+      "tailwind.config.js",
+      "tailwind.config.cjs",
+      "tailwind.config.mjs",
+      "tailwind.config.ts",
+      "tailwind.config.cts",
+      "tailwind.config.mts",
 		]
 	},
 	{
