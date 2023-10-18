@@ -22,8 +22,10 @@
  
 <strong>Report bugs:</strong> Found bugs? Report now by clicking [here!](https://github.com/sebastianjnuwu/acode-plugins/issues)
 
+<strong>Sponsor:</strong> Support this project by clicking [here](https://github.com/sponsors/sebastianjnuwu), this is how the developer works
+
 <strong>Pull request:</strong> Do you think something can improve? come contribute click [here!](https://github.com/sebastianjnuwu/acode-plugins/pulls)
 
-<div align="center"> 
- <iframe src="https://github.com/sponsors/sebastianjnuwu/button" title="Sponsor" height="32" width="120" style="border: 0; border-radius: 10px;"></iframe>
- </div>
+<div align="center">
+<a href="https://www.buymeacoffee.com/sebastianjnuwu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 200px !important;" ></a>
+</div>

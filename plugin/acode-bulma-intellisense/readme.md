@@ -21,8 +21,6 @@
 
 <strong>Open source:</strong> Want to see the code? click <a href="https://github.com/sebastianjnuwu/acode-plugins/tree/acode/plugin/acode-bulma-intellisense">here</a> and don't forget the little star!
 
-<strong>Report bugs:</strong> Found bugs? Report now by clicking <a href="https://github.com/sebastianjnuwu/acode-plugins/issues">here!</a><br>
+<strong>Sponsor:</strong> Support this project by clicking [here](https://github.com/sponsors/sebastianjnuwu), this is how the developer works
 
-<div align="center"> 
- <iframe src="https://github.com/sponsors/sebastianjnuwu/button" title="Sponsor" height="32" width="120" style="border: 0; border-radius: 10px;"></iframe>
- </div>
+<strong>Report bugs:</strong> Found bugs? Report now by clicking <a href="https://github.com/sebastianjnuwu/acode-plugins/issues">here!</a><br>

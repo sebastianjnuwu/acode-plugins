@@ -24,8 +24,6 @@
 
 <strong>Report bugs:</strong> Found bugs? Report now by clicking <a href="https://github.com/sebastianjnuwu/acode-plugins/issues">here!</a><br>
 
-<strong>Pull request:</strong> Do you think something can improve? come contribute click <a href="https://github.com/sebastianjnuwu/acode-plugins/pulls">here!</a>
+<strong>Sponsor:</strong> Support this project by clicking [here](https://github.com/sponsors/sebastianjnuwu), this is how the developer works
 
-<div align="center"> 
- <iframe src="https://github.com/sponsors/sebastianjnuwu/button" title="Sponsor" height="32" width="120" style="border: 0; border-radius: 10px;"></iframe>
- </div>
+<strong>Pull request:</strong> Do you think something can improve? come contribute click <a href="https://github.com/sebastianjnuwu/acode-plugins/pulls">here!</a>
