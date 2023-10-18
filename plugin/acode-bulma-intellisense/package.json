@@ -19,6 +19,7 @@
     "babel-loader": "^9.1.0",
     "colors": "^1.4.0",
     "css-loader": "^6.8.1",
+    "html-tag-js": "^1.1.41",
     "jszip": "^3.10.1",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.3.3",
