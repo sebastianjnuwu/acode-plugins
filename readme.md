@@ -1,45 +1,29 @@
 <div align="center">
-<h1>Theme Visual Studio</h1>
+<h1>Acode Plugins</h1>
 </div>
 
 <div align="center"> 
- <img alt="profile" src="https://cdn.discordapp.com/attachments/1128027443245105184/1128029287342166047/vscode.png" width="60%" />
+ <img alt="profile" src="https://raw.githubusercontent.com/deadlyjack/Acode/main/res/logo_1.png" width="60%" />
   <br>
-  <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-purple.svg"/>
-  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.1.2-purple"/>
+  <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/>
 
-<p>The <strong>"Theme Visual Studio"</strong> is a plugin for <i>acode</i> that provides several themes for the app including themes used in <i>Visual Studio.</i></p>
-
- - Themes similar to Visual Studio Code.
- - Best experience programming in acode.
- - Easy and fast to set up and use.
+ <i>Acode Editor</i> - Collection of some open source plugins used in the main play story code editing application
  
+ • Documentation: https://acode.app/plugin-docs
+  
 </div>
 
-## • Theme Visual Studio
-
-<strong>Select theme:</strong> Start using the theme: `Acode > Settings > Themes > Theme Visual Studio`.
-
-<table>
-  <tr>
-    <td>
-  <img src="https://cdn.discordapp.com/attachments/1128027443245105184/1128051525722312754/Screenshot_20230710-1652172.jpg" alt="Screenshot 1"/></td>
-  <td><img src="https://cdn.discordapp.com/attachments/1128027443245105184/1129036081225027604/Screenshot_20230713-1004392.jpg" alt="Screenshot 2" /></td>
-  <td><img src="https://cdn.discordapp.com/attachments/1128027443245105184/1128051524673732608/Screenshot_20230710-1648262.jpg" alt="Screenshot 3" /></td>
-  <td><img src="https://cdn.discordapp.com/attachments/1128027443245105184/1128051524334002216/Screenshot_20230710-1648102.jpg" alt="Screenshot 4" /> </td>
-  <td><img src="https://cdn.discordapp.com/attachments/1128027443245105184/1128051523981672458/Screenshot_20230710-1648012.jpg" alt="Screenshot 5" /></td>
-  </tr>
-</table>
-
-<strong>Open source:</strong> Want to see the code? click [here](https://github.com/sebastianjnuwu/acode-plugins) and don't forget the little star!
-
+<div align="center">
+ <img src="https://raw.githubusercontent.com/sebastianjnuwu/sebastianjnuwu/d864300df6e07477d3912a155433711750bf6bee/imagens/dazai.png" alt="profile"/>
+</div>
+ <p align="center">
+ <smail>Always bet on white, after all you've already won!</smail>
+ </p>
+ 
 <strong>Report bugs:</strong> Found bugs? Report now by clicking [here!](https://github.com/sebastianjnuwu/acode-plugins/issues)
 
 <strong>Pull request:</strong> Do you think something can improve? come contribute click [here!](https://github.com/sebastianjnuwu/acode-plugins/pulls)
 
-<div align="center">
- <a href='https://ko-fi.com/sebastianjnuwu' target='_blank'>
-  <img style='border-radius: 20px;height:40px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' />
- </a>
- <a href="https://www.buymeacoffee.com/sebastianjnuwu"target='_blank'><img style="height:40px;border-radius: 20px;" src="https://img.buymeacoffee.com/button-api/?text=Buy me a cookie&emoji=🍪&slug=sebastianjnuwu&button_colour=BD5FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" /></a>
-</div>
+<div align="center"> 
+ <iframe src="https://github.com/sponsors/sebastianjnuwu/button" title="Sponsor" height="32" width="120" style="border: 0; border-radius: 10px;"></iframe>
+ </div>
