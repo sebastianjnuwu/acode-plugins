@@ -19,7 +19,7 @@
 		"colors": "^1.4.0",
 		"copy-webpack-plugin": "^11.0.0",
 		"jszip": "^3.10.1",
-		"prettier": "^2.8.4",
+		"prettier": "^3.0.0",
 		"webpack": "^5.76.0",
 		"file-loader": "^6.2.0",
 		"html-tag-js": "^1.1.41",
