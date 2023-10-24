@@ -2,15 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "assignees": ["sebastianjnuwu"],
-  "reviewers": ["sebastianjnuwu"],
-  "baseBranches": ["acode"],
+  "schedule": ["after 10pm and before 5am every weekday", "every weekend"],
   "dependencyDashboard": false,
   "fetchReleaseNotes": true,
   "packageRules": [{
-   "matchPackagePatterns": ["*"],
-   "matchUpdateTypes": ["major", "patch"],
-   "labels": ["dependencies"],
-   "automerge": true
-   }
- ]
+    "matchPackagePatterns": ["*"],
+    "labels": ["dependencies"],
+    "automerge": true
+  }]
 }
