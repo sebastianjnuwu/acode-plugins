@@ -7,7 +7,7 @@
   <img src="https://cdn.discordapp.com/attachments/1128027443245105184/1169929467309867028/icon.png" width="40%" />
     <br>
   <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/>
-  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.0.0-blue"/>
+  <img alt="Version" src="https://img.shields.io/badge/Latest%20version-V1.0.1-blue"/>
 
   <b>Browser Console, Network, Inspect Dom Elements</b>
 </div>
