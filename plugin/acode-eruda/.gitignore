@@ -4,5 +4,6 @@ pnpm-lock.yaml
 yarn-error.log
 node_modules
 yarn.lock
+dist
 build
 *.zip
