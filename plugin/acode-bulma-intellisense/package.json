@@ -22,7 +22,7 @@
     "html-tag-js": "^1.1.41",
     "jszip": "^3.10.1",
     "postcss": "^8.4.21",
-    "postcss-loader": "^7.3.3",
+    "postcss-loader": "^8.0.0",
     "prettier": "^3.0.0",
     "raw-loader": "^4.0.2",
     "sass": "^1.57.1",
