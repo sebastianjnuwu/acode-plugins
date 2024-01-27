@@ -22,6 +22,11 @@ export default [
     ]
  },
  {
+  name: "dts",
+  icon: "dts",
+  extension: ['d.ts']
+ },
+ {
   name: "html",
   icon: "code-orange",
   extension: ["html", "xhtml", "htm", "asp"]
@@ -158,9 +163,80 @@ export default [
   extension:  ["pcss", "sss"]
 },
  {
+  name: "prettier",
+  icon: "prettier",
+  file_name: [
+      ".prettierrc",
+      "prettier.config.js",
+      "prettier.config.cjs",
+      ".prettierrc.js",
+      ".prettierrc.cjs",
+      ".prettierrc.json",
+      ".prettierrc.json5",
+      ".prettierrc.yaml",
+      ".prettierrc.yml",
+      ".prettierignore",
+      ".prettierrc.toml"
+    ],
+},
+ {
   name: "svg",
   icon: "svg",
   file_name: ["svg"]
+},
+ {
+  name: "ts-test",
+  icon: "ts-test",
+  file_name: [
+      "spec.ts",
+      "spec.cts",
+      "spec.mts",
+      "cy.ts",
+      "e2e-spec.ts",
+      "e2e-spec.cts",
+      "e2e-spec.mts",
+      "test.ts",
+      "test.cts",
+      "test.mts",
+      "ts.snap",
+      "spec-d.ts",
+      "test-d.ts"
+    ]
+},
+ {
+  name: "ts",
+  icon: "ts",
+  extension: ["ts"]
+},
+ {
+  name: "tsconfig",
+  icon: "tsconfig",
+  file_name: [
+      "tsconfig.json",
+      "tsconfig.app.json",
+      "tsconfig.editor.json",
+      "tsconfig.spec.json",
+      "tsconfig.base.json",
+      "tsconfig.build.json",
+      "tsconfig.eslint.json",
+      "tsconfig.lib.json",
+      "tsconfig.lib.prod.json",
+      "tsconfig.node.json",
+      "tsconfig.test.json",
+      "tsconfig.e2e.json",
+      "tsconfig.web.json",
+      "tsconfig.webworker.json",
+      "tsconfig.worker.json",
+      "tsconfig.config.json",
+      "tsconfig.vitest.json",
+      "tsconfig.cjs.json",
+      "tsconfig.esm.json",
+      "tsconfig.mjs.json",
+      "tsconfig.doc.json",
+      "tsconfig.paths.json",
+      "tsconfig.main.json",
+      "tsconfig.renderer.json"
+    ]
 },
  {
   name: "webpack",

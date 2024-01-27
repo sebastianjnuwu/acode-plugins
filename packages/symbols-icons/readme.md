@@ -5,12 +5,12 @@
 
 <div align="center"> 
   <img src="https://img.shields.io/badge/License-Apache%202.0-black.svg"/>
-  <img src="https://img.shields.io/badge/Latest%20version-V1.0.0-black"/>
+  <img src="https://img.shields.io/badge/Version-v1.0.0-black"/>
 </div>
 
 <h2>• Icon Previews</h2>
 
-<h3> Folders </h3>
+<h3>• Folders</h3>
 <table>
   <tr>
     <th>Name</th>
@@ -22,7 +22,7 @@
   </tr>
 </table>
 
-<h3> Files </h3>
+<h3>• Files</h3>
 <table>
   <tr>
     <th>Name</th>
@@ -65,8 +65,24 @@
     <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/dev/packages/symbols-icons/icons/files/postcss.svg" alt="postcss"/></td>
   </tr>
   <tr>
+    <td>prettier</td>
+    <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/dev/packages/symbols-icons/icons/files/prettier.svg" alt="prettier"/></td>
+  </tr>
+  <tr>
     <td>svg</td>
     <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/dev/packages/symbols-icons/icons/files/svg.svg" alt="svg"/></td>
+  </tr>
+  <tr>
+    <td>ts-test</td>
+    <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/dev/packages/symbols-icons/icons/files/ts-test.svg" alt="ts-test"/></td>
+  </tr>
+  <tr>
+    <td>ts</td>
+    <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/dev/packages/symbols-icons/icons/files/ts.svg" alt="ts"/></td>
+  </tr>
+  <tr>
+    <td>tsconfig</td>
+    <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/dev/packages/symbols-icons/icons/files/tsconfig.svg" alt="tsconfig"/></td>
   </tr>
   <tr>
     <td>webpack</td>

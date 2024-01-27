@@ -17,7 +17,7 @@ function style(x, y) {
 
 function get_type(filename) {
   
-  const extension = filename.slice(filename.lastIndexOf('.') + 1);
+  const extension = filename.slice(filename.indexOf('.') + 1);
 
   const one = file.find((type) => {
     if (type.file_name?.includes(filename.toLowerCase())) return type;
