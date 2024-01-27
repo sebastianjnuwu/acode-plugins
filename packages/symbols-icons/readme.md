@@ -89,3 +89,5 @@
     <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/dev/packages/symbols-icons/icons/files/webpack.svg" alt="webpack"/></td>
   </tr>
 </table>
+
+<strong>Sponsor:</strong> Support this project by clicking [here](https://github.com/sponsors/sebastianjnuwu), this is how the developer works
