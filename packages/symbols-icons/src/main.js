@@ -66,10 +66,12 @@ const file_style = file.map((x) => {
 }).join('\n');
 
 acode.require('helpers').getIconForFile = (x) => {
-  
+  const { getModeForPath } = ace.require('ace/ext/modelist');
+  const { name } = getModeForPath(x);
+  const z = name;
   const y = get_type(x);
 
-  return `file file_type_default file_type_${y}`;
+  return `file file_type_default file_type_${z} file_type_${y}`;
 };
 
 class symbols {

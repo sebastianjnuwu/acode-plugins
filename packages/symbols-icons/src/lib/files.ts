@@ -139,6 +139,25 @@ export default [
   file_name: [".npmignore", ".npmrc"]
 },
  {
+  name: "postcss",
+  icon: "postcss",
+  file_name: [
+      "postcss.config.js",
+      "postcss.config.cjs",
+      "postcss.config.ts",
+      "postcss.config.cts",
+      ".postcssrc.js",
+      ".postcssrc.cjs",
+      ".postcssrc.ts",
+      ".postcssrc.cts",
+      ".postcssrc",
+      ".postcssrc.json",
+      ".postcssrc.yaml",
+      ".postcssrc.yml"
+    ],
+  extension:  ["pcss", "sss"]
+},
+ {
   name: "svg",
   icon: "svg",
   file_name: ["svg"]
