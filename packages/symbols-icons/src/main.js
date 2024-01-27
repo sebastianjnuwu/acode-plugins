@@ -1,6 +1,7 @@
+import folder from './lib/folders.ts';
+import css from './styles/global.css';
 import plugin from '../plugin.json';
-import file from './lib/files.js';
-import folder from './lib/folders.js';
+import file from './lib/files.ts';
 
 function style(x, y) {
   return `${x}::before {
@@ -75,19 +76,23 @@ class symbols {
   
   async init() {
    
+   this.css = <style textContent={css}>
+    </style>;
+    
    this.file_style = <style textContent={file_style}>
     </style>;
     
    this.folder_style = <style textContent={folder_style}>
     </style>;
    
-   document.head.append(this.file_style, this.folder_style);
+   document.head.append(this.css, this.file_style, this.folder_style);
    
   };
 
   async destroy() {
-    this.file_style.remove();
-    this.folder_style.remove();
+    this.file_style?.remove();
+    this.folder_style?.remove();
+    this.css?.remove();
   };
 
 };

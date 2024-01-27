@@ -1,25 +1,20 @@
 import { exec } from 'node:child_process';
 import copy from 'copy-webpack-plugin';
-import path from 'node:path';
-
-const build = bash => {
-	bash.hooks.afterDone.tap('build', async () => {
-		await exec('node .acode/build.js', (err, ok) => {
-			if (!err) return console.log(ok);
-		});
-	});
-};
+import { resolve } from 'node:path';
 
 const main = (env, options) => {
 	return {
 		target: 'node',
-		mode: options.mode || 'development',
+		mode: options.mode,
 		entry: { main: './src/main.js' },
 		output: {
-			path: path.resolve('./', 'build'),
+			path: resolve('./', 'build'),
 			filename: '[name].js',
 			chunkFilename: '[name].js',
 		},
+		resolve: {
+        extensions: [".ts", ".js"]
+    },
 		module: {
 			rules: [
 				{
@@ -35,6 +30,15 @@ const main = (env, options) => {
 					],
 				},
 				{
+        test: /\.ts$/,
+        exclude: /node_modules/,
+        use: 'ts-loader',
+    },
+				{
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader", "postcss-loader"],
+      },
+				{
 					test: /\.(svg|png)$/,
 					loader: 'file-loader',
 				},
@@ -42,7 +46,11 @@ const main = (env, options) => {
 		},
 		plugins: [
 			{
-				apply: build,
+				apply: (bash) => {
+	bash.hooks.afterDone.tap('bash', async () => {
+		await exec('node .acode/zip.js');
+	});
+},
 			},
 			new copy({
 				patterns: [
