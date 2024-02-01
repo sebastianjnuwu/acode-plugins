@@ -1,17 +1,16 @@
 import plugin from '../plugin.json';
 import style from './styles/style.scss';
+import css from './styles/materialize.min.css';
 
-class materializecss {
+class materialize {
   
-  async fetch() {
-    
-   const res = await fetch(plugin.url).then((x) => x.text()).catch(() => {});
+  async get_style() {
   
    const regex = /\.(?!\d)([\w-]+)/g;
    const Class = new Set();
    let match;
   
-   while ((match = regex.exec(res))) {
+   while ((match = regex.exec(css))) {
      Class.add(match[1]);
    };
 
@@ -34,7 +33,7 @@ class materializecss {
       return {
         caption: word,
         value: word,
-        meta: "materializecss"
+        meta: "materialize"
       };
     }));
      return;
@@ -53,22 +52,13 @@ class materializecss {
     
   };
 
-  async init(cache) {
+  async init() {
    
-   this.file = cache.cacheFile;
    this.style = <style textContent={style}></style>;
    document.head.append(this.style);
    
-   const materializecss = await this.file.readFile('utf8');
-  
-   if (!materializecss) {
-    const word = await this.fetch();
-    await this.file.writeFile(JSON.stringify(word));
-    this.completion(word);
-    return;
-  };
-   
-    this.completion(JSON.parse(materializecss));
+   const word = await this.get_style();
+   this.completion(word);
   
   };
   
@@ -80,8 +70,8 @@ class materializecss {
 
 if (window.acode) {
 
-  acode.setPluginInit(plugin.id, (url, page, cache) => new materializecss().init(cache));
+  acode.setPluginInit(plugin.id, () => new materialize().init());
 
-  acode.setPluginUnmount(plugin.id, () => new materializecss().destroy());
+  acode.setPluginUnmount(plugin.id, () => new materialize().destroy());
 
 };
