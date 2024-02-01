@@ -1,11 +1,10 @@
 {
   "id": "sebastianjnuwu.bulma.intellisense",
   "name": "Bulma IntelliSense",
-  "main": "dist/main.js",
-  "version": "1.0.2",
+  "main": "build/main.js",
+  "version": "1.0.4",
   "readme": "readme.md",
   "minVersionCode": 289,
-  "url": "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.css",
   "icon": "icon.png",
   "files": [],
   "author": {

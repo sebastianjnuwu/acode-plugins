@@ -1,12 +1,12 @@
 {
-  "name": "acode-bulma-intellisense",
-  "version": "1.0.2",
+  "name": "bulma-intellisense",
+  "version": "1.0.4",
   "type": "module",
   "license": "Apache-2.0",
   "author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
   "scripts": {
-    "zip": "node .acode/build.js",
-    "build": "webpack",
+    "zip": "node .acode/zip.js",
+    "build": "webpack --mode development",
     "release": "webpack --mode production",
     "prettier": "prettier --write ."
   },
@@ -17,7 +17,6 @@
     "@babel/preset-env": "^7.18.10",
     "autoprefixer": "^10.4.14",
     "babel-loader": "^9.1.0",
-    "colors": "^1.4.0",
     "css-loader": "^6.8.1",
     "html-tag-js": "^1.1.41",
     "jszip": "^3.10.1",
