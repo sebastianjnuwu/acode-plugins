@@ -1,0 +1,16 @@
+{
+	"id": "sebastianjnuwu.symbols.icons",
+	"name": "Symbols Icons",
+	"main": "build/main.js",
+	"version": "1.0.0",
+	"readme": "readme.md",
+	"minVersionCode": 289,
+	"icon": "icon.png",
+	"files": [],
+	"price": "92",
+	"author": {
+		"name": "sebastianjnuwu",
+		"email": "sebastianjnuwu@gmail.com",
+		"github": "sebastianjnuwu"
+	}
+}

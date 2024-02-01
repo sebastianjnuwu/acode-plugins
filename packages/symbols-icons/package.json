@@ -1,0 +1,48 @@
+{
+  "name": "symbols-icons",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
+  "scripts": {
+    "zip": "node .acode/zip.js",
+    "prettier": "prettier --write .",
+    "build": "webpack --mode development",
+    "release": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^9.1.0",
+    "colors": "^1.4.0",
+    "copy-webpack-plugin": "^12.0.0",
+    "css-loader": "^6.9.1",
+    "file-loader": "^6.2.0",
+    "html-tag-js": "^1.1.41",
+    "jszip": "^3.10.1",
+    "postcss": "^8.4.33",
+    "postcss-loader": "^8.0.0",
+    "prettier": "^3.0.0",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.76.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "browserslist": [
+    "> 0.25%, not dead"
+  ],
+  "resolutions": {
+    "terser": ">=5.14.2 ",
+    "glob-parent": ">=5.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebastianjnuwu/acode-plugins"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastianjnuwu/acode-plugins/issues"
+  }
+}

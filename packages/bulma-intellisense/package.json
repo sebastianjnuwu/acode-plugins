@@ -1,0 +1,47 @@
+{
+  "name": "bulma-intellisense",
+  "version": "1.0.4",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
+  "scripts": {
+    "zip": "node .acode/zip.js",
+    "build": "webpack --mode development",
+    "release": "webpack --mode production",
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.18.10",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.8.1",
+    "html-tag-js": "^1.1.41",
+    "jszip": "^3.10.1",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^8.0.0",
+    "prettier": "^3.0.0",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.57.1",
+    "sass-loader": "^14.0.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.76.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "browserslist": [
+    "> 0.25%, not dead"
+  ],
+  "resolutions": {
+    "terser": ">=5.14.2 ",
+    "glob-parent": ">=5.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebastianjnuwu/acode-plugins"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastianjnuwu/acode-plugins/issues"
+  }
+}

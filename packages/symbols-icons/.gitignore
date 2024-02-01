@@ -1,0 +1,8 @@
+# Skipping junk files to repository 
+package-lock.json
+pnpm-lock.yaml
+yarn-error.log
+node_modules
+yarn.lock
+build
+*.zip

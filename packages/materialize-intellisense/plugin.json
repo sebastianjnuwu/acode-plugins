@@ -1,0 +1,15 @@
+{
+  "id": "sebastianjnuwu.materializecss.intellisense",
+  "name": "Materialize IntelliSense",
+  "main": "build/main.js",
+  "version": "1.0.1",
+  "readme": "readme.md",
+  "minVersionCode": 289,
+  "icon": "icon.png",
+  "files": [],
+  "author": {
+    "name": "sebastianjnuwu",
+    "email": "sebastianjnuwu@gmail.com",
+    "github": "sebastianjnuwu"
+  }
+}
