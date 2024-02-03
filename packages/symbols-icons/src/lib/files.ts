@@ -1,5 +1,18 @@
 export default [
  {
+  name: "astro",
+  icon: "astro",
+  file_name: [
+      "astro.config.js",
+      "astro.config.mjs",
+      "astro.config.cjs",
+      "astro.config.ts",
+      "astro.config.cts",
+      "astro.config.mts"
+    ],
+  extension: ["astro"]
+ },
+ {
   name: "babel",
   icon: "babel",
   file_name: [
@@ -20,6 +33,16 @@ export default [
       ".babel-plugin-macrosrc.js",
       "babel-plugin-macros.config.js"
     ]
+ },
+ {
+  name: "biome",
+  icon: "biome",
+  file_name: ["biome.json"]
+ },
+ {
+  name: "bun",
+  icon: "bun",
+  file_name: ["bun.lockb", "bunfig.toml"]
  },
  {
   name: "dts",
@@ -90,7 +113,12 @@ export default [
  ]
 },
  {
-  name: "javascript",
+  name: "js_test",
+  icon: "js-test",
+  file_name: ["test.js", "spec.js"]
+},
+ {
+  name: "js",
   icon: "js",
   extension: ["js"]
 },
@@ -178,6 +206,11 @@ export default [
       ".prettierignore",
       ".prettierrc.toml"
     ],
+},
+ {
+  name: "sass",
+  icon: "sass",
+  extension: ["sass", "scss"]
 },
  {
   name: "svg",
