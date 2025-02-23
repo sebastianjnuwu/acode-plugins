@@ -23,7 +23,7 @@
     "colors": "^1.4.0",
     "css-loader": "^7.0.0",
     "form-data": "^4.0.1",
-    "html-tag-js": "^1.1.41",
+    "html-tag-js": "^2.0.0",
     "jszip": "^3.10.1",
     "postcss": "^8.4.21",
     "postcss-loader": "^8.0.0",

@@ -24,7 +24,7 @@
     "babel-loader": "^9.1.0",
     "colors": "^1.4.0",
     "form-data": "^4.0.1",
-    "html-tag-js": "^1.1.22",
+    "html-tag-js": "^2.0.0",
     "jszip": "^3.10.1",
     "prettier": "^3.0.0",
     "raw-loader": "^4.0.2",
