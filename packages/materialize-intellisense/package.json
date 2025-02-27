@@ -19,7 +19,7 @@
     "@biomejs/biome": "^1.9.4",
     "autoprefixer": "^10.4.14",
     "axios": "^1.7.9",
-    "babel-loader": "^9.1.0",
+    "babel-loader": "^10.0.0",
     "colors": "^1.4.0",
     "css-loader": "^7.0.0",
     "html-tag-js": "^2.0.0",
