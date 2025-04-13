@@ -14,7 +14,7 @@
       <img src="https://img.shields.io/badge/License-Apache%202.0-0000FF.svg?logo=apache" alt="License Badge"/>
     </a>
     <a href="https://github.com/sebastianjnuwu/acode-plugins/blob/acode/packages/acode-eruda/package.json#L4" target="_blank">
-      <img src="https://img.shields.io/badge/Version-v1.0.5-0000FF?logo=github" alt="Version Badge"/>
+      <img src="https://img.shields.io/badge/Version-v1.0.6-0000FF?logo=github" alt="Version Badge"/>
     </a>
   </p>
   
@@ -35,13 +35,4 @@
   <!-- Screenshot of Eruda -->
   <img src="https://camo.githubusercontent.com/d0f6d8eb7aa3c04da21dde1b137049ad3439a7ca17bac6628aa4166a42551dba/68747470733a2f2f65727564612e6c6972696c6972692e696f2f73637265656e73686f742e6a7067" width="80%" alt="Screenshot of Eruda Acode"/>
 
-  <br><br>
-
-  <!-- Sponsor Section -->
-  <p><strong style="color: #0000FF">• Sponsor:</strong> Support this project by clicking <a href="https://github.com/sponsors/sebastianjnuwu" target="_blank" style="color: #0000FF;">here</a>.</p>
-
-
-  <!-- Open Source Section -->
-  <p><strong style="color: #0000FF">• Open Source:</strong> Click <a href="https://github.com/sebastianjnuwu/acode-plugins/tree/acode/packages/acode-eruda" target="_blank" style="color: #0000FF;">here</a>!</p>
-  
 </div>
