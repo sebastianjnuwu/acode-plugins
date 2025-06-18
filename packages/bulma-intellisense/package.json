@@ -16,7 +16,7 @@
     "@babel/core": "^7.18.13",
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.18.10",
-    "@biomejs/biome": "^1.9.4",
+    "@biomejs/biome": "^2.0.0",
     "autoprefixer": "^10.4.14",
     "axios": "^1.7.9",
     "babel-loader": "^10.0.0",
