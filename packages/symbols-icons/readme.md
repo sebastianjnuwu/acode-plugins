@@ -5,7 +5,7 @@
 
 <div align="center"> 
   <img src="https://img.shields.io/badge/License-Apache%202.0-black.svg?logo=apache"/>
-  <img src="https://img.shields.io/badge/Version-v1.0.4-black?logo=github"/>
+  <img src="https://img.shields.io/badge/Version-v1.0.5-black?logo=github"/>
 </div>
 
 <h2>• Icon Previews</h2>
@@ -27,10 +27,18 @@
   <tr>
     <th>Name</th>
     <th>Preview</th>
-  </tr>
   <tr>
     <td>astro</td>
-    <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/astro.svg" alt="astro"/></td>
+    <td><img
+    src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/astro.svg"
+    alt="astro"/></td>
+  </tr>
+  <tr>
+    <td>angular</td>
+    <td><img
+    src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/angular.svg"
+    alt="angular"/></td>
+  </tr>
   </tr>
   <tr>
     <td>babel</td>
@@ -43,6 +51,19 @@
   <tr>
     <td>bun</td>
     <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/bun.svg" alt="bun"/></td>
+  </tr>
+  <tr>
+    <td>csv</td>
+    <td><img
+    src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/csv.svg"
+    alt="csv"/></td>
+  </tr>
+  <tr>
+  <tr>
+    <td>database</td>
+    <td><img
+    src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/database.svg"
+    alt="database"/></td>
   </tr>
   <tr>
     <td>dts</td>
@@ -124,15 +145,27 @@
   <tr>
     <td>tsconfig</td>
     <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/tsconfig.svg" alt="tsconfig"/></td>
+  <tr>
+    <td>vercel</td>
+    <td><img
+    src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/vercel.svg"
+    alt="vercel"/></td>
   </tr>
+  <tr>
+    <td>vite</td>
+    <td><img
+    src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/vite.svg"
+    alt="vite"/></td>
+  </tr>
+  <tr>
   <tr>
     <td>webpack</td>
-    <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/webpack.svg" alt="webpack"/></td>
+    <td><img
+    src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/webpack.svg"
+    alt="webpack"/></td>
   </tr>
-  <tr>
+  </tr>
     <td>zig</td>
     <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/zig.svg" alt="zig"/></td>
   </tr>
 </table>
-
-<strong>Sponsor:</strong> Support this project by clicking [here](https://github.com/sponsors/sebastianjnuwu), this is how the acodeeloper works

@@ -1,19 +1,32 @@
 {
-	"id": "sebastianjnuwu.symbols.icons",
-	"name": "Symbols Icons",
-	"main": "main.js",
-	"version": "1.0.4",
+  "id": "sebastianjnuwu.symbols.icons",
+  "name": "Symbols Icons",
+  "main": "main.js",
+  "version": "1.0.5",
   "license": "Apache-2.0",
-	"readme": "readme.md",
-	"minVersionCode": 289,
-	"icon": "icon.png",
-	"files": [],
-	"price": "159",
-	"keywords": ["icons"],
+  "readme": "readme.md",
+  "minVersionCode": 289,
+  "icon": "icon.png",
+  "files": [],
+  "price": "160",
+  "changelogs": "ChangeLog.md",
+  "keywords": [
+    "icons",
+    "symbols",
+    "symbols-icons",
+    "acode",
+    "ui-icons",
+    "developer-tools",
+    "custom-icons",
+    "design-assets",
+    "code-editor",
+    "productivity"
+  ],
   "contributors": [],
-	"author": {
-		"name": "sebastianjnuwu",
-		"email": "sebastianjnuwu@gmail.com",
-		"github": "sebastianjnuwu"
-	}
+  "author": {
+    "name": "sebastianjnuwu",
+    "email": "sebastianjnuwu@gmail.com",
+    "url": "https://github.com/sebastianjnuwu/acode-plugins/tree/acode/packages/symbols-icons",
+    "github": "sebastianjnuwu"
+  }
 }

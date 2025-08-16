@@ -1,16 +1,26 @@
-export default [{
-  name: "astro",
-  icon: "astro",
-  file_name: [
-    "astro.config.js",
-    "astro.config.mjs",
-    "astro.config.cjs",
-    "astro.config.ts",
-    "astro.config.cts",
-    "astro.config.mts"
-  ],
-  extension: ["astro"]
-},
+export default [
+  {
+    name: "angular",
+    icon: "angular",
+    file_name: [
+      "angular.json",
+      ".angular-cli.json",
+      "angular-cli.json"
+    ],
+  },
+  {
+    name: "astro",
+    icon: "astro",
+    file_name: [
+      "astro.config.js",
+      "astro.config.mjs",
+      "astro.config.cjs",
+      "astro.config.ts",
+      "astro.config.cts",
+      "astro.config.mts"
+    ],
+    extension: ["astro"]
+  },
   {
     name: "babel",
     icon: "babel",
@@ -45,6 +55,35 @@ export default [{
       "bunfig.toml"]
   },
   {
+    name: "csv",
+    icon: "csv",
+    extension: ["csv"]
+  },
+  {
+    name: "database",
+    icon: "database",
+    file_name: [
+      "database.db",
+      "db.sqlite",
+      "db.sqlite3",
+      "schema.prisma",
+      "prisma.schema",
+      "mongo.js",
+      "mongo.json"
+    ],
+    extension: [
+      "sql",
+      "sqlite",
+      "sqlite3",
+      "db",
+      "mdb",
+      "accdb",
+      "dump",
+      "prisma",
+      "json"
+    ]
+  },
+  {
     name: "dts",
     icon: "dts",
     extension: ['d.ts']
@@ -53,22 +92,22 @@ export default [{
     name: "font",
     icon: "font",
     extension: [
-        'woff',
-        'woff2',
-        'ttf',
-        'eot',
-        'suit',
-        'otf',
-        'bmap',
-        'fnt',
-        'odttf',
-        'ttc',
-        'font',
-        'fonts',
-        'sui',
-        'ntf',
-        'mrf',
-      ],
+      'woff',
+      'woff2',
+      'ttf',
+      'eot',
+      'suit',
+      'otf',
+      'bmap',
+      'fnt',
+      'odttf',
+      'ttc',
+      'font',
+      'fonts',
+      'sui',
+      'ntf',
+      'mrf',
+    ],
   },
   {
     name: "git",
@@ -264,7 +303,7 @@ export default [{
       ".prettierrc.toml"
     ],
   },
-    {
+  {
     name: "robot",
     icon: "robot",
     file_name: ["robots.txt"]
@@ -339,6 +378,27 @@ export default [{
       "tsconfig.paths.json",
       "tsconfig.main.json",
       "tsconfig.renderer.json"
+    ]
+  },
+  {
+    name: "vite",
+    icon: "vite",
+    file_name: [
+      "vite.config.js",
+      "vite.config.mjs",
+      "vite.config.cjs",
+      "vite.config.ts",
+      "vite.config.cts",
+      "vite.config.mts"
+    ]
+  },
+  {
+    name: "vercel",
+    icon: "vercel",
+    file_name: [
+      "vercel.json",
+      "vercel.ignore",
+      "vercel.project.json"
     ]
   },
   {
@@ -529,4 +589,4 @@ export default [{
     icon: "zig",
     file_name: ['zig', 'zon']
   }
-  ];
+];
