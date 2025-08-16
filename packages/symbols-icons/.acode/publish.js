@@ -31,13 +31,13 @@ const upload = async (_token) => {
       return;
     });
     
-    console.log(response.data);
+    console.log(response);
     
 };
 
 const publish = async () => {
-  
-  const _token = await login(process.env.ACODE_EMAIL, process.env.ACODE_PASSWORLD);
+
+  const _token = await login(process.env.ACODE_EMAIL, process.env.ACODE_PASSWORD);
 
   if (_token) {
     await upload(_token); 

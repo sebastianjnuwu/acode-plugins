@@ -7,9 +7,9 @@
   "readme": "readme.md",
   "minVersionCode": 289,
   "icon": "icon.png",
+  "changelogs": "changelogs.md",
   "files": [],
   "price": "160",
-  "changelogs": "ChangeLog.md",
   "keywords": [
     "icons",
     "symbols",
