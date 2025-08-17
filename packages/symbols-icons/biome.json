@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.2.0/schema.json",
   "formatter": {
     "enabled": true,
     "indentStyle": "space",
@@ -9,16 +9,17 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "suspicious": {
-        "noExplicitAny": "off"
-      },
       "recommended": true
     }
   },
-  "organizeImports": {
-    "enabled": true
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
   },
   "files": {
-    "ignore": ["node_modules", "src/eruda.js", "build"]
+    "includes": ["**", "!node_modules", "!.acode"]
   }
 }

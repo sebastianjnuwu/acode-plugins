@@ -1,4 +1,3 @@
-
 declare global {
   type FolderType = {
     name: string;
@@ -7,4 +6,4 @@ declare global {
   };
 }
 
-export {}; 
+export {};

@@ -2,11 +2,7 @@ export default [
   {
     name: "angular",
     icon: "angular",
-    file_name: [
-      "angular.json",
-      ".angular-cli.json",
-      "angular-cli.json"
-    ],
+    file_name: ["angular.json", ".angular-cli.json", "angular-cli.json"],
   },
   {
     name: "astro",
@@ -17,9 +13,9 @@ export default [
       "astro.config.cjs",
       "astro.config.ts",
       "astro.config.cts",
-      "astro.config.mts"
+      "astro.config.mts",
     ],
-    extension: ["astro"]
+    extension: ["astro"],
   },
   {
     name: "babel",
@@ -40,24 +36,23 @@ export default [
       ".babel-plugin-macrosrc.yaml",
       ".babel-plugin-macrosrc.yml",
       ".babel-plugin-macrosrc.js",
-      "babel-plugin-macros.config.js"
-    ]
+      "babel-plugin-macros.config.js",
+    ],
   },
   {
     name: "biome",
     icon: "biome",
-    file_name: ["biome.json"]
+    file_name: ["biome.json"],
   },
   {
     name: "bun",
     icon: "bun",
-    file_name: ["bun.lockb",
-      "bunfig.toml"]
+    file_name: ["bun.lockb", "bunfig.toml"],
   },
   {
     name: "csv",
     icon: "csv",
-    extension: ["csv"]
+    extension: ["csv"],
   },
   {
     name: "database",
@@ -69,7 +64,7 @@ export default [
       "schema.prisma",
       "prisma.schema",
       "mongo.js",
-      "mongo.json"
+      "mongo.json",
     ],
     extension: [
       "sql",
@@ -80,66 +75,85 @@ export default [
       "accdb",
       "dump",
       "prisma",
-      "json"
-    ]
+      "json",
+    ],
   },
   {
     name: "dts",
     icon: "dts",
-    extension: ['d.ts']
+    extension: ["d.ts"],
+  },
+  {
+    name: "env",
+    icon: "gear",
+    file_name: [
+      ".env",
+      ".env.example",
+      ".env.local",
+      ".env.development",
+      ".env.production",
+      ".env.test",
+      ".env.staging",
+      ".env.qa",
+      ".env.ci",
+    ],
+    extension: ["env"],
   },
   {
     name: "font",
     icon: "font",
     extension: [
-      'woff',
-      'woff2',
-      'ttf',
-      'eot',
-      'suit',
-      'otf',
-      'bmap',
-      'fnt',
-      'odttf',
-      'ttc',
-      'font',
-      'fonts',
-      'sui',
-      'ntf',
-      'mrf',
+      "woff",
+      "woff2",
+      "ttf",
+      "eot",
+      "suit",
+      "otf",
+      "bmap",
+      "fnt",
+      "odttf",
+      "ttc",
+      "font",
+      "fonts",
+      "sui",
+      "ntf",
+      "mrf",
     ],
+  },
+  {
+    name: "firebase",
+    icon: "firebase",
+    file_name: ["firebase.json", ".firebaserc"],
+    extension: ["firebaserc"],
   },
   {
     name: "git",
     icon: "git",
     file_name: [
-      '.git',
-      '.gitignore',
-      '.gitmessage',
-      '.gitignore-global',
-      '.gitignore_global',
-      '.gitattributes',
-      '.gitattributes-global',
-      '.gitattributes_global',
-      '.gitconfig',
-      '.gitmodules',
-      '.gitkeep',
-      '.keep',
-      '.gitpreserve',
-      '.gitinclude',
-      '.git-blame-ignore',
-      '.git-blame-ignore-revs',
-      '.git-for-windows-updater',
-      'git-history',
+      ".git",
+      ".gitignore",
+      ".gitmessage",
+      ".gitignore-global",
+      ".gitignore_global",
+      ".gitattributes",
+      ".gitattributes-global",
+      ".gitattributes_global",
+      ".gitconfig",
+      ".gitmodules",
+      ".gitkeep",
+      ".keep",
+      ".gitpreserve",
+      ".gitinclude",
+      ".git-blame-ignore",
+      ".git-blame-ignore-revs",
+      ".git-for-windows-updater",
+      "git-history",
     ],
   },
   {
     name: "html",
     icon: "code-orange",
-    extension: ["html",
-      "xhtml",
-      "htm",
-      "asp"]
+    extension: ["html", "xhtml", "htm", "asp"],
   },
   {
     name: "img",
@@ -196,19 +210,18 @@ export default [
       "pbm",
       "pgm",
       "pnm",
-      "icns"
-    ]
+      "icns",
+    ],
   },
   {
     name: "js_test",
     icon: "js-test",
-    file_name: ["test.js",
-      "spec.js"]
+    file_name: ["test.js", "spec.js"],
   },
   {
     name: "js",
     icon: "js",
-    extension: ["js"]
+    extension: ["js"],
   },
   {
     name: "license",
@@ -241,30 +254,29 @@ export default [
       "licence-lgpl",
       "licence.md",
       "licence.rst",
-      "licence.txt"
-    ]
+      "licence.txt",
+    ],
   },
   {
     name: "markdown",
     icon: "markdown",
-    extension: ["md",
-      "markdown",
-      "rst"]
+    extension: ["md", "markdown", "rst"],
   },
   {
     name: "nodejs",
     icon: "node",
-    file_name: ["package.json",
+    file_name: [
+      "package.json",
       "package-lock.json",
       ".nvmrc",
       ".esmrc",
-      ".node-version"]
+      ".node-version",
+    ],
   },
   {
     name: "npm",
     icon: "npm",
-    file_name: [".npmignore",
-      ".npmrc"]
+    file_name: [".npmignore", ".npmrc"],
   },
   {
     name: "postcss",
@@ -281,10 +293,9 @@ export default [
       ".postcssrc",
       ".postcssrc.json",
       ".postcssrc.yaml",
-      ".postcssrc.yml"
+      ".postcssrc.yml",
     ],
-    extension: ["pcss",
-      "sss"]
+    extension: ["pcss", "sss"],
   },
   {
     name: "prettier",
@@ -300,31 +311,44 @@ export default [
       ".prettierrc.yaml",
       ".prettierrc.yml",
       ".prettierignore",
-      ".prettierrc.toml"
+      ".prettierrc.toml",
     ],
+  },
+  {
+    name: "react",
+    icon: "react",
+    extension: ["jsx"],
+  },
+  {
+    name: "react-ts",
+    icon: "react-ts",
+    extension: ["tsx"],
+  },
+  {
+    name: "react-test",
+    icon: "react-test",
+    extension: ["test.jsx", "spec.jsx", "test.tsx", "spec.tsx"],
   },
   {
     name: "robot",
     icon: "robot",
-    file_name: ["robots.txt"]
+    file_name: ["robots.txt"],
   },
   {
     name: "sass",
     icon: "sass",
-    extension: ["sass",
-      "scss"]
+    extension: ["sass", "scss"],
   },
   {
     name: "svg",
     icon: "svg",
-    file_name: ["svg"]
+    file_name: ["svg"],
   },
   {
     name: "svelte",
     icon: "svelte",
-    file_name: ['svelte.config.js',
-      'svelte.config.cjs'],
-    extension: ['svelte']
+    file_name: ["svelte.config.js", "svelte.config.cjs"],
+    extension: ["svelte"],
   },
   {
     name: "ts-test",
@@ -342,13 +366,13 @@ export default [
       "test.mts",
       "ts.snap",
       "spec-d.ts",
-      "test-d.ts"
-    ]
+      "test-d.ts",
+    ],
   },
   {
     name: "ts",
     icon: "ts",
-    extension: ["ts"]
+    extension: ["ts"],
   },
   {
     name: "tsconfig",
@@ -377,8 +401,8 @@ export default [
       "tsconfig.doc.json",
       "tsconfig.paths.json",
       "tsconfig.main.json",
-      "tsconfig.renderer.json"
-    ]
+      "tsconfig.renderer.json",
+    ],
   },
   {
     name: "vite",
@@ -389,17 +413,13 @@ export default [
       "vite.config.cjs",
       "vite.config.ts",
       "vite.config.cts",
-      "vite.config.mts"
-    ]
+      "vite.config.mts",
+    ],
   },
   {
     name: "vercel",
     icon: "vercel",
-    file_name: [
-      "vercel.json",
-      "vercel.ignore",
-      "vercel.project.json"
-    ]
+    file_name: ["vercel.json", "vercel.ignore", "vercel.project.json"],
   },
   {
     name: "webpack",
@@ -581,12 +601,12 @@ export default [
       "webpackfile.mjs",
       "webpackfile.ts",
       "webpackfile.cts",
-      "webpackfile.mts"
-    ]
+      "webpackfile.mts",
+    ],
   },
   {
     name: "zig",
     icon: "zig",
-    file_name: ['zig', 'zon']
-  }
+    file_name: ["zig", "zon"],
+  },
 ];

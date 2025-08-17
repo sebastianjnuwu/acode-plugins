@@ -1,5 +1,3 @@
 export default {
-  plugins: [
-    ["postcss-preset-env"],
-  ],
+  plugins: [["postcss-preset-env"]],
 };

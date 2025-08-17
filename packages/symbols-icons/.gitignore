@@ -2,6 +2,7 @@
 package-lock.json
 pnpm-lock.yaml
 yarn-error.log
+.acode/build/
 node_modules
 yarn.lock
 build

@@ -66,12 +66,24 @@
     alt="database"/></td>
   </tr>
   <tr>
+    <td>env</td>
+    <td><img
+    src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/gear.svg"
+    alt="env"/></td>
+  </tr>
+  <tr>
     <td>dts</td>
     <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/dts.svg" alt="dts"/></td>
   </tr>
   <tr>
     <td>font</td>
     <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/font.svg" alt="font"/></td>
+  </tr>
+  <tr>
+    <td>firebase</td>
+    <td><img
+    src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/firebase.svg"
+    alt="firebase"/></td>
   </tr>
   <tr>
     <td>git</td>
@@ -116,10 +128,24 @@
   <tr>
     <td>prettier</td>
     <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/prettier.svg" alt="prettier"/></td>
+  <tr>
+    <td>react</td>
+    <td><img
+    src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/react.svg"
+    alt="react"/></td>
   </tr>
   <tr>
-    <td>robot</td>
-    <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/robot.svg" alt="robot"/></td>
+    <td>react-ts</td>
+    <td><img
+    src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/react-ts.svg"
+    alt="react-ts"/></td>
+  </tr>
+  <tr>
+    <td>react-test</td>
+    <td><img
+    src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/react-test.svg"
+    alt="react-test"/></td>
+  </tr>
   </tr>
   <tr>
     <td>sass</td>

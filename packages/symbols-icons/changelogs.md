@@ -5,6 +5,6 @@
 
 - Added **Change Logs** to track updates.
 - Added new keywords.
-- added icons: **angular, csv, database, vite, vercel.**
+- added icons: **angular, csv, database, vite, vercel, firebase, env, react.**
 
 ---

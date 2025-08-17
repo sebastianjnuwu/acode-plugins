@@ -2,10 +2,9 @@
   "compilerOptions": {
     "target": "ESNext",
     "allowJs": true,
-    "outDir": "./build",
     "removeComments": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true
-  },
+  }
 }
