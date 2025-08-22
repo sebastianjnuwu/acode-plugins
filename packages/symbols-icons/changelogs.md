@@ -1,7 +1,7 @@
 # 📌 Change Log
 
 ---
-## • Version 1.0.5 (2025-08-16)
+## • Version 1.0.5 (2025-08-22)
 
 - Added **Change Logs** to track updates.
 - Added new keywords.
