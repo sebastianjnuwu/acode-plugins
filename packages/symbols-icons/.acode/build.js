@@ -9,6 +9,7 @@ const zip = new jszip();
 /**
  * Paths
  */
+const ChangePath = path.join("./changelogs.md");
 const iconPath = path.join("./icon.png");
 const jsonPath = path.join("./plugin.json");
 const buildFolder = path.join("./.acode/build");
@@ -23,6 +24,7 @@ if (!fs.existsSync(readmePath)) {
  * Adiciona arquivos essenciais ao ZIP.
  */
 try {
+  zip.file("changelogs.md", fs.readFileSync(ChangePath));
   zip.file("icon.png", fs.readFileSync(iconPath));
   zip.file("plugin.json", fs.readFileSync(jsonPath));
   zip.file("readme.md", fs.readFileSync(readmePath));
