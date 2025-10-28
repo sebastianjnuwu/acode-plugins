@@ -19,7 +19,7 @@
     "webpack-dev-server": "^5.2.0",
     "@biomejs/biome": "^2.0.0",
     "@babel/preset-env": "^7.18.10",
-    "@types/node": "^22.0.0",
+    "@types/node": "^24.0.0",
     "babel-loader": "^10.0.0",
     "colors": "^1.4.0",
     "copy-webpack-plugin": "^13.0.0",
