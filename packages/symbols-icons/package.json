@@ -51,6 +51,6 @@
     "url": "https://github.com/sebastianjnuwu/acode-plugins/issues"
   },
   "dependencies": {
-    "postcss-preset-env": "^10.0.0"
+    "postcss-preset-env": "^11.0.0"
   }
 }
