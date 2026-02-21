@@ -18,7 +18,7 @@ const buildPlugin = (compiler) => {
 export default (_, options) => ({
   target: "node",
   mode: options.mode || "production",
-  entry: { main: "./src/main.js" },
+  entry: { main: "./src/acode.js" },
   output: {
     path: outDir,
     filename: "[name].js"
