@@ -8,7 +8,7 @@
 <h1>Acode Purple Theme</h1>
 
   <img alt="License" src="https://img.shields.io/badge/license-Apache%202.0-AA00FF.svg?logo=apache"/>
-  <img alt="Version" src="https://img.shields.io/badge/version-v1.1.6-AA00FF?logo=github"/>
+  <img alt="Version" src="https://img.shields.io/badge/version-v1.1.7-AA00FF?logo=github"/>
 </div>
 <div align="center"> 
 

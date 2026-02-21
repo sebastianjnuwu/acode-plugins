@@ -1,8 +1,7 @@
-import plugin from '../plugin.json';
 const themes = acode.require('themes');
 const ThemeBuilder = acode.require('themeBuilder');
 
-class theme {
+export class PurpleTheme {
   
   async init() {
       
@@ -40,14 +39,4 @@ class theme {
     
   };
   
-};
-
-if (window.acode) { 
-  
-  const Instance = new theme();
-  
-  acode.setPluginInit(plugin.id, () => Instance.init());
-
-  acode.setPluginUnmount(plugin.id, () => Instance.destroy());
- 
 };

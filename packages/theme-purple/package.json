@@ -1,10 +1,9 @@
 {
   "name": "theme-purple",
-  "version": "1.1.6",
   "type": "module",
   "license": "Apache-2.0",
   "author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
-  "scripts": {  
+  "scripts": {
     "dev": "webpack serve",
     "build": "webpack --mode production",
     "publish": "node .acode/publish.js",
@@ -14,17 +13,17 @@
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.18.13",
-    "html-tag-js": "^2.0.0",
-    "colors": "^1.4.0",
-    "axios": "^1.7.9",
-    "webpack-dev-server": "^5.2.0",
-    "@biomejs/biome": "^2.0.0",
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.18.10",
+    "@biomejs/biome": "^2.0.0",
+    "axios": "^1.7.9",
     "babel-loader": "^10.0.0",
+    "colors": "^1.4.0",
+    "html-tag-js": "^2.0.0",
     "jszip": "^3.10.1",
     "webpack": "^5.76.0",
-    "webpack-cli": "^6.0.0"
+    "webpack-cli": "^6.0.0",
+    "webpack-dev-server": "^5.2.0"
   },
   "repository": {
     "type": "git",
@@ -32,5 +31,8 @@
   },
   "bugs": {
     "url": "https://github.com/sebastianjnuwu/acode-plugins/issues"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.28.6"
   }
 }
