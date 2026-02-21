@@ -1,20 +1,25 @@
-const app = acode.require("settings");
+const settings = acode.require("settings");
 
 export class Eruda {
   constructor() {
-    this.isenable = true;
-
-    if (!app.value.developerMode) {
-      app.value.developerMode = this.isenable;
-      app.update(false);
+    if (settings.get("developerMode") === undefined) {
+      settings.update({ developerMode: false }, false);
     }
   }
 
   async init() {
-    if (!this.settings.developerMode) return;
+    if (settings.get("developerMode")) {
+      await this.loadEruda(true);
+    }
+  }
 
-    const eruda = (await import("eruda")).default || (await import("eruda"));
-    eruda.init();
+  async loadEruda(enable) {
+    try {
+      const eruda = (await import("eruda")).default || (await import("eruda"));
+      enable ? eruda.init() : eruda.destroy();
+    } catch (e) {
+      alert(e.message);
+    }
   }
 
   get setting() {
@@ -23,28 +28,18 @@ export class Eruda {
         {
           key: "developerMode",
           text: "Enable Eruda?",
-          checkbox: this.settings.developerMode,
-          info: 'If checked, Eruda is enabled.'
-        }
+          checkbox: !!settings.get("developerMode"),
+          info: "Enable or disable Eruda console.",
+        },
       ],
       cb: async (key, value) => {
-        this.settings[key] = value;
-        app.update();
-
-        const eruda = (await import("eruda")).default || (await import("eruda"));
-        this.settings.developerMode ? eruda.init() : eruda.destroy();
+        settings.update({ [key]: value });
+        await this.loadEruda(value);
       },
     };
   }
 
-  get settings() {
-    return app.value.developerMode;
-  }
-
   async destroy() {
-    const eruda = (await import("eruda")).default || (await import("eruda"));
-    eruda.destroy();
-    delete app.value.developerMode;
-    app.update(false);
+    await this.loadEruda(false);
   }
 }

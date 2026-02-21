@@ -2,5 +2,6 @@
 node_modules/
 package-lock.json
 yarn.*
+*.zip
 .acode/build/
 .acode/*.zip
