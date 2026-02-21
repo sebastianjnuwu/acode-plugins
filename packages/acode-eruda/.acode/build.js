@@ -10,7 +10,7 @@ const zip = new jszip();
  * Paths
  */
 const iconPath = path.join("./icon.png");
-const Changelogs = path.join("./changelogs.md");
+const changelogsPath = path.join("./changelogs.md");
 const jsonPath = path.join("./plugin.json");
 const buildFolder = path.join("./.acode/build");
 const zipOutput = path.join("./.acode/plugin.zip");
