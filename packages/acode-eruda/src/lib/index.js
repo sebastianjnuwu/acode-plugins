@@ -26,8 +26,7 @@ export class Eruda {
       
       script.onload = () => {
         this.#instance = window.eruda;
-        window.myCustomEruda = this.#instance; 
-        delete window.eruda; 
+        this.#instance = window.eruda;
 
         this.#instance.init({
           container: this.#getContainer(),
