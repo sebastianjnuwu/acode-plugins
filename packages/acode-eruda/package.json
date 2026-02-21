@@ -1,7 +1,7 @@
 {
   "name": "acode-eruda",
+  "version": "1.0.7",
   "type": "module",
-  "private": false,
   "license": "Apache-2.0",
   "author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
   "keywords": [],
