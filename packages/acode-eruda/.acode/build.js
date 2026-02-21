@@ -25,7 +25,7 @@ if (!fs.existsSync(readmePath)) {
  */
 try {
   zip.file("icon.png", fs.readFileSync(iconPath));
-  zip.file("changelogs.md", fs.readFileSync(Changelogs));
+  zip.file("changelogs.md", fs.readFileSync(changelogs));
   zip.file("plugin.json", fs.readFileSync(jsonPath));
   zip.file("readme.md", fs.readFileSync(readmePath));
   console.log(colors.green("• Essential files added to the ZIP."));
