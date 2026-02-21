@@ -1,14 +1,14 @@
 {
   "id": "sebastianjnuwu.acode.eruda",
-  "name": "Eruda",
-  "main": "main.js",
-  "version": "1.0.6",
+  "name": "Eruda (legacy)",
+  "main": "acode.js",
+  "version": "1.0.7",
   "license": "Apache-2.0",
   "readme": "readme.md",
   "minVersionCode": 260,
   "icon": "icon.png",
   "files": [],
-  "keywords": ["eruda", "console", "browser"],
+  "keywords": ["eruda", "console", "browser", "dev"],
   "changelogs": "changelogs.md",
   "contributors": [],
   "author": {
