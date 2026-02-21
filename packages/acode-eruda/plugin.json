@@ -1,7 +1,7 @@
 {
   "id": "sebastianjnuwu.acode.eruda",
   "name": "Eruda",
-  "main": "acode.js",
+  "main": "main.js",
   "version": "1.0.7",
   "license": "Apache-2.0",
   "readme": "readme.md",
