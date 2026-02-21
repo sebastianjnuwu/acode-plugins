@@ -11,6 +11,12 @@ export class Eruda {
     if (settings.get("developerMode")) {
       await this.loadEruda(true);
     }
+
+    settings.on('update:developerMode', (value) => {
+      console.log('Developer mode changed to:', value);
+      this.loadEruda(value);
+    });
+
   }
 
   async loadEruda(enable) {
@@ -21,6 +27,7 @@ export class Eruda {
       alert(e.message);
     }
   }
+
 
   get setting() {
     return {
