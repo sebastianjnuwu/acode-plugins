@@ -5,7 +5,7 @@ export class Eruda {
 
   constructor() {
     if (settings.get("developerMode") === undefined) {
-      settings.update({ developerMode: false }, false);
+      settings.update({ developerMode: false });
     }
   }
 
