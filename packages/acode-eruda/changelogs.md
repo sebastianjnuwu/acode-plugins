@@ -5,3 +5,8 @@
 - Added `changelog.md` to document changes.
 - Updated `README.md` and `plugin.json` for better clarity and accuracy.
 - Incremented version to `1.0.6` to reflect the latest updates.
+
+## Update Version `v1.0.7`
+- Migrate to Code Mirror
+- legacy version (native acode support)
+- No errors with this plugin installed.

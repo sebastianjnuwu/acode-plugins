@@ -1,51 +1,46 @@
-import { exec } from "node:child_process";
-import path from "node:path";
+import path from "path";
+import fs from "fs";
+import { exec } from "child_process";
 
-const build = (bash) => {
-  bash.hooks.afterDone.tap("build", async () => {
-    await exec("node .acode/build.js", (err, ok) => {
-      if (!err) return console.log(ok);
+const outDir = path.resolve(".acode", "build");
+if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+
+const buildPlugin = (compiler) => {
+  compiler.hooks.afterDone.tap("build", () => {
+    exec("node .acode/build.js", (err, stdout, stderr) => {
+      if (err) console.error(err);
+      if (stdout) console.log(stdout);
+      if (stderr) console.error(stderr);
     });
   });
 };
 
-const main = (env, options) => {
-  return {
-    target: "node",
-    mode: options.mode || "production",
-    entry: { main: "./src/main.js" },
-    output: {
-      path: path.resolve("./.acode", "build"),
-      filename: "[name].js",
-      chunkFilename: "[name].js",
-    },
-    module: {
-      rules: [
-        {
-          test: /\.m?js$/,
-          use: [
-            "html-tag-js/jsx/tag-loader.js",
-            {
-              loader: "babel-loader",
-              options: {
-                presets: ["@babel/preset-env"],
-              },
-            },
-          ],
-        },
-      ],
-    },
-    plugins: [
-      {
-        apply: build,
-      },
-    ],
-    stats: {
-    all: false,
-    errors: true,
-    warnings: false,
+export default (_, options) => ({
+  target: "node",
+  mode: options.mode || "production",
+  entry: { main: "./src/acode.js" },
+  output: {
+    path: outDir,
+    filename: "[name].js"
   },
-  }
-};
-
-export default main;
+  module: {
+    rules: [
+      {
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: [
+          "html-tag-js/jsx/tag-loader.js",
+          {
+            loader: "babel-loader",
+            options: {
+              presets: ["@babel/preset-env"],
+              plugins: ["@babel/plugin-transform-runtime"]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  plugins: [{ apply: buildPlugin }],
+  stats: { all: false, errors: true, warnings: false }
+});
