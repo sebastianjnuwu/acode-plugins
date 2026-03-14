@@ -22,7 +22,7 @@
     "html-tag-js": "^2.0.0",
     "jszip": "^3.10.1",
     "webpack": "^5.76.0",
-    "webpack-cli": "^6.0.0",
+    "webpack-cli": "^7.0.0",
     "webpack-dev-server": "^5.2.0"
   },
   "repository": {
