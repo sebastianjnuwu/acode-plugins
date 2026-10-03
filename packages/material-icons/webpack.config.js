@@ -19,6 +19,7 @@ const main = (env, options) => {
 			path: path.resolve("./.acode", "build"),
 			filename: '[name].js',
 			chunkFilename: '[name].js',
+			clean: true,
 		},
 		module: {
 			rules: [
@@ -44,14 +45,22 @@ const main = (env, options) => {
 			{
 				apply: build,
 			},
-			new copy({
-				patterns: [
-					{
-						from: 'icons',
-						to: 'icons',
-					},
-				],
-			}),
+		new copy({
+			patterns: [
+				{
+					from: 'src/generated/icons.css',
+					to: 'icons.css',
+				},
+				{
+					from: 'src/file_icons.json',
+					to: 'file_icons.json',
+				},
+				{
+					from: 'src/folder_icons.json',
+					to: 'folder_icons.json',
+				},
+			],
+		}),
 		],
 	};
 };
