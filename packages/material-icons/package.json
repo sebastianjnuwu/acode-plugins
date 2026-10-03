@@ -19,7 +19,7 @@
 		"@babel/preset-env": "^7.26.0",
 		"babel-loader": "^9.2.1",
 		"colors": "^1.4.0",
-		"copy-webpack-plugin": "^13.0.0",
+		"copy-webpack-plugin": "^14.0.0",
 		"file-loader": "^6.2.0",
 		"html-tag-js": "^2.0.0",
 		"jszip": "^3.10.1",
