@@ -1,134 +1,86 @@
 import plugin from '../plugin.json';
-import icons from './file_icons.json';
-import folder_icons from './folder_icons.json';
+import iconMap from './generated/icon-map.json';
 
+const fs = acode.require('fs');
 const Url = acode.require('Url');
-const helpers = acode.require('helpers');
 
-const icon_style = icons.map(({
-  name }) => create_styles(`.file.file_type_${name}`, name)).join('\n');
-
-const folder_icon_style = [
-
-  create_styles(`.list.collapsible.hidden > div[data-type="root"] > .icon.folder`, 'folder-root'),
-
-  create_styles(`.list.collapsible > div[data-type="root"] > .icon.folder`, 'folder-root-open'),
-
-  create_styles(`.list.collapsible.hidden > div.tile[data-name][data-type="dir"] > .icon.folder`, 'folder'),
-
-  create_styles(`.list.collapsible > div.tile[data-name][data-type="dir"] > .icon.folder`, 'folder-open'),
-
-  create_styles(`#file-browser > ul > li.tile[type="dir"]  > .icon.folder`, 'folder'),
-
-  create_styles(`#file-browser > ul > li.tile[type="directory"]  > .icon.folder`, 'folder'),
-
-  folder_icons
-  .map(({
-    name, folder_name
-  }) => {
-    let css = folder_name.map(val => {
-
-      return [
-
-        create_styles(`#file-browser > ul > li.tile[type="directory"][name="${val}"] > .icon.folder`, name),
-
-        create_styles(`#file-browser > ul > li.tile[type="dir"][name="${val}"] > .icon.folder`, name),
-
-        create_styles(
-          `.list.collapsible > div.tile[data-name="${val}"][data-type="dir"] > span.icon.folder`,
-          `${name}-open`,
-        ),
-
-        create_styles(
-          `.list.collapsible.hidden > div.tile[data-name="${val}"][data-type="dir"] > .icon.folder`, name),
-
-      ].join('');
-    });
-    return css;
-  })
-  .join('\n'),
-]
-.flat()
-.join('\n');
-
-function create_styles(className, name) {
-  return `${className}::before {
-  display: inline-block;
-  content: '' !important;
-  background-image: url(${plugin.url + name}.svg) !important;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 1em;
-  width: 1em;
-  }`;
+let fileIcons = null;
+try {
+	fileIcons = acode.require('fileIcons');
+} catch {
+	// Acode build without the fileIcons API (< 1012): stays inert
+	fileIcons = null;
 }
 
-function get_type_file(filename) {
-  let names = filename.split('.');
-  names.shift();
+let registration;
+let styleSheet;
 
-  let extension = names.join('.');
-
-  const _icon = icons.find((x, i) => {
-    if (x.file_name) {
-      if (x.file_name.includes(filename.toLowerCase())) return x;
-    }
-  });
-
-  if (_icon) return _icon.name;
-
-  const icon_ext = icons.find((x, i) => {
-    if (x.file_extensions) {
-      if (x.file_extensions.includes(extension)) return x;
-    }
-  });
-
-  if (icon_ext) return icon_ext.name;
-
-  return Url.extname(filename).substring(1);
+// className definitions resolve synchronously: Acode never probes image
+// URLs, so the whole pack loads with a single stylesheet request instead
+// of ~800 individual SVG requests.
+const icons = {};
+for (const [id, className] of Object.entries(iconMap)) {
+	icons[id] = { className };
 }
 
-helpers.getIconForFile = filename => {
-  const {
-    getModeForPath
-  } = ace.require('ace/ext/modelist');
+function mapsFromPack(files, folders) {
+	const fileNames = {};
+	const fileExtensions = {};
+	const folderNames = {};
+	const folderNamesExpanded = {};
 
-  const type = get_type_file(filename);
-  const {
-    name
-  } = getModeForPath(filename);
+	for (const entry of files) {
+		for (const name of entry.file_name || []) {
+			fileNames[name] = entry.name;
+		}
+		for (const ext of entry.file_extensions || []) {
+			if (ext.startsWith('.')) fileNames[ext] = entry.name;
+			else fileExtensions[ext.toLowerCase()] = entry.name;
+		}
+	}
 
-  const icon_mode = `file_type_${name}`;
-  const icon_type = `file_type_${type}`;
+	for (const entry of folders) {
+		for (const name of entry.folder_name || []) {
+			folderNames[name] = entry.name;
+			folderNamesExpanded[name] = `${entry.name}-open`;
+		}
+	}
 
-  return `file file_type_default ${icon_mode} ${icon_type}`;
-};
+	return { fileNames, fileExtensions, folderNames, folderNamesExpanded };
+}
 
-class material {
+acode.setPluginInit(plugin.id, async baseUrl => {
+	if (!fileIcons?.register) {
+		// Running on an older Acode build — skip pack registration
+		return;
+	}
 
-  async init() {
-    this.icon_style = <style textContent={icon_style}>
-    </style>;
+	styleSheet = document.createElement('link');
+	styleSheet.rel = 'stylesheet';
+	styleSheet.href = Url.join(baseUrl, 'icons.css');
+	document.head.append(styleSheet);
 
-    this.folder_icon_style = <style textContent={folder_icon_style}>
-    </style>;
+	const root = Url.join(PLUGIN_DIR, plugin.id);
+	const files = await fs(Url.join(root, 'file_icons.json')).readFile('json');
+	const folders = await fs(Url.join(root, 'folder_icons.json')).readFile(
+		'json',
+	);
 
-    document.head.append(this.icon_style, this.folder_icon_style);
-  };
+	registration = fileIcons.register({
+		id: plugin.id,
+		name: 'Material Icons',
+		icons,
+		...mapsFromPack(files, folders),
+		folder: 'folder',
+		folderExpanded: 'folder-open',
+		rootFolder: 'folder-root',
+		rootFolderExpanded: 'folder-root-open',
+	});
+});
 
-  async destroy() {
-    this.icon_style.remove();
-    this.folder_icon_style.remove();
-  };
-
-};
-
-if (window.acode) {
- 
-  const Instance = new material();
-  
-  acode.setPluginInit(plugin.id, () => Instance.init());
-
-  acode.setPluginUnmount(plugin.id, () => Instance.destroy());
-  
-};
+acode.setPluginUnmount(plugin.id, () => {
+	registration?.dispose();
+	registration = undefined;
+	styleSheet?.remove();
+	styleSheet = undefined;
+});
