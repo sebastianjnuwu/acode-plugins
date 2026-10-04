@@ -8,16 +8,13 @@ let fileIcons = null;
 try {
 	fileIcons = acode.require('fileIcons');
 } catch {
-	// Acode build without the fileIcons API (< 1012): stays inert
+	// API (< 1012): stays inert
 	fileIcons = null;
 }
 
 let registration;
 let styleSheet;
 
-// className definitions resolve synchronously: Acode never probes image
-// URLs, so the whole pack loads with a single stylesheet request instead
-// of ~800 individual SVG requests.
 const icons = {};
 for (const [id, className] of Object.entries(iconMap)) {
 	icons[id] = { className };
@@ -42,7 +39,24 @@ function mapsFromPack(files, folders) {
 	for (const entry of folders) {
 		for (const name of entry.folder_name || []) {
 			folderNames[name] = entry.name;
-			folderNamesExpanded[name] = `${entry.name}-open`;
+			// Expanded variant only when its asset exists; otherwise Acode
+			// reuses the closed icon (no broken references).
+			if (iconMap[`${entry.name}-open`]) {
+				folderNamesExpanded[name] = `${entry.name}-open`;
+			}
+		}
+	}
+
+	// VS Code matches dotfiles by extension (`.env` -> `env`). Acode does
+	// not, so mirror that here: `.X` resolves like extension `X`, unless a
+	// filename mapping already covers it (exact or case-insensitive).
+	const seenNames = new Set(Object.keys(fileNames).map(k => k.toLowerCase()));
+	for (const [ext, icon] of Object.entries(fileExtensions)) {
+		if (ext.includes('.') || ext.length < 2) continue;
+		const dot = `.${ext}`;
+		if (!fileNames[dot] && !seenNames.has(dot)) {
+			fileNames[dot] = icon;
+			seenNames.add(dot);
 		}
 	}
 
@@ -71,6 +85,7 @@ acode.setPluginInit(plugin.id, async baseUrl => {
 		name: 'Material Icons',
 		icons,
 		...mapsFromPack(files, folders),
+		file: 'document',
 		folder: 'folder',
 		folderExpanded: 'folder-open',
 		rootFolder: 'folder-root',

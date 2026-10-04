@@ -5,6 +5,7 @@
 	"version": "2.0.0",
 	"license": "Apache-2.0",
 	"readme": "readme.md",
+	"changelogs": "changelogs.md",
 	"minVersionCode": 1011,
 	"icon": "icon.png",
 	"files": [],

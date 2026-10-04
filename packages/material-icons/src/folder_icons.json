@@ -8,7 +8,9 @@
       "srcs",
       "source",
       "sources",
-      "code"]
+      "code",
+      "dev",
+      "development"]
   },
   {
     "name": "folder-dist",
@@ -16,7 +18,13 @@
       "out",
       "build",
       "release",
-      "bin"]
+      "bin",
+      "output",
+      "outputs",
+      "builds",
+      "distribution",
+      "built",
+      "compiled"]
   },
   {
     "name": "folder-css",
@@ -60,32 +68,46 @@
       "pics",
       "picture",
       "pictures"
-    ]
+    ,
+      "photo",
+      "photos",
+      "photograph",
+      "photographs",
+      "texture",
+      "textures"]
   },
   {
     "name": "folder-scripts",
     "folder_name": ["script",
-      "scripts"]
+      "scripts",
+      "scripting",
+      "xtask"]
   },
   {
     "name": "folder-node",
-    "folder_name": ["node_modules"]
+    "folder_name": ["node_modules", "node", "nodejs"]
   },
   {
     "name": "folder-javascript",
     "folder_name": ["js",
       "javascript",
-      "javascripts"]
+      "javascripts",
+      "cjs",
+      "mjs"]
   },
   {
     "name": "folder-json",
     "folder_name": ["json",
-      "jsons"]
+      "jsons",
+      "jsonc",
+      "jsonl"]
   },
   {
     "name": "folder-font",
     "folder_name": ["font",
-      "fonts"]
+      "fonts",
+      "typeface",
+      "typefaces"]
   },
   {
     "name": "folder-bower",
@@ -104,7 +126,9 @@
       "__test__",
       "spec",
       "specs"
-    ]
+    ,
+      "snapshots",
+      "testfiles"]
   },
   {
     "name": "folder-jinja",
@@ -144,7 +168,14 @@
       "posts",
       "article",
       "articles"
-    ]
+    ,
+      "wiki",
+      "news",
+      "blog",
+      "knowledge",
+      "diary",
+      "note",
+      "notes"]
   },
   {
     "name": "folder-git",
@@ -153,7 +184,8 @@
       "githooks",
       ".githooks",
       "submodules",
-      ".submodules"]
+      ".submodules",
+      "git"]
   },
   {
     "name": "folder-github",
@@ -162,12 +194,14 @@
   },
   {
     "name": "folder-gitlab",
-    "folder_name": [".gitlab"]
+    "folder_name": [".gitlab", "gitlab"]
   },
   {
     "name": "folder-vscode",
     "folder_name": [".vscode",
-      ".vscode-test"]
+      ".vscode-test",
+      "vscode",
+      "vscode-test"]
   },
   {
     "name": "folder-views",
@@ -186,12 +220,15 @@
   },
   {
     "name": "folder-vuepress",
-    "folder_name": [".vuepress"]
+    "folder_name": [".vuepress", "vuepress"]
   },
   {
     "name": "folder-expo",
     "folder_name": [".expo",
-      ".expo-shared"]
+      ".expo-shared",
+      "expo",
+      "expo-shared",
+      "eas"]
   },
   {
     "name": "folder-config",
@@ -210,7 +247,15 @@
       "settings",
       ".settings",
       "META-INF"
-    ]
+    ,
+      "option",
+      "options",
+      "pref",
+      "prefs",
+      "preference",
+      "preferences",
+      "props",
+      "properties"]
   },
   {
     "name": "folder-i18n",
@@ -229,7 +274,8 @@
       "translate",
       "translations",
       ".tx"
-    ]
+    ,
+      "tx"]
   },
   {
     "name": "folder-components",
@@ -266,7 +312,12 @@
       "libraries",
       "vendor",
       "vendors",
-      "third-party"]
+      "third-party",
+      "thirdparty",
+      "lib64",
+      "external",
+      "externals",
+      "crates"]
   },
   {
     "name": "folder-theme",
@@ -275,7 +326,11 @@
       "color",
       "colors",
       "design",
-      "designs"]
+      "designs",
+      "colour",
+      "colours",
+      "palette",
+      "palettes"]
   },
   {
     "name": "folder-webpack",
@@ -296,7 +351,9 @@
       "website",
       "site",
       "browser",
-      "browsers"]
+      "browsers",
+      "websites",
+      "proxy"]
   },
   {
     "name": "folder-include",
@@ -305,13 +362,16 @@
       "_includes",
       "inc",
       "partials",
-      "_partials"]
+      "_partials",
+      "partial",
+      "inc64"]
   },
   {
     "name": "folder-docker",
     "folder_name": ["docker",
       "dockerfiles",
-      ".docker"]
+      ".docker",
+      "dockerhub"]
   },
   {
     "name": "folder-ngrx-effects",
@@ -346,7 +406,11 @@
   {
     "name": "folder-redux-reducer",
     "folder_name": ["reducers",
-      "reducer"]
+      "reducer",
+      "redux-reducer",
+      "redux-reducers",
+      "redux",
+      "redux-toolkit"]
   },
   {
     "name": "folder-redux-actions",
@@ -367,7 +431,8 @@
     "folder_name": ["components",
       "react",
       "jsx",
-      "reactjs"]
+      "reactjs",
+      "react-components"]
   },
   {
     "name": "folder-database",
@@ -376,12 +441,16 @@
       "databases",
       "sql",
       "data",
-      "_data"]
+      "_data",
+      "redis",
+      "redis-db",
+      "redislabs"]
   },
   {
     "name": "folder-log",
     "folder_name": ["log",
-      "logs"]
+      "logs",
+      "logging"]
   },
   {
     "name": "folder-target",
@@ -400,7 +469,9 @@
   {
     "name": "folder-aws",
     "folder_name": ["aws",
-      ".aws"]
+      ".aws",
+      "azure",
+      "gcp"]
   },
   {
     "name": "folder-audio",
@@ -410,7 +481,14 @@
       "audios",
       "music",
       "sound",
-      "sounds"]
+      "sounds",
+      "song",
+      "songs",
+      "voice",
+      "voices",
+      "recordings",
+      "playlist",
+      "playlists"]
   },
   {
     "name": "folder-video",
@@ -419,7 +497,8 @@
       "video",
       "videos",
       "movie",
-      "movies"]
+      "movies",
+      "media"]
   },
   {
     "name": "folder-kubernetes",
@@ -446,12 +525,13 @@
   },
   {
     "name": "folder-circleci",
-    "folder_name": [".circleci"]
+    "folder_name": [".circleci", "circleci"]
   },
   {
     "name": "folder-wordpress",
     "folder_name": [".wordpress-org",
-      "wp-content"]
+      "wp-content",
+      "wordpress-org"]
   },
   {
     "name": "folder-gradle",
@@ -470,7 +550,9 @@
       "integration-tests",
       "__integration-test__",
       "__integration-tests__"
-    ]
+    ,
+      "nyc-output",
+      "nyc_output"]
   },
   {
     "name": "folder-class",
@@ -501,7 +583,9 @@
       "ts",
       "typings",
       "@types",
-      "types"]
+      "types",
+      "cts",
+      "mts"]
   },
   {
     "name": "folder-graphql",
@@ -512,7 +596,10 @@
     "name": "folder-routes",
     "folder_name": ["routes",
       "router",
-      "routers"]
+      "routers",
+      "navigation",
+      "navigations",
+      "routing"]
   },
   {
     "name": "folder-ci",
@@ -526,7 +613,11 @@
       "performance",
       "measure",
       "measures",
-      "measurement"]
+      "measurement",
+      "bench",
+      "benches",
+      "perf",
+      "profiling"]
   },
   {
     "name": "folder-messages",
@@ -536,7 +627,10 @@
       "chat",
       "chats",
       "conversation",
-      "conversations"]
+      "conversations",
+      "message",
+      "dialog",
+      "dialogs"]
   },
   {
     "name": "folder-less",
@@ -549,13 +643,16 @@
       "gulpfile.js",
       "gulpfile.mjs",
       "gulpfile.ts",
-      "gulpfile.babel.js"]
+      "gulpfile.babel.js",
+      "gulpfiles"]
   },
   {
     "name": "folder-python",
     "folder_name": ["python",
       "__pycache__",
-      ".pytest_cache"]
+      ".pytest_cache",
+      "pycache",
+      "pytest_cache"]
   },
   {
     "name": "folder-mojo",
@@ -564,7 +661,8 @@
   {
     "name": "folder-debug",
     "folder_name": ["debug",
-      "debugging"]
+      "debugging",
+      "debugger"]
   },
   {
     "name": "folder-fastlane",
@@ -582,7 +680,12 @@
       "addons",
       "module",
       "modules"
-    ]
+    ,
+      "mod",
+      "mods",
+      "modding",
+      "addin",
+      "addins"]
   },
   {
     "name": "folder-middleware",
@@ -600,7 +703,8 @@
       "providers",
       "handler",
       "handlers"
-    ]
+    ,
+      "controls"]
   },
   {
     "name": "folder-ansible",
@@ -610,14 +714,21 @@
     "name": "folder-server",
     "folder_name": ["server",
       "servers",
-      "backend"]
+      "backend",
+      "backends",
+      "inventory",
+      "inventories",
+      "infrastructure",
+      "infra"]
   },
   {
     "name": "folder-client",
     "folder_name": ["client",
       "clients",
       "frontend",
-      "pwa"]
+      "pwa",
+      "frontends",
+      "spa"]
   },
   {
     "name": "folder-tasks",
@@ -640,7 +751,9 @@
   {
     "name": "folder-download",
     "folder_name": ["downloads",
-      "download"]
+      "download",
+      "downloader",
+      "downloaders"]
   },
   {
     "name": "folder-tools",
@@ -648,7 +761,11 @@
       "toolkit",
       "toolkits",
       "toolbox",
-      "toolboxes"]
+      "toolboxes",
+      "tooling",
+      "devtools",
+      "kit",
+      "kits"]
   },
   {
     "name": "folder-helper",
@@ -669,7 +786,9 @@
   {
     "name": "folder-app",
     "folder_name": ["app",
-      "apps"]
+      "apps",
+      "application",
+      "applications"]
   },
   {
     "name": "folder-apollo",
@@ -686,14 +805,7 @@
       "archive",
       "archives",
       "archival",
-      "bkp",
-      "bkps",
-      "bak",
-      "baks",
-      "backup",
-      "backups",
-      "back-up",
-      "back-ups"
+      "deprecated"
     ]
   },
   {
@@ -718,18 +830,22 @@
       "commands",
       "cmd",
       "cli",
-      "clis"]
+      "clis",
+      "commandline"]
   },
   {
     "name": "folder-constant",
     "folder_name": ["constant",
-      "constants"]
+      "constants",
+      "const",
+      "consts"]
   },
   {
     "name": "folder-container",
     "folder_name": ["container",
       "containers",
-      ".devcontainer"]
+      ".devcontainer",
+      "devcontainer"]
   },
   {
     "name": "folder-content",
@@ -774,7 +890,8 @@
       "envs",
       "environment",
       "environments",
-      ".venv"]
+      ".venv",
+      "venv"]
   },
   {
     "name": "folder-functions",
@@ -792,7 +909,9 @@
       "calcs",
       "calculation",
       "calculations"
-    ]
+    ,
+      "composable",
+      "composables"]
   },
   {
     "name": "folder-generator",
@@ -806,10 +925,10 @@
   },
   {
     "name": "folder-hook",
-    "folder_name": ["hook",
-      "hooks",
-      "trigger",
-      "triggers"]
+    "folder_name": [
+      "hook",
+      "hooks"
+    ]
   },
   {
     "name": "folder-job",
@@ -822,7 +941,9 @@
       "key",
       "token",
       "tokens",
-      "jwt"]
+      "jwt",
+      "secret",
+      "secrets"]
   },
   {
     "name": "folder-layout",
@@ -846,19 +967,24 @@
   },
   {
     "name": "folder-meta",
-    "folder_name": ["meta"]
+    "folder_name": ["meta", "metadata", "instruction", "instructions"]
   },
   {
     "name": "folder-changesets",
     "folder_name": [".changesets",
-      ".changeset"]
+      ".changeset",
+      "changesets",
+      "changeset"]
   },
   {
     "name": "folder-packages",
     "folder_name": ["package",
       "packages",
       "pkg",
-      "pkgs"]
+      "pkgs",
+      "serverpackages",
+      "devpackages",
+      "dependencies"]
   },
   {
     "name": "folder-shared",
@@ -880,7 +1006,9 @@
   {
     "name": "folder-template",
     "folder_name": ["template",
-      "templates"]
+      "templates",
+      "github/ISSUE_TEMPLATE",
+      "github/PULL_REQUEST_TEMPLATE"]
   },
   {
     "name": "folder-utils",
@@ -903,7 +1031,10 @@
     "name": "folder-error",
     "folder_name": ["error",
       "errors",
-      "err"]
+      "err",
+      "errs",
+      "crash",
+      "crashes"]
   },
   {
     "name": "folder-event",
@@ -922,7 +1053,10 @@
       "certificate",
       "certificates",
       "ssl"
-    ]
+    ,
+      "cipher",
+      "cypher",
+      "tls"]
   },
   {
     "name": "folder-custom",
@@ -950,7 +1084,8 @@
     "name": "folder-syntax",
     "folder_name": ["syntax",
       "syntaxes",
-      "spellcheck"]
+      "spellcheck",
+      "spellcheckers"]
   },
   {
     "name": "folder-vm",
@@ -980,7 +1115,9 @@
       "reviews",
       "revisal",
       "revisals",
-      "reviewed"]
+      "reviewed",
+      "preview",
+      "previews"]
   },
   {
     "name": "folder-animation",
@@ -988,7 +1125,13 @@
       "anims",
       "animation",
       "animations",
-      "animated"]
+      "animated",
+      "motion",
+      "motions",
+      "transition",
+      "transitions",
+      "easing",
+      "easings"]
   },
   {
     "name": "folder-guard",
@@ -997,17 +1140,21 @@
   },
   {
     "name": "folder-prisma",
-    "folder_name": ["prisma"]
+    "folder_name": ["prisma", "prisma/schema"]
   },
   {
     "name": "folder-pipe",
     "folder_name": ["pipe",
-      "pipes"]
+      "pipes",
+      "pipeline",
+      "pipelines"]
   },
   {
     "name": "folder-svg",
     "folder_name": ["svg",
-      "svgs"]
+      "svgs",
+      "vector",
+      "vectors"]
   },
   {
     "name": "folder-vuex-store",
@@ -1021,7 +1168,7 @@
   },
   {
     "name": "folder-vue-directives",
-    "folder_name": ["directives"]
+    "folder_name": []
   },
   {
     "name": "folder-vue",
@@ -1037,11 +1184,13 @@
     "folder_name": ["mobile",
       "mobiles",
       "portable",
-      "portability"]
+      "portability",
+      "phone",
+      "phones"]
   },
   {
     "name": "folder-stencil",
-    "folder_name": [".stencil"]
+    "folder_name": [".stencil", "stencil"]
   },
   {
     "name": "folder-firebase",
@@ -1051,7 +1200,8 @@
   {
     "name": "folder-svelte",
     "folder_name": ["svelte",
-      ".svelte-kit"]
+      ".svelte-kit",
+      "svelte-kit"]
   },
   {
     "name": "folder-update",
@@ -1062,12 +1212,14 @@
   },
   {
     "name": "folder-intellij",
-    "folder_name": [".idea"]
+    "folder_name": [".idea", "idea"]
   },
   {
     "name": "folder-azure-pipelines",
     "folder_name": [".azure-pipelines",
-      ".azure-pipelines-ci"]
+      ".azure-pipelines-ci",
+      "azure-pipelines",
+      "azure-pipelines-ci"]
   },
   {
     "name": "folder-mjml",
@@ -1077,7 +1229,10 @@
     "name": "folder-admin",
     "folder_name": ["admin",
       "manager",
-      "moderator"]
+      "moderator",
+      "admins",
+      "managers",
+      "moderators"]
   },
   {
     "name": "folder-scala",
@@ -1088,15 +1243,17 @@
     "folder_name": ["connection",
       "connections",
       "integration",
-      "integrations"]
+      "integrations",
+      "remote",
+      "remotes"]
   },
   {
     "name": "folder-quasar",
-    "folder_name": [".quasar"]
+    "folder_name": [".quasar", "quasar"]
   },
   {
     "name": "folder-next",
-    "folder_name": [".next"]
+    "folder_name": [".next", "next"]
   },
   {
     "name": "folder-cobol",
@@ -1137,14 +1294,18 @@
     "folder_name": ["home",
       ".home",
       "start",
-      ".start"]
+      ".start",
+      "main",
+      "landing"]
   },
   {
     "name": "folder-project",
     "folder_name": ["project",
       "projects",
       ".project",
-      ".projects"]
+      ".projects",
+      "proj",
+      "projs"]
   },
   {
     "name": "folder-interface",
@@ -1153,7 +1314,7 @@
   },
   {
     "name": "folder-netlify",
-    "folder_name": [".netlify"]
+    "folder_name": [".netlify", "netlify"]
   },
   {
     "name": "folder-contract",
@@ -1218,7 +1379,9 @@
   {
     "name": "folder-proto",
     "folder_name": ["protobufs",
-      "proto"]
+      "proto",
+      "protobuf",
+      "protos"]
   },
   {
     "name": "folder-plastic",
@@ -1235,7 +1398,9 @@
     "folder_name": [".hg",
       "hghooks",
       ".hghooks",
-      ".hgext"]
+      ".hgext",
+      "hg",
+      "hgext"]
   },
   {
     "name": "folder-godot",
@@ -1243,4 +1408,393 @@
       ".godot",
       "godot-cpp",
       ".godot-cpp"]
+  },
+  {
+    "name": "folder-appwrite",
+    "folder_name": ["appwrite"]
+  },
+  {
+    "name": "folder-assembly",
+    "folder_name": ["assembly", "asm"]
+  },
+  {
+    "name": "folder-astro",
+    "folder_name": ["astro"]
+  },
+  {
+    "name": "folder-atom",
+    "folder_name": ["atoms", "atom"]
+  },
+  {
+    "name": "folder-attachment",
+    "folder_name": ["attachment", "attachments"]
+  },
+  {
+    "name": "folder-backup",
+    "folder_name": ["history", "histories"]
+  },
+  {
+    "name": "folder-bibliography",
+    "folder_name": ["bibliography", "bibliographies", "book", "books"]
+  },
+  {
+    "name": "folder-bicep",
+    "folder_name": ["bicep"]
+  },
+  {
+    "name": "folder-blender",
+    "folder_name": ["blender", "blender-assets", "blender-files", "blender-project", "blender-models"]
+  },
+  {
+    "name": "folder-bloc",
+    "folder_name": ["bloc", "cubit", "blocs", "cubits"]
+  },
+  {
+    "name": "folder-claude",
+    "folder_name": ["claude"]
+  },
+  {
+    "name": "folder-cline",
+    "folder_name": ["cline_docs"]
+  },
+  {
+    "name": "folder-cloud-functions",
+    "folder_name": ["cloud-functions",
+      "cloudfunctions",
+      "firebase-cloud-functions",
+      "firebase-cloudfunctions"]
+  },
+  {
+    "name": "folder-cloudflare",
+    "folder_name": ["cloudflare"]
+  },
+  {
+    "name": "folder-console",
+    "folder_name": ["console", "xbox", "ps4", "ps5", "switch", "game", "games"]
+  },
+  {
+    "name": "folder-cue",
+    "folder_name": ["cue", "cues"]
+  },
+  {
+    "name": "folder-cursor",
+    "folder_name": ["cursor"]
+  },
+  {
+    "name": "folder-dal",
+    "folder_name": ["dal", "data-access", "data-access-layer"]
+  },
+  {
+    "name": "folder-dart",
+    "folder_name": ["dart", "dart_tool", "dart_tools"]
+  },
+  {
+    "name": "folder-desktop",
+    "folder_name": ["desktop", "display"]
+  },
+  {
+    "name": "folder-directive",
+    "folder_name": ["directive"]
+  },
+  {
+    "name": "folder-drizzle",
+    "folder_name": ["drizzle"]
+  },
+  {
+    "name": "folder-element",
+    "folder_name": ["element", "elements"]
+  },
+  {
+    "name": "folder-enum",
+    "folder_name": ["enum", "enums"]
+  },
+  {
+    "name": "folder-eslint",
+    "folder_name": ["eslint", "eslint-plugin", "eslint-plugins", "eslint-config", "eslint-configs"]
+  },
+  {
+    "name": "folder-favicon",
+    "folder_name": ["favicon", "favicons"]
+  },
+  {
+    "name": "folder-features",
+    "folder_name": ["feature", "features", "feat", "feats"]
+  },
+  {
+    "name": "folder-filter",
+    "folder_name": ["filter", "filters"]
+  },
+  {
+    "name": "folder-firestore",
+    "folder_name": ["firestore", "cloud-firestore", "firebase-firestore"]
+  },
+  {
+    "name": "folder-flutter",
+    "folder_name": ["flutter"]
+  },
+  {
+    "name": "folder-forgejo",
+    "folder_name": ["forgejo"]
+  },
+  {
+    "name": "folder-form",
+    "folder_name": ["form", "forms"]
+  },
+  {
+    "name": "folder-gemini-ai",
+    "folder_name": ["gemini", "gemini-ai", "geminiai"]
+  },
+  {
+    "name": "folder-gh-workflows",
+    "folder_name": ["github/workflows", "gitea/workflows"]
+  },
+  {
+    "name": "folder-gitea",
+    "folder_name": ["gitea"]
+  },
+  {
+    "name": "folder-go",
+    "folder_name": ["go", "golang"]
+  },
+  {
+    "name": "folder-helm",
+    "folder_name": ["helm", "helmchart", "helmcharts"]
+  },
+  {
+    "name": "folder-input",
+    "folder_name": ["input", "inputs", "io", "in"]
+  },
+  {
+    "name": "folder-interceptor",
+    "folder_name": ["interceptor", "interceptors"]
+  },
+  {
+    "name": "folder-jupyter",
+    "folder_name": ["jupyter", "notebook", "notebooks", "ipynb"]
+  },
+  {
+    "name": "folder-kotlin",
+    "folder_name": ["kotlin"]
+  },
+  {
+    "name": "folder-kusto",
+    "folder_name": ["kusto", "kql"]
+  },
+  {
+    "name": "folder-lefthook",
+    "folder_name": ["lefthook", "lefthook-local"]
+  },
+  {
+    "name": "folder-license",
+    "folder_name": ["license", "licenses"]
+  },
+  {
+    "name": "folder-link",
+    "folder_name": ["link", "links"]
+  },
+  {
+    "name": "folder-linux",
+    "folder_name": ["linux",
+      "linuxbsd",
+      "unix",
+      "wsl",
+      "ubuntu",
+      "deb",
+      "debian",
+      "deepin",
+      "centos",
+      "popos",
+      "mint"]
+  },
+  {
+    "name": "folder-liquibase",
+    "folder_name": ["liquibase"]
+  },
+  {
+    "name": "folder-lottie",
+    "folder_name": ["lottie", "lotties", "lottiefiles"]
+  },
+  {
+    "name": "folder-luau",
+    "folder_name": ["luau"]
+  },
+  {
+    "name": "folder-macos",
+    "folder_name": ["macos",
+      "mac",
+      "osx",
+      "DS_Store",
+      "iPhone",
+      "iPad",
+      "iPod",
+      "macbook",
+      "macbook-air",
+      "macosx",
+      "apple"]
+  },
+  {
+    "name": "folder-metro",
+    "folder_name": ["metro"]
+  },
+  {
+    "name": "folder-migrations",
+    "folder_name": ["migrations", "migration"]
+  },
+  {
+    "name": "folder-molecule",
+    "folder_name": ["molecules", "molecule"]
+  },
+  {
+    "name": "folder-moon",
+    "folder_name": ["moon"]
+  },
+  {
+    "name": "folder-nginx",
+    "folder_name": ["nginx"]
+  },
+  {
+    "name": "folder-obsidian",
+    "folder_name": ["obsidian"]
+  },
+  {
+    "name": "folder-opencode",
+    "folder_name": ["opencode"]
+  },
+  {
+    "name": "folder-organism",
+    "folder_name": ["organisms", "organism"]
+  },
+  {
+    "name": "folder-pdm",
+    "folder_name": ["pdm-plugins", "pdm-build"]
+  },
+  {
+    "name": "folder-policy",
+    "folder_name": ["policy", "policies"]
+  },
+  {
+    "name": "folder-postman",
+    "folder_name": ["postman"]
+  },
+  {
+    "name": "folder-powershell",
+    "folder_name": ["powershell", "ps", "ps1"]
+  },
+  {
+    "name": "folder-prompts",
+    "folder_name": ["prompt", "prompts"]
+  },
+  {
+    "name": "folder-pytorch",
+    "folder_name": ["pytorch", "torch"]
+  },
+  {
+    "name": "folder-r",
+    "folder_name": ["r"]
+  },
+  {
+    "name": "folder-repository",
+    "folder_name": ["repository", "repositories", "repo", "repos"]
+  },
+  {
+    "name": "folder-robot",
+    "folder_name": ["bot", "bots", "robot", "robots", "agent", "agents"]
+  },
+  {
+    "name": "folder-rust",
+    "folder_name": ["rust", "cargo"]
+  },
+  {
+    "name": "folder-salt",
+    "folder_name": ["salt", "saltstack"]
+  },
+  {
+    "name": "folder-sandbox",
+    "folder_name": ["sandbox", "sandboxes", "playground", "playgrounds"]
+  },
+  {
+    "name": "folder-scons",
+    "folder_name": ["scons", "sconf_temp", "scons_cache"]
+  },
+  {
+    "name": "folder-seeders",
+    "folder_name": ["seeds", "seeders", "seed", "seeding"]
+  },
+  {
+    "name": "folder-simulations",
+    "folder_name": ["simulations", "simulation", "sim", "sims"]
+  },
+  {
+    "name": "folder-skills",
+    "folder_name": ["skill", "skills"]
+  },
+  {
+    "name": "folder-snapcraft",
+    "folder_name": ["snap", "snapcraft"]
+  },
+  {
+    "name": "folder-snippet",
+    "folder_name": ["snippet", "snippets"]
+  },
+  {
+    "name": "folder-src-tauri",
+    "folder_name": ["src-tauri"]
+  },
+  {
+    "name": "folder-taskfile",
+    "folder_name": ["taskfile", "taskfiles"]
+  },
+  {
+    "name": "folder-television",
+    "folder_name": ["tv", "television"]
+  },
+  {
+    "name": "folder-toc",
+    "folder_name": ["toc", "table-of-contents"]
+  },
+  {
+    "name": "folder-trash",
+    "folder_name": ["trash", "scrap"]
+  },
+  {
+    "name": "folder-turborepo",
+    "folder_name": ["turbo"]
+  },
+  {
+    "name": "folder-ui",
+    "folder_name": ["presentation", "gui", "ui", "ux"]
+  },
+  {
+    "name": "folder-windows",
+    "folder_name": ["windows",
+      "win",
+      "win32",
+      "windows11",
+      "windows10",
+      "windowsxp",
+      "windowsnt",
+      "win11",
+      "win10",
+      "winxp",
+      "winnt"]
+  },
+  {
+    "name": "folder-zeabur",
+    "folder_name": ["zeabur"]
+  },
+  {
+    "name": "folder-zed",
+    "folder_name": ["zed"]
+  },
+  {
+    "name": "folder-trigger",
+    "folder_name": ["trigger", "triggers"]
+  },
+  {
+    "name": "folder-directive",
+    "folder_name": ["directives"]
+  },
+  {
+    "name": "folder-backup",
+    "folder_name": ["bkp", "bkps", "bak", "baks", "backup", "backups", "back-up", "back-ups"]
   }]

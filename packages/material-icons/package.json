@@ -5,35 +5,14 @@
 	"license": "Apache-2.0",
 	"author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
 	"scripts": {
-	  "prebuild": "node scripts/gen-icon-assets.js",
-	  "dev": "webpack serve",
-		"build": "webpack --mode production",
-		"publish": "node .acode/publish.js",
+	  "build": "cd .acode/gobuild && go run .",
+	  "publish": "cd .acode/gopublish && go run .",
 		"lint": "npx @biomejs/biome lint --write",
 		"format": "npx @biomejs/biome format --write"
 	},
 	"devDependencies": {
-		"@babel/cli": "^7.26.4",
-		"@babel/core": "^7.26.0",
-		"@babel/plugin-transform-runtime": "^7.26.0",
-		"@babel/preset-env": "^7.26.0",
-		"babel-loader": "^9.2.1",
-		"colors": "^1.4.0",
-		"copy-webpack-plugin": "^13.0.0",
-		"file-loader": "^6.2.0",
-		"html-tag-js": "^2.0.0",
-		"jszip": "^3.10.1",
 		"prettier": "^3.0.0",
-		"svgo": "^4.1.0",
-		"webpack": "^5.76.0",
-		"webpack-cli": "^7.0.0"
-	},
-	"browserslist": [
-		"> 0.25%, not dead"
-	],
-	"resolutions": {
-		"terser": ">=5.14.2 ",
-		"glob-parent": ">=5.1.2"
+		"svgo": "^4.1.0"
 	},
 	"repository": {
 		"type": "git",

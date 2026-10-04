@@ -1,9 +1,16 @@
 [{
   "name": "html",
   "file_extensions": ["htm",
+    "html",
     "xhtml",
     "html_vm",
-    "asp"]
+    "asp",
+      "aspx",
+      "jshtm",
+      "rhtml",
+      "shtml",
+      "volt",
+      "xht"]
 },
   {
     "name": "pug",
@@ -17,7 +24,18 @@
     "name": "markdown",
     "file_extensions": ["md",
       "markdown",
-      "rst"]
+      "rst",
+      "copilotmd",
+      "litcoffee",
+      "markdn",
+      "mdown",
+      "mdtext",
+      "mdtxt",
+      "mdwn",
+      "mkd",
+      "mkdn",
+      "ronn",
+      "workbook"]
   },
   {
     "name": "blink",
@@ -46,7 +64,13 @@
       ".esformatter",
       "cdp.pid",
       ".lintstagedrc"
-    ],
+    ,
+      ".whitesource",
+      "geojson",
+      "har",
+      "jsonld",
+      "webmanifest",
+      "ts.map"],
     "file_extensions": ["json",
       "jsonc",
       "tsbuildinfo",
@@ -74,7 +98,19 @@
       "playwright-ct.config.js",
       "playwright-ct.config.mjs",
       "playwright-ct.config.ts"
-    ]
+    ,
+      "playwright.config.cjs",
+      "playwright.config.cts",
+      "playwright.config.mts",
+      "playwright.config.base.js",
+      "playwright.config.base.cjs",
+      "playwright.config.base.mjs",
+      "playwright.config.base.ts",
+      "playwright.config.base.cts",
+      "playwright.config.base.mts",
+      "playwright-ct.config.cjs",
+      "playwright-ct.config.cts",
+      "playwright-ct.config.mts"]
   },
   {
     "name": "sublime",
@@ -92,11 +128,17 @@
       "yaml",
       "yml.dist",
       "yaml.dist",
-      "YAML-tmLanguage"]
+      "YAML-tmLanguage",
+      "cff",
+      "eyaml",
+      "eyml",
+      "winget",
+      "yaml-tmpreferences",
+      "yaml-tmtheme"]
   },
   {
     "name": "xml",
-    "file_name": [".htaccess"],
+    "file_name": [".htaccess", "xmp", "ascx", "atom", "axaml", "axml", "bpmn", "csl", "csproj.user", "dita", "ditamap", "dtml", "ent", "fxml", "isml", "jmx", "launch", "menu", "opml", "owl", "proj", "publishsettings", "pubxml", "pubxml.user", "rdf", "rng", "rss", "shproj", "storyboard", "targets", "tld", "tmx", "vbproj", "vbproj.user", "wsdl", "wxi", "wxl", "wxs", "xbl", "xib", "xliff", "xoml", "xpdl", "xul"],
     "file_extensions": [
       "xml",
       "plist",
@@ -126,8 +168,6 @@
       "ico",
       "tif",
       "tiff",
-      "psd",
-      "psb",
       "ami",
       "apx",
       "avif",
@@ -170,13 +210,71 @@
       "pbm",
       "pgm",
       "pnm",
-      "icns"
+      "icns",
+      "jxl",
+      "3fr",
+      "ari",
+      "arw",
+      "bay",
+      "braw",
+      "crw",
+      "cr2",
+      "cr3",
+      "cap",
+      "data",
+      "dcs",
+      "dcr",
+      "drf",
+      "eip",
+      "erf",
+      "fff",
+      "gpr",
+      "iiq",
+      "k25",
+      "kdc",
+      "mdc",
+      "mef",
+      "mos",
+      "mrw",
+      "nef",
+      "nrw",
+      "obm",
+      "orf",
+      "pef",
+      "ptx",
+      "pxn",
+      "r3d",
+      "raf",
+      "rwl",
+      "rw2",
+      "rwz",
+      "sr2",
+      "srf",
+      "srw",
+      "x3f",
+      "ktx",
+      "ktx2"
     ]
   },
   {
     "name": "javascript",
     "file_extensions": ["esx",
-      "mjs"]
+      "js",
+      "cjs",
+      "mjs",
+      "jakefile",
+      "es6",
+      "pac"]
+  },
+  {
+    "name": "typescript",
+    "file_extensions": ["ts",
+      "mts",
+      "cts"]
+  },
+  {
+    "name": "php",
+    "file_extensions": ["php", "php4", "php5", "phtml", "ctp"]
   },
   {
     "name": "react",
@@ -197,7 +295,15 @@
       "routes.jsx",
       "routes.ts",
       "routes.tsx"
-    ],
+    ,
+      "route.js",
+      "route.jsx",
+      "route.ts",
+      "route.tsx",
+      "route.ts",
+      "route.tsx",
+      "route.js",
+      "route.jsx"],
     "file_extensions": [
       "routing.ts",
       "routing.tsx",
@@ -259,11 +365,19 @@
       "manifest.mf",
       ".clang-format",
       ".clang-tidy"
-    ],
+    ,
+      ".clang-format-ignore",
+      ".conf",
+      "compile_flags.txt",
+      "cnf",
+      "tool-versions",
+      "directory",
+      "mak",
+      "npmrc",
+      "repo"],
     "file_extensions": [
       "ini",
       "dlc",
-      "dll",
       "config",
       "conf",
       "properties",
@@ -271,7 +385,6 @@
       "settings",
       "option",
       "props",
-      "toml",
       "prefs",
       "sln.dotsettings",
       "sln.dotsettings.user",
@@ -282,7 +395,8 @@
     "name": "typescript-def",
     "file_extensions": ["d.ts",
       "d.cts",
-      "d.mts"]
+      "d.mts",
+      "d.ets"]
   },
   {
     "name": "markojs",
@@ -290,14 +404,7 @@
   },
   {
     "name": "astro",
-    "file_name": [
-      "astro.config.js",
-      "astro.config.mjs",
-      "astro.config.cjs",
-      "astro.config.ts",
-      "astro.config.cts",
-      "astro.config.mts"
-    ],
+    "file_name": [],
     "file_extensions": ["astro"]
   },
   {
@@ -339,7 +446,13 @@
       "vcxitems.filters",
       "vcxproj",
       "vcxproj.filters"
-    ]
+    ,
+      ".vsconfig",
+      "slnf",
+      "slnx",
+      "wixproj",
+      "bas",
+      "vba"]
   },
   {
     "name": "database",
@@ -357,7 +470,33 @@
       "psql",
       "db",
       "db3"
-    ]
+    ,
+      "plpgsql",
+      "dblite",
+      "dblite3",
+      "debugsymbols",
+      "odb",
+      "accde",
+      "adp",
+      "bak",
+      "bdb",
+      "dbf",
+      "fdb",
+      "feather",
+      "gdb",
+      "ibd",
+      "mdf",
+      "mde",
+      "myd",
+      "myi",
+      "ndf",
+      "orc",
+      "parquet",
+      "sdf",
+      "ldf",
+      "frm",
+      "kdbx",
+      "dsql"]
   },
   {
     "name": "kusto",
@@ -366,7 +505,8 @@
   {
     "name": "csharp",
     "file_extensions": ["cs",
-      "csx"]
+      "csx",
+      "csharp"]
   },
   {
     "name": "qsharp",
@@ -391,7 +531,39 @@
       "tz",
       "txz",
       "tgz"
-    ]
+    ,
+      "z",
+      "lz",
+      "liz",
+      "lzma2",
+      "lz5",
+      "lzh",
+      "lha",
+      "001",
+      "far",
+      "taz",
+      "tlz",
+      "tpz",
+      "tbz",
+      "tbz2",
+      "zst",
+      "zstd",
+      "tzst",
+      "tzstd",
+      "cab",
+      "cpio",
+      "rpm",
+      "deb",
+      "arj",
+      "wim",
+      "swm",
+      "esd",
+      "fat",
+      "xar",
+      "ntfs",
+      "hfs",
+      "squashfs",
+      "apfs"]
   },
   {
     "name": "vala",
@@ -399,7 +571,7 @@
   },
   {
     "name": "zig",
-    "file_extensions": ["zig"]
+    "file_extensions": ["zig", "zon"]
   },
   {
     "name": "exe",
@@ -415,7 +587,8 @@
   {
     "name": "java",
     "file_extensions": ["java",
-      "jsp"]
+      "jsp",
+      "jav"]
   },
   {
     "name": "jar",
@@ -443,7 +616,17 @@
       "c++",
       "cp",
       "mii",
-      "ii"]
+      "ii",
+      "cppm",
+      "c++m",
+      "ccm",
+      "cxxm",
+      "h.in",
+      "hpp.in",
+      "ipp",
+      "ixx",
+      "tpp",
+      "txx"]
   },
   {
     "name": "hpp",
@@ -480,7 +663,7 @@
   },
   {
     "name": "python",
-    "file_extensions": ["py"]
+    "file_extensions": ["py", "cpy", "gyp", "gypi", "ipy", "pyi", "pyt", "pyw", "rpy"]
   },
   {
     "name": "python-misc",
@@ -492,7 +675,14 @@
       "pylintrc",
       ".pylintrc",
       "pyproject.toml"
-    ],
+    ,
+      "py.typed",
+      ".coveragerc",
+      ".coverage",
+      ".scrapy",
+      "celerybeat-schedule",
+      "celerybeat.pid",
+      "egg"],
     "file_extensions": ["pyc",
       "whl"]
   },
@@ -505,7 +695,40 @@
     "file_name": ["commit-msg",
       "pre-commit",
       "pre-push",
-      "post-merge"],
+      "post-merge",
+      ".envrc",
+      ".hushlogin",
+      "APKBUILD",
+      "PKGBUILD",
+      "bashrc_Apple_Terminal",
+      "zlogin",
+      "zlogout",
+      "zprofile",
+      "zshenv",
+      "zshrc",
+      "zshrc_Apple_Terminal",
+      "xsh",
+      "bash_aliases",
+      "bash_login",
+      "bash_logout",
+      "bash_profile",
+      "bashrc",
+      "cshrc",
+      "ebuild",
+      "eclass",
+      "profile",
+      "tcshrc",
+      "xprofile",
+      "xsession",
+      "xsessionrc",
+      "yash_profile",
+      "yashrc",
+      "zlogin",
+      "zlogout",
+      "zprofile",
+      "zsh-theme",
+      "zshenv",
+      "zshrc"],
     "file_extensions": ["sh",
       "ksh",
       "csh",
@@ -526,13 +749,15 @@
       "psd1",
       "ps1xml",
       "psc1",
-      "pssc"]
+      "pssc",
+      "psrc"]
   },
   {
     "name": "gradle",
     "file_name": ["gradle.properties",
       "gradlew",
-      "gradle-wrapper.properties"],
+      "gradle-wrapper.properties",
+      "gradlew.bat"],
     "file_extensions": ["gradle"]
   },
   {
@@ -544,43 +769,14 @@
   },
   {
     "name": "certificate",
-    "file_name": [
-      "copying",
-      "copying.md",
-      "copying.rst",
-      "copying.txt",
-      "copyright",
-      "copyright.md",
-      "copyright.rst",
-      "copyright.txt",
-      "license",
-      "license-agpl",
-      "license-apache",
-      "license-bsd",
-      "license-mit",
-      "license-gpl",
-      "license-lgpl",
-      "license.md",
-      "license.rst",
-      "license.txt",
-      "licence",
-      "licence-agpl",
-      "licence-apache",
-      "licence-bsd",
-      "licence-mit",
-      "licence-gpl",
-      "licence-lgpl",
-      "licence.md",
-      "licence.rst",
-      "licence.txt"
-    ],
+    "file_name": [],
     "file_extensions": ["cer",
       "cert",
       "crt"]
   },
   {
     "name": "key",
-    "file_name": [".htpasswd"],
+    "file_name": [".htpasswd", "sha256sums", ".secrets", "shasum", "sha256", "sha256sum", "sha256sums", "secret"],
     "file_extensions": ["pub",
       "key",
       "pem",
@@ -610,12 +806,18 @@
   },
   {
     "name": "lib",
-    "file_extensions": ["lib",
-      "bib"]
+    "file_extensions": [
+      "lib",
+      "a",
+      "instructions.md",
+      "instruction.md",
+      "instructions.md",
+      "instruction.md"
+    ]
   },
   {
     "name": "ruby",
-    "file_name": [".ruby-version"],
+    "file_name": [".ruby-version", "appraisals", "berksfile", "berksfile.lock", "brewfile", "capfile", "cheffile", "dangerfile", "deliverfile", "guardfile", "gymfile", "hobofile", "matchfile", "podfile", "puppetfile", "rakefile", "rantfile", "scanfile", "snapfile", "thorfile", "gemspec", "podspec", "rake", "rbi", "rbx", "rjs", "ru"],
     "file_extensions": ["rb",
       "erb",
       "rbs"]
@@ -635,11 +837,12 @@
     "file_extensions": ["fs",
       "fsx",
       "fsi",
-      "fsproj"]
+      "fsproj",
+      "fsscript"]
   },
   {
     "name": "swift",
-    "file_extensions": ["swift"]
+    "file_extensions": ["swift", ".swift-format", ".swift-version", ".swiftformat", ".xcode-version", "xcplayground", "swiftdeps", "swiftdoc", "swiftmodule", "swiftsourceinfo"]
   },
   {
     "name": "arduino",
@@ -727,7 +930,25 @@
       "compose.ci.yml",
       "compose.web.yml",
       "compose.worker.yml"
-    ],
+    ,
+      "dockerfile.windows",
+      "containerfile",
+      "containerfile.prod",
+      "containerfile.production",
+      "containerfile.alpha",
+      "containerfile.beta",
+      "containerfile.stage",
+      "containerfile.staging",
+      "containerfile.dev",
+      "containerfile.development",
+      "containerfile.local",
+      "containerfile.test",
+      "containerfile.testing",
+      "containerfile.ci",
+      "containerfile.web",
+      "containerfile.worker",
+      "containerignore",
+      "containerfile"],
     "file_extensions": [
       "dockerignore",
       "dockerfile",
@@ -742,7 +963,14 @@
     "file_extensions": ["tex",
       "sty",
       "dtx",
-      "ltx"]
+      "ltx",
+      "cls",
+      "clo",
+      "latex",
+      "aux",
+      "tikz",
+      "synctex",
+      "synctex.gz"]
   },
   {
     "name": "powerpoint",
@@ -783,7 +1011,8 @@
       "mpe",
       "mpv",
       "m2v"
-    ]
+    ,
+      "tape"]
   },
   {
     "name": "virtual",
@@ -793,7 +1022,7 @@
   },
   {
     "name": "email",
-    "file_name": [".mailmap"],
+    "file_name": [".mailmap", "edb", "eml", "emlx", "mbox", "msg", "oft", "olm", "ost", "p7s", "pst", "rpmsg", "tnef"],
     "file_extensions": ["ics"]
   },
   {
@@ -803,7 +1032,61 @@
       "m4a",
       "wma",
       "aiff",
-      "wav"]
+      "wav",
+      "8svx",
+      "aa",
+      "aac",
+      "aax",
+      "ac3",
+      "aif",
+      "alac",
+      "amr",
+      "ape",
+      "caf",
+      "cda",
+      "cdr",
+      "dss",
+      "ec3",
+      "efs",
+      "enc",
+      "flp",
+      "gp",
+      "gsm",
+      "it",
+      "m3u",
+      "m3u8",
+      "m4b",
+      "m4p",
+      "m4r",
+      "mid",
+      "mka",
+      "mmf",
+      "mod",
+      "mpc",
+      "mscz",
+      "mtm",
+      "mui",
+      "musx",
+      "mxl",
+      "nsa",
+      "opus",
+      "pkf",
+      "qcp",
+      "ra",
+      "rf64",
+      "rip",
+      "sdt",
+      "sesx",
+      "sf2",
+      "stap",
+      "tg",
+      "voc",
+      "vqf",
+      "weba",
+      "wfp",
+      "wpl",
+      "wproj",
+      "wv"]
   },
   {
     "name": "coffee",
@@ -849,11 +1132,11 @@
   },
   {
     "name": "xaml",
-    "file_extensions": ["xaml"]
+    "file_extensions": ["xaml", "XamlStyler.json"]
   },
   {
     "name": "haskell",
-    "file_extensions": ["hs"]
+    "file_extensions": ["hs", "lhs"]
   },
   {
     "name": "kotlin",
@@ -883,7 +1166,12 @@
       ".git-blame-ignore-revs",
       ".git-for-windows-updater",
       "git-history"
-    ],
+    ,
+      ".keep",
+      ".gitpreserve",
+      "COMMIT_EDITMSG",
+      "MERGE_MSG",
+      "git-rebase-todo"],
     "file_extensions": ["patch"]
   },
   {
@@ -895,15 +1183,18 @@
     "name": "clojure",
     "file_extensions": ["clj",
       "cljs",
-      "cljc"]
+      "cljc",
+      "cljx",
+      "clojure",
+      "edn"]
   },
   {
     "name": "groovy",
-    "file_extensions": ["groovy"]
+    "file_extensions": ["groovy", "gvy", "nf"]
   },
   {
     "name": "r",
-    "file_name": [".Rhistory"],
+    "file_name": [".Rhistory", "rhistory", "rprofile", "rt"],
     "file_extensions": ["r",
       "rmd"]
   },
@@ -935,12 +1226,14 @@
   },
   {
     "name": "swc",
-    "file_extensions": ["swc"]
+    "file_name": [".swcrc"],
+    "file_extensions": ["swcrc"]
   },
   {
     "name": "cmake",
     "file_name": ["cmakelists.txt",
-      "cmakecache.txt"],
+      "cmakecache.txt",
+      "CMakePresets.json"],
     "file_extensions": ["cmake"]
   },
   {
@@ -973,7 +1266,10 @@
       "vue.config.ts",
       "vetur.config.js",
       "vetur.config.ts",
-      "volar.config.js"]
+      "volar.config.js",
+      "vue.config.cjs",
+      "vue.config.mjs",
+      ".vuerc"]
   },
   {
     "name": "vuex-store",
@@ -986,7 +1282,8 @@
     "name": "nuxt",
     "file_name": ["nuxt.config.js",
       "nuxt.config.ts",
-      ".nuxtignore"]
+      ".nuxtignore",
+      ".nuxtrc"]
   },
   {
     "name": "ocaml",
@@ -1018,12 +1315,17 @@
   {
     "name": "handlebars",
     "file_extensions": ["hbs",
-      "mustache"]
+      "mustache",
+      "handlebars",
+      "hjs"]
   },
   {
     "name": "perl",
     "file_extensions": ["pm",
-      "raku"]
+      "raku",
+      "pod",
+      "psgi",
+      "t"]
   },
   {
     "name": "haxe",
@@ -1045,7 +1347,9 @@
       "ts.snap",
       "spec-d.ts",
       "test-d.ts"
-    ]
+    ,
+      "cts.snap",
+      "mts.snap"]
   },
   {
     "name": "test-jsx",
@@ -1076,14 +1380,18 @@
       "test.mjs",
       "js.snap",
       "cy.js"
-    ]
+    ,
+      "cjs.snap",
+      "mjs.snap"]
   },
   {
     "name": "angular",
     "file_name": ["angular-cli.json",
       ".angular-cli.json",
       "angular.json",
-      "ng-package.json"],
+      "ng-package.json",
+      "interceptor.ts",
+      "interceptor.js"],
     "file_extensions": ["module.ts",
       "module.js",
       "ng-template"]
@@ -1181,7 +1489,9 @@
     "name": "verilog",
     "file_extensions": ["vhd",
       "sv",
-      "svh"]
+      "svh",
+      "vhdx",
+      "vhdl"]
   },
   {
     "name": "mathematica",
@@ -1227,7 +1537,8 @@
     "file_name": ["vercel.json",
       ".vercelignore",
       "now.json",
-      ".nowignore"]
+      ".nowignore",
+      "vercel.ts"]
   },
   {
     "name": "verdaccio",
@@ -1250,7 +1561,9 @@
     "file_extensions": ["tf",
       "tf.json",
       "tfvars",
-      "tfstate"]
+      "tfstate",
+      "tfbackend",
+      "terraformignore"]
   },
   {
     "name": "laravel",
@@ -1570,7 +1883,8 @@
       "gulpfile.ts",
       "gulpfile.cts",
       "gulpfile.mts",
-      "gulpfile.babel.js"]
+      "gulpfile.babel.js",
+      "gulpfile.cjs"]
   },
   {
     "name": "nodejs",
@@ -1632,12 +1946,21 @@
       ".env.staging.local",
       ".env.test.local",
       ".env.uat"
-    ],
+    ,
+      ".env.preprod",
+      ".env.prod.example",
+      ".env.production.example",
+      ".env.stg",
+      ".env.dev.local",
+      ".env.prod.local",
+      ".env.stg.local",
+      ".vars",
+      ".dev.vars"],
     "file_extensions": ["env"]
   },
   {
     "name": "turborepo",
-    "file_name": ["turbo.json"]
+    "file_name": ["turbo.json", "turbo.jsonc"]
   },
   {
     "name": "babel",
@@ -1762,13 +2085,16 @@
   {
     "name": "codecov",
     "file_name": [".codecov.yml",
-      "codecov.yml"]
+      "codecov.yml",
+      ".codecov.yaml",
+      "codecov.yaml"]
   },
   {
     "name": "sonarcloud",
     "file_name": ["sonar-project.properties",
       ".sonarcloud.properties",
-      "sonarcloud.yaml"]
+      "sonarcloud.yaml",
+      "SonarQube.Analysis.xml"]
   },
   {
     "name": "protractor",
@@ -1791,7 +2117,7 @@
   },
   {
     "name": "editorconfig",
-    "file_name": [".editorconfig"]
+    "file_name": [".editorconfig", ".editorconfig-checker.json", ".ecrc"]
   },
   {
     "name": "gitlab",
@@ -1817,7 +2143,9 @@
       ".eslintcache",
       "eslint.config.js",
       "eslint.config.mjs"
-    ]
+    ,
+      ".eslintrc.base.json",
+      "eslint-options.js"]
   },
   {
     "name": "conduct",
@@ -1853,7 +2181,8 @@
       ".mocharc.yaml",
       ".mocharc.js",
       ".mocharc.json",
-      ".mocharc.jsonc"]
+      ".mocharc.jsonc",
+      ".mocharc.cjs"]
   },
   {
     "name": "jenkins",
@@ -1866,7 +2195,8 @@
     "file_name": ["firebase.json",
       ".firebaserc",
       "firestore.rules",
-      "firestore.indexes.json"]
+      "firestore.indexes.json",
+      "firebase.config.js"]
   },
   {
     "name": "figma",
@@ -2047,7 +2377,7 @@
   },
   {
     "name": "wakatime",
-    "file_name": [".wakatime-project"],
+    "file_name": [".wakatime-project", ".wakatime-project"],
     "file_extensions": [".wakatime-project"]
   },
   {
@@ -2067,7 +2397,9 @@
       "gruntfile.babel.js",
       "gruntfile.babel.ts",
       "gruntfile.babel.coffee"
-    ]
+    ,
+      "gruntfile.cjs",
+      "gruntfile.cts"]
   },
   {
     "name": "jest",
@@ -2108,7 +2440,11 @@
       "jest-preset.js",
       "jest-preset.cjs",
       "jest-preset.mjs"
-    ]
+    ,
+      "jest.preset.js",
+      "jest.preset.mjs",
+      "jest.preset.cjs",
+      "jest.preset.json"]
   },
   {
     "name": "processing",
@@ -2128,7 +2464,8 @@
       "story.tsx",
       "stories.svelte",
       "story.mdx"
-    ]
+    ,
+      "stories.vue"]
   },
   {
     "name": "wepy",
@@ -2186,7 +2523,8 @@
     "file_extensions": ["pot",
       "po",
       "mo",
-      "lang"]
+      "lang",
+      "xlf"]
   },
   {
     "name": "webassembly",
@@ -2274,7 +2612,11 @@
   {
     "name": "azure-pipelines",
     "file_name": ["azure-pipelines.yml",
-      "azure-pipelines.yaml"],
+      "azure-pipelines.yaml",
+      "azure-pipelines-main.yml",
+      "azure-pipelines-main.yaml",
+      "azure-pipelines-main.yml",
+      "azure-pipelines-main.yaml"],
     "file_extensions": ["azure-pipelines.yml",
       "azure-pipelines.yaml"]
   },
@@ -2295,7 +2637,8 @@
   {
     "name": "razor",
     "file_extensions": ["cshtml",
-      "vbhtml"]
+      "vbhtml",
+      "razor"]
   },
   {
     "name": "abc",
@@ -2310,7 +2653,12 @@
   {
     "name": "istanbul",
     "file_name": [".nycrc",
-      ".nycrc.json"]
+      ".nycrc.json",
+      ".nycrc.yaml",
+      ".nycrc.yml",
+      "nyc.config.js",
+      "nyc.config.cjs",
+      ".istanbul.yml"]
   },
   {
     "name": "edge",
@@ -2337,7 +2685,9 @@
       "tailwind.config.cjs",
       "tailwind.config.ts",
       "tailwind.config.cts"
-    ]
+    ,
+      "tailwind.config.mjs",
+      "tailwind.config.mts"]
   },
   {
     "name": "3d",
@@ -2346,7 +2696,6 @@
       "stp",
       "obj",
       "ac",
-      "blend",
       "fbx",
       "mesh",
       "mqo",
@@ -2355,7 +2704,45 @@
       "skp",
       "vac",
       "vdp",
-      "vox"
+      "vox",
+      "step",
+      "ste",
+      "o",
+      "dwg",
+      "dxf",
+      "3dm",
+      "3mf",
+      "catpart",
+      "catproduct",
+      "f3d",
+      "iam",
+      "ige",
+      "iges",
+      "igs",
+      "ipt",
+      "jt",
+      "prt",
+      "sab",
+      "sat",
+      "sldasm",
+      "slddrw",
+      "sldprt",
+      "smb",
+      "smt",
+      "gltf",
+      "glb",
+      "3ds",
+      "dae",
+      "ply",
+      "wrl",
+      "usd",
+      "usdz",
+      "wire",
+      "x_b",
+      "x_t",
+      "123dx",
+      ".devcontainer/devcontainer.json",
+      ".devcontainer/devcontainer-lock.json"
     ]
   },
   {
@@ -2377,7 +2764,9 @@
   {
     "name": "svelte",
     "file_name": ["svelte.config.js",
-      "svelte.config.cjs"],
+      "svelte.config.cjs",
+      "svelte.js",
+      "svelte.ts"],
     "file_extensions": ["svelte"]
   },
   {
@@ -2459,8 +2848,7 @@
   },
   {
     "name": "advpl_prw",
-    "file_extensions": ["prw",
-      "prx"]
+    "file_extensions": []
   },
   {
     "name": "advpl_ptm",
@@ -2476,7 +2864,7 @@
   },
   {
     "name": "codeowners",
-    "file_name": ["codeowners"]
+    "file_name": ["codeowners", "OWNERS"]
   },
   {
     "name": "gcp",
@@ -2484,7 +2872,7 @@
   },
   {
     "name": "disc",
-    "file_extensions": ["iso"]
+    "file_extensions": ["iso", "vmdk", "hdd", "qcow", "qcow2", "qed", "dmg"]
   },
   {
     "name": "fortran",
@@ -2497,11 +2885,11 @@
   },
   {
     "name": "tcl",
-    "file_extensions": ["tcl"]
+    "file_extensions": ["tcl", "do"]
   },
   {
     "name": "liquid",
-    "file_extensions": ["liquid"]
+    "file_extensions": ["liquid", "mist.js", "mist.ts", "mist.jsx", "mist.tsx"]
   },
   {
     "name": "prolog",
@@ -2562,7 +2950,8 @@
   {
     "name": "meson",
     "file_name": ["meson.build",
-      "meson_options.txt"],
+      "meson_options.txt",
+      "meson.options"],
     "file_extensions": ["wrap"]
   },
   {
@@ -2607,8 +2996,7 @@
   },
   {
     "name": "nrwl",
-    "file_name": ["nx.json",
-      ".nxignore"]
+    "file_name": []
   },
   {
     "name": "opam",
@@ -2636,7 +3024,7 @@
   },
   {
     "name": "shaderlab",
-    "file_extensions": ["unity"]
+    "file_extensions": []
   },
   {
     "name": "roadmap",
@@ -2660,7 +3048,8 @@
     "name": "nuget",
     "file_name": ["nuget.config",
       ".nuspec",
-      "nuget.exe"],
+      "nuget.exe",
+      "nuspec"],
     "file_extensions": ["nupkg"]
   },
   {
@@ -2678,7 +3067,15 @@
       ".stryker.conf.js",
       ".stryker.conf.cjs",
       ".stryker.conf.mjs"
-    ]
+    ,
+      "stryker.config.json",
+      "stryker.config.js",
+      "stryker.config.mjs",
+      "stryker.config.cjs",
+      ".stryker.config.json",
+      ".stryker.config.js",
+      ".stryker.config.mjs",
+      ".stryker.config.cjs"]
   },
   {
     "name": "denizenscript",
@@ -2705,7 +3102,7 @@
   },
   {
     "name": "nginx",
-    "file_name": ["nginx.conf"],
+    "file_name": ["nginx.conf", "nginxconf"],
     "file_extensions": ["nginx",
       "nginxconfig"]
   },
@@ -2786,7 +3183,10 @@
   {
     "name": "quasar",
     "file_name": ["quasar.conf.js",
-      "quasar.config.js"]
+      "quasar.config.js",
+      "quasar.conf.ts",
+      "quasar.config.ts",
+      "quasar.config.cjs"]
   },
   {
     "name": "dependabot",
@@ -2840,7 +3240,7 @@
   },
   {
     "name": "textlint",
-    "file_name": [".textlintrc"]
+    "file_name": [".textlintrc", ".textlintrc.js", ".textlintrc.cjs", ".textlintrc.json", ".textlintrc.yml", ".textlintrc.yaml", ".textlintignore"]
   },
   {
     "name": "scala",
@@ -2869,7 +3269,7 @@
   },
   {
     "name": "sentry",
-    "file_name": [".sentryclirc"]
+    "file_name": [".sentryclirc", ".env.sentry-build-plugin"]
   },
   {
     "name": "phpunit",
@@ -2924,7 +3324,12 @@
       "tsconfig.paths.json",
       "tsconfig.main.json",
       "tsconfig.renderer.json"
-    ],
+    ,
+      "tsconfig.server.json",
+      "tsconfig.client.json",
+      "tsconfig.declaration.json",
+      "tsconfig.dev.json",
+      "tsconfig.prod.json"],
     "file_extensions": ["tsconfig.json"]
   },
   {
@@ -2935,7 +3340,8 @@
       "tauri.linux.conf.json",
       "tauri.windows.conf.json",
       "tauri.macos.conf.json"
-    ],
+    ,
+      ".taurignore"],
     "file_extensions": ["tauri"]
   },
   {
@@ -2967,7 +3373,8 @@
   {
     "name": "supabase",
     "file_name": ["supabase.js",
-      "supabase.py"]
+      "supabase.py",
+      "supabase.ts"]
   },
   {
     "name": "ember",
@@ -3050,7 +3457,28 @@
       "comp.hlsl",
       "tess.hlsl",
       "wgsl"
-    ]
+    ,
+      "rgen",
+      "rint",
+      "rahit",
+      "rchit",
+      "rmiss",
+      "rcall",
+      "rgen.glsl",
+      "rint.glsl",
+      "rahit.glsl",
+      "rchit.glsl",
+      "rmiss.glsl",
+      "rcall.glsl",
+      "spv",
+      "slang",
+      "cginc",
+      "compute",
+      "fx",
+      "fxh",
+      "hlsli",
+      "psh",
+      "vsh"]
   },
   {
     "name": "lighthouse",
@@ -3063,7 +3491,9 @@
       "lighthouserc.yml",
       ".lighthouserc.yaml",
       "lighthouserc.yaml"
-    ]
+    ,
+      ".lighthouserc.cjs",
+      "lighthouserc.cjs"]
   },
   {
     "name": "svgr",
@@ -3153,7 +3583,7 @@
   },
   {
     "name": "bun",
-    "file_name": ["bun.lockb"]
+    "file_name": ["bun.lockb", "bunfig.toml", ".bun-version", "bun.lock"]
   },
   {
     "name": "antlr",
@@ -3210,7 +3640,8 @@
       ".hgflow",
       ".hgrc",
       "hgrc",
-      "mercurial.ini"]
+      "mercurial.ini",
+      ".hgtags"]
   },
   {
     "name": "deno",
@@ -3230,7 +3661,7 @@
   },
   {
     "name": "typst",
-    "file_extensions": ["typ"]
+    "file_extensions": ["typ", "typst.toml"]
   },
   {
     "name": "unocss",
@@ -3247,7 +3678,7 @@
   },
   {
     "name": "ifanr-cloud",
-    "file_name": [".mincloudrc"]
+    "file_name": [".mincloudrc", ".qa-mincloudrc"]
   },
   {
     "name": "qwik",
@@ -3262,4 +3693,806 @@
     "name": "mojo",
     "file_extensions": ["mojo",
       "🔥"]
+  },
+  {
+    "name": "abap",
+    "file_extensions": ["abap", "acds", "asddls"]
+  },
+  {
+    "name": "adobe-illustrator",
+    "file_extensions": ["ai", "ait"]
+  },
+  {
+    "name": "adobe-photoshop",
+    "file_extensions": ["psdt"]
+  },
+  {
+    "name": "agent",
+    "file_name": ["agents.md"]
+  },
+  {
+    "name": "amplify",
+    "file_name": ["amplify.yml"]
+  },
+  {
+    "name": "apps-script",
+    "file_extensions": ["gs"]
+  },
+  {
+    "name": "appwrite",
+    "file_name": ["appwrite.json", "appwrite.js", "appwrite.ts"]
+  },
+  {
+    "name": "bashly-hook",
+    "file_name": ["src/initialize.sh", "src/before.sh", "src/after.sh"]
+  },
+  {
+    "name": "bbx",
+    "file_extensions": ["bbx"]
+  },
+  {
+    "name": "beancount",
+    "file_extensions": ["beancount", "bean"]
+  },
+  {
+    "name": "bench-js",
+    "file_extensions": ["bench.js", "bench.cjs", "bench.mjs"]
+  },
+  {
+    "name": "bench-jsx",
+    "file_extensions": ["bench.jsx", "bench.tsx"]
+  },
+  {
+    "name": "bench-ts",
+    "file_extensions": ["bench.ts", "bench.cts", "bench.mts"]
+  },
+  {
+    "name": "bibliography",
+    "file_extensions": ["bbl", "bcf", "blg"]
+  },
+  {
+    "name": "bibtex-style",
+    "file_extensions": ["bst"]
+  },
+  {
+    "name": "biome",
+    "file_name": ["biome.json", "biome.jsonc", ".biome.json", ".biome.jsonc"]
+  },
+  {
+    "name": "blender",
+    "file_extensions": ["blend1", "blend2"]
+  },
+  {
+    "name": "bruno",
+    "file_extensions": ["bru"]
+  },
+  {
+    "name": "c3",
+    "file_extensions": ["c3"]
+  },
+  {
+    "name": "cairo",
+    "file_extensions": ["cairo"]
+  },
+  {
+    "name": "capnp",
+    "file_extensions": ["capnp"]
+  },
+  {
+    "name": "cbx",
+    "file_extensions": ["cbx"]
+  },
+  {
+    "name": "cds",
+    "file_extensions": ["cds"]
+  },
+  {
+    "name": "chromatic",
+    "file_name": ["chromatic.config.json"]
+  },
+  {
+    "name": "chrome",
+    "file_extensions": ["crx"]
+  },
+  {
+    "name": "citation",
+    "file_name": ["citation.cff"]
+  },
+  {
+    "name": "clangd",
+    "file_name": [".clangd"]
+  },
+  {
+    "name": "claude",
+    "file_name": ["CLAUDE.md", "CLAUDE.local.md"]
+  },
+  {
+    "name": "cline",
+    "file_name": [".clinerules"]
+  },
+  {
+    "name": "coderabbit-ai",
+    "file_name": [".coderabbit.yml", ".coderabbit.yaml"]
+  },
+  {
+    "name": "coloredpetrinets",
+    "file_extensions": ["cpn", "pnml"]
+  },
+  {
+    "name": "commitizen",
+    "file_name": [".czrc",
+      ".cz.json",
+      ".cz.toml",
+      ".cz.yaml",
+      ".cz.yml",
+      "cz.json",
+      "cz.toml",
+      "cz.yaml",
+      "cz.yml"]
+  },
+  {
+    "name": "concourse",
+    "file_name": ["concourse.yml"]
+  },
+  {
+    "name": "context",
+    "file_extensions": ["ctx"]
+  },
+  {
+    "name": "copilot",
+    "file_name": ["copilot-instructions.md", ".copilotignore"]
+  },
+  {
+    "name": "cue",
+    "file_extensions": ["cue"]
+  },
+  {
+    "name": "cursor",
+    "file_name": [".cursorignore",
+      ".cursorindexingignore",
+      ".cursorrules",
+      ".cursor",
+      ".cursor.json",
+      ".cursorrc"]
+  },
+  {
+    "name": "deepsource",
+    "file_name": [".deepsource.toml"]
+  },
+  {
+    "name": "dependencies-update",
+    "file_extensions": [".ncurc.json", ".ncurc.yml", ".ncurc.js"]
+  },
+  {
+    "name": "diff",
+    "file_extensions": ["diff", "rej"]
+  },
+  {
+    "name": "dll",
+    "file_extensions": ["ilk", "so"]
+  },
+  {
+    "name": "doctex-installer",
+    "file_extensions": ["ins"]
+  },
+  {
+    "name": "drizzle",
+    "file_name": ["drizzle.config.ts",
+      "drizzle.config.dev.ts",
+      "drizzle.config.prod.ts",
+      "drizzle.config.js",
+      "drizzle.config.dev.js",
+      "drizzle.config.prod.js",
+      "drizzle.config.json",
+      "drizzle.config.dev.json",
+      "drizzle.config.prod.json"]
+  },
+  {
+    "name": "duc",
+    "file_name": ["duc.fbs"],
+    "file_extensions": ["duc"]
+  },
+  {
+    "name": "epub",
+    "file_extensions": ["epub"]
+  },
+  {
+    "name": "excalidraw",
+    "file_name": ["excalidraw", "excalidraw.json", "excalidraw.svg", "excalidraw.png"],
+    "file_extensions": ["excalidraw", "excalidraw.json", "excalidraw.svg", "excalidraw.png"]
+  },
+  {
+    "name": "expo",
+    "file_name": ["eas.json", ".easignore"]
+  },
+  {
+    "name": "freemarker",
+    "file_extensions": ["ftl"]
+  },
+  {
+    "name": "garden",
+    "file_name": ["garden.yml",
+      "garden.yaml",
+      "project.garden.yml",
+      "project.garden.yaml",
+      ".gardenignore"],
+    "file_extensions": ["garden.yml", "garden.yaml"]
+  },
+  {
+    "name": "gemini-ai",
+    "file_name": [".aiexclude", "GEMINI.md"]
+  },
+  {
+    "name": "github-sponsors",
+    "file_name": [".github/FUNDING.yml"]
+  },
+  {
+    "name": "gnuplot",
+    "file_extensions": ["gnu"]
+  },
+  {
+    "name": "google",
+    "file_name": ["google-services.json", "GoogleService-Info.plist"]
+  },
+  {
+    "name": "grafana-alloy",
+    "file_extensions": ["alloy"]
+  },
+  {
+    "name": "happo",
+    "file_name": [".happo.js", ".happo.mjs", ".happo.cjs"]
+  },
+  {
+    "name": "harmonix",
+    "file_name": ["harmonix.config.js", "harmonix.config.ts"]
+  },
+  {
+    "name": "hip",
+    "file_extensions": ["hip"]
+  },
+  {
+    "name": "hjson",
+    "file_extensions": ["hjson"]
+  },
+  {
+    "name": "hosts",
+    "file_name": ["hosts"]
+  },
+  {
+    "name": "huff",
+    "file_extensions": ["huff"]
+  },
+  {
+    "name": "hurl",
+    "file_extensions": ["hurl"]
+  },
+  {
+    "name": "installation",
+    "file_name": ["install", "installation"]
+  },
+  {
+    "name": "json_schema",
+    "file_extensions": ["schema.json"]
+  },
+  {
+    "name": "jsr",
+    "file_name": ["jsr.json", "jsr.jsonc"]
+  },
+  {
+    "name": "just",
+    "file_name": ["justfile", ".justfile"]
+  },
+  {
+    "name": "kcl",
+    "file_name": ["kcl.mod", "kcl.yaml", "kcl.yml"],
+    "file_extensions": ["k"]
+  },
+  {
+    "name": "keystatic",
+    "file_name": ["keystatic.config.tsx",
+      "keystatic.config.ts",
+      "keystatic.config.jsx",
+      "keystatic.config.js"]
+  },
+  {
+    "name": "knip",
+    "file_name": ["knip.json",
+      "knip.jsonc",
+      ".knip.json",
+      ".knip.jsonc",
+      "knip.ts",
+      "knip.js",
+      "knip.config.ts",
+      "knip.config.js"]
+  },
+  {
+    "name": "kubernetes",
+    "file_name": ["k8s.yml", "k8s.yaml", "kubernetes.yml", "kubernetes.yaml", ".k8s.yml", ".k8s.yaml"]
+  },
+  {
+    "name": "label",
+    "file_name": [".github/labeler.yml", ".github/labeler.yaml", "tags"]
+  },
+  {
+    "name": "lbx",
+    "file_extensions": ["lbx"]
+  },
+  {
+    "name": "lean",
+    "file_extensions": ["lean"]
+  },
+  {
+    "name": "lefthook",
+    "file_name": [".lefthook-local.json",
+      ".lefthook-local.toml",
+      ".lefthook-local.yaml",
+      ".lefthook-local.yml",
+      ".lefthook.json",
+      ".lefthook.toml",
+      ".lefthook.yaml",
+      ".lefthook.yml",
+      ".lefthookrc",
+      "lefthook-local.json",
+      "lefthook-local.toml",
+      "lefthook-local.yaml",
+      "lefthook-local.yml",
+      "lefthook.json",
+      "lefthook.toml",
+      "lefthook.yaml",
+      "lefthook.yml",
+      "lefthookrc"]
+  },
+  {
+    "name": "liara",
+    "file_name": ["liara.json", ".liaraignore"]
+  },
+  {
+    "name": "lintstaged",
+    "file_name": [".lintstagedrc.json",
+      ".lintstagedrc.yaml",
+      ".lintstagedrc.yml",
+      ".lintstagedrc.mjs",
+      ".lintstagedrc.cjs",
+      "lint-staged.config.ts",
+      "lint-staged.config.mjs",
+      "lint-staged.config.cjs",
+      "lint-staged.config.js",
+      ".lintstagedrc.js"]
+  },
+  {
+    "name": "lottie",
+    "file_extensions": ["lottie"]
+  },
+  {
+    "name": "luau",
+    "file_name": [".luaurc"],
+    "file_extensions": ["luau"]
+  },
+  {
+    "name": "lyric",
+    "file_extensions": ["lrc"]
+  },
+  {
+    "name": "macaulay2",
+    "file_extensions": ["m2"]
+  },
+  {
+    "name": "markdoc",
+    "file_extensions": ["mdoc", "markdoc", "markdoc.md"]
+  },
+  {
+    "name": "markdownlint",
+    "file_name": [".markdownlint.json",
+      ".markdownlint.jsonc",
+      ".markdownlint.yaml",
+      ".markdownlint.yml",
+      ".markdownlint-cli2.jsonc",
+      ".markdownlint-cli2.yaml",
+      ".markdownlint-cli2.cjs",
+      ".markdownlint-cli2.mjs",
+      ".markdownlintignore"]
+  },
+  {
+    "name": "metro",
+    "file_name": ["metro.config.js",
+      "metro.config.cjs",
+      "metro.config.mjs",
+      "metro.config.json",
+      "metro.config.ts",
+      "metro.config.cts",
+      "metro.config.mts"]
+  },
+  {
+    "name": "minecraft-fabric",
+    "file_name": ["fabric.mod.json"]
+  },
+  {
+    "name": "moon",
+    "file_name": ["moon.yml"]
+  },
+  {
+    "name": "mrpack",
+    "file_extensions": ["mrpack"]
+  },
+  {
+    "name": "onnx",
+    "file_extensions": ["onnx"]
+  },
+  {
+    "name": "openapi",
+    "file_name": ["openapi.json", "openapi.yml", "openapi.yaml"],
+    "file_extensions": ["openapi.json", "openapi.yml", "openapi.yaml"]
+  },
+  {
+    "name": "opencode",
+    "file_name": ["opencode.json", "opencode.jsonc"]
+  },
+  {
+    "name": "opentofu",
+    "file_extensions": ["tofu"]
+  },
+  {
+    "name": "oxc",
+    "file_name": [".oxlintrc.json",
+      ".oxlintrc.jsonc",
+      ".oxfmtrc.json",
+      ".oxfmtrc.jsonc",
+      "oxlint.config.ts",
+      "oxfmt.config.ts"]
+  },
+  {
+    "name": "packship",
+    "file_name": [".packshiprc",
+      ".packshiprc.json",
+      ".packshiprc.js",
+      ".packshiprc.ts",
+      "packship.config.js",
+      "packship.config.ts",
+      "packship.config.mjs",
+      "packship.config.mts",
+      "packship.config.json"]
+  },
+  {
+    "name": "palette",
+    "file_extensions": ["pal", "gpl", "act"]
+  },
+  {
+    "name": "payload",
+    "file_name": ["payload.config.js", "payload.config.mjs", "payload.config.ts", "payload.config.mts"]
+  },
+  {
+    "name": "pdm",
+    "file_name": ["pdm.lock", "pdm.toml", ".pdm-python"],
+    "file_extensions": ["pdm.lock", "pdm.toml"]
+  },
+  {
+    "name": "phpstan",
+    "file_name": ["phpstan.neon", "phpstan.neon.dist", "phpstan.dist.neon"]
+  },
+  {
+    "name": "pkl",
+    "file_name": ["PklProject", "PklProject.deps.json"],
+    "file_extensions": ["pkl"]
+  },
+  {
+    "name": "pre-commit",
+    "file_name": [".pre-commit-config.yaml", ".pre-commit-hooks.yaml"]
+  },
+  {
+    "name": "prompt",
+    "file_extensions": ["prompt.md", "prompts.md"]
+  },
+  {
+    "name": "pytorch",
+    "file_extensions": ["pt", "pth", "pwf"]
+  },
+  {
+    "name": "quarto",
+    "file_extensions": ["qmd"]
+  },
+  {
+    "name": "quokka",
+    "file_extensions": ["quokka.js", "quokka.ts", "quokka.jsx", "quokka.tsx"]
+  },
+  {
+    "name": "rbxmk",
+    "file_extensions": ["rbxmk.lua", "rbxmk.luau"]
+  },
+  {
+    "name": "regedit",
+    "file_extensions": ["reg"]
+  },
+  {
+    "name": "remark",
+    "file_name": [".remarkrc",
+      ".remarkrc.cjs",
+      ".remarkrc.js",
+      ".remarkrc.json",
+      ".remarkrc.mjs",
+      ".remarkrc.yaml",
+      ".remarkrc.yml",
+      ".remarkignore"]
+  },
+  {
+    "name": "roblox",
+    "file_extensions": ["rbxl", "rbxlx", "rbxm", "rbxmx"]
+  },
+  {
+    "name": "rocket",
+    "file_name": [".release-it.json",
+      ".release-it.ts",
+      ".release-it.js",
+      ".release-it.cjs",
+      ".release-it.yaml",
+      ".release-it.yml",
+      ".release-it.toml",
+      "release.toml",
+      "release-plz.toml",
+      ".release-plz.toml"]
+  },
+  {
+    "name": "rojo",
+    "file_extensions": ["project.json", "model.json", "meta.json"]
+  },
+  {
+    "name": "rspec",
+    "file_name": [".rspec"]
+  },
+  {
+    "name": "rstack",
+    "file_name": ["rslint.json", "rslint.jsonc"]
+  },
+  {
+    "name": "ruff",
+    "file_name": ["ruff.toml", ".ruff.toml"]
+  },
+  {
+    "name": "salt",
+    "file_extensions": ["sls"]
+  },
+  {
+    "name": "scons",
+    "file_name": ["sconstruct", "sconscript", "scsub"]
+  },
+  {
+    "name": "screwdriver",
+    "file_name": ["screwdriver.yaml", "screwdriver.yml"]
+  },
+  {
+    "name": "simulink",
+    "file_extensions": ["slx"]
+  },
+  {
+    "name": "skill",
+    "file_name": ["skill.md"],
+    "file_extensions": ["skill.md", "skills.md"]
+  },
+  {
+    "name": "slint",
+    "file_extensions": ["slint", "60"]
+  },
+  {
+    "name": "snakemake",
+    "file_name": ["Snakefile"],
+    "file_extensions": ["smk", "snakemake"]
+  },
+  {
+    "name": "snapcraft",
+    "file_name": ["snapcraft.yaml", "snapcraft.yml"]
+  },
+  {
+    "name": "spwn",
+    "file_extensions": ["spwn"]
+  },
+  {
+    "name": "stackblitz",
+    "file_name": [".stackblitzrc"]
+  },
+  {
+    "name": "stan",
+    "file_extensions": ["stan"]
+  },
+  {
+    "name": "subtitles",
+    "file_extensions": ["srt", "ssa", "ttml", "sbv", "dfxp", "vtt", "sub", "ass"]
+  },
+  {
+    "name": "swagger",
+    "file_name": ["swagger.json", "swagger.yml", "swagger.yaml"],
+    "file_extensions": ["swagger.json", "swagger.yml", "swagger.yaml"]
+  },
+  {
+    "name": "sway",
+    "file_extensions": ["sw"]
+  },
+  {
+    "name": "taskfile",
+    "file_name": ["taskfile.yml",
+      "taskfile.yaml",
+      "taskfile.dist.yml",
+      "taskfile.dist.yaml",
+      ".taskrc.yml",
+      ".taskrc.yaml"],
+    "file_extensions": ["taskfile.yml", "taskfile.yaml"]
+  },
+  {
+    "name": "taze",
+    "file_name": [".tazerc", ".tazerc.json"]
+  },
+  {
+    "name": "templ",
+    "file_extensions": ["templ"]
+  },
+  {
+    "name": "toc",
+    "file_extensions": ["toc"]
+  },
+  {
+    "name": "toon",
+    "file_extensions": ["toon"]
+  },
+  {
+    "name": "tsdoc",
+    "file_name": ["tsdoc.json"]
+  },
+  {
+    "name": "tsdown",
+    "file_name": ["tsdown.config.ts",
+      "tsdown.config.mts",
+      "tsdown.config.cts",
+      "tsdown.config.js",
+      "tsdown.config.mjs",
+      "tsdown.config.cjs",
+      "tsdown.config.json",
+      "tsdown.config"]
+  },
+  {
+    "name": "tsil",
+    "file_extensions": ["ц"]
+  },
+  {
+    "name": "typedoc",
+    "file_name": ["typedoc.js", "typedoc.json"]
+  },
+  {
+    "name": "uiua",
+    "file_extensions": ["ua"]
+  },
+  {
+    "name": "unity",
+    "file_extensions": ["unitypackage"]
+  },
+  {
+    "name": "unlicense",
+    "file_name": ["unlicense", "unlicense.txt"]
+  },
+  {
+    "name": "uv",
+    "file_name": ["uv.toml", ".uv.toml", "uv.lock"]
+  },
+  {
+    "name": "vanilla-extract",
+    "file_extensions": ["css.ts", "css.js", "css.cjs", "css.mjs", "css.tsx", "css.jsx"]
+  },
+  {
+    "name": "varnish",
+    "file_extensions": ["vcl"]
+  },
+  {
+    "name": "vedic",
+    "file_extensions": ["ved", "veda", "vedic"]
+  },
+  {
+    "name": "verified",
+    "file_extensions": ["sigstore.json"]
+  },
+  {
+    "name": "verse",
+    "file_extensions": ["verse"]
+  },
+  {
+    "name": "wally",
+    "file_name": ["wally.toml"]
+  },
+  {
+    "name": "warp",
+    "file_name": ["warp.md"]
+  },
+  {
+    "name": "werf",
+    "file_name": ["werf.yaml",
+      "werf.yml",
+      "werf-giterminism.yaml",
+      "werf-giterminism.yml",
+      "werf-includes.lock",
+      "werf-includes.yaml",
+      "werf-includes.yml"]
+  },
+  {
+    "name": "wrangler",
+    "file_name": ["wrangler.toml", "wrangler.json", "wrangler.jsonc"]
+  },
+  {
+    "name": "xmake",
+    "file_name": ["xmake.lua", "xmake"]
+  },
+  {
+    "name": "zeabur",
+    "file_extensions": ["zeabur"]
+  },
+  {
+    "name": "toml",
+    "file_extensions": ["toml"]
+  },
+  {
+    "name": "adobe-swc",
+    "file_extensions": ["swc"]
+  },
+  {
+    "name": "advpl",
+    "file_extensions": ["prw", "prx"]
+  },
+  {
+    "name": "astro-config",
+    "file_name": ["astro.config.js",
+      "astro.config.mjs",
+      "astro.config.cjs",
+      "astro.config.ts",
+      "astro.config.cts",
+      "astro.config.mts"]
+  },
+  {
+    "name": "nx",
+    "file_name": ["nx.json", ".nxignore"]
+  },
+  {
+    "name": "adobe-photoshop",
+    "file_extensions": ["psd", "psb"]
+  },
+  {
+    "name": "bibliography",
+    "file_extensions": ["bib"]
+  },
+  {
+    "name": "dll",
+    "file_extensions": ["dll"]
+  },
+  {
+    "name": "unity",
+    "file_extensions": ["unity"]
+  },
+  {
+    "name": "blender",
+    "file_extensions": ["blend"]
+  },
+  {
+    "name": "license",
+    "file_name": ["license",
+      "license-agpl",
+      "license-apache",
+      "license-bsd",
+      "license-mit",
+      "license-gpl",
+      "license-lgpl",
+      "license.md",
+      "license.rst",
+      "license.txt",
+      "licence",
+      "licence-agpl",
+      "licence-apache",
+      "licence-bsd",
+      "licence-mit",
+      "licence-gpl",
+      "licence-lgpl",
+      "licence.md",
+      "licence.rst",
+      "licence.txt",
+      "copying",
+      "copying.md",
+      "copying.rst",
+      "copying.txt",
+      "copyright",
+      "copyright.md",
+      "copyright.rst",
+      "copyright.txt"]
   }]
