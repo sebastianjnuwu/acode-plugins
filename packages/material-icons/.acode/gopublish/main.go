@@ -14,6 +14,7 @@ import (
 	"io"
 	"mime/multipart"
 	"net/http"
+	"net/http/cookiejar"
 	"os"
 	"path/filepath"
 	"runtime"
@@ -80,7 +81,10 @@ func upload(client *http.Client, token, zipPath string) {
 		fail(err)
 	}
 	req.Header.Set("Content-Type", w.FormDataContentType())
-	req.Header.Set("Cookie", "token="+token)
+	req.Header.Set("X-Requested-With", "XMLHttpRequest")
+	// The login session cookies (kept in the jar) go out automatically;
+	// the API token goes as an explicit cookie like the web client does.
+	req.AddCookie(&http.Cookie{Name: "token", Value: token})
 
 	resp, err := client.Do(req)
 	if err != nil {
@@ -109,6 +113,11 @@ func main() {
 	}
 
 	client := &http.Client{}
+	if jar, err := cookiejar.New(nil); err == nil {
+		// Keep any session cookies from login so the upload request
+		// carries the same session (CSRF validation depends on it).
+		client.Jar = jar
+	}
 	token := login(client, email, password)
 	upload(client, token, filepath.Join(root, ".acode", "plugin.zip"))
 }
