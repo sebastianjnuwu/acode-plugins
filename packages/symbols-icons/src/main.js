@@ -1,117 +1,101 @@
-import folder from "./lib/folders.ts";
-import plugin from "../plugin.json";
-import file from "./lib/files.ts";
+import plugin from '../plugin.json';
+import iconMap from './generated/icon-map.json';
 
-function style(x, y) {
-  return `${x}::before {
-  display: inline-block;
-  content: '' !important;
-  background-image: url(https://localhost/__cdvfile_files-external__/plugins/sebastianjnuwu.symbols.icons/icons/${y}.svg) !important;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 1em;
-  width: 1em;
-  }`;
+const fs = acode.require('fs');
+const Url = acode.require('Url');
+
+let fileIcons = null;
+try {
+	fileIcons = acode.require('fileIcons');
+} catch {
+	// Acode build without the fileIcons API (< 1012): stays inert
+	fileIcons = null;
 }
 
-function get_type(filename) {
-  const extension = filename.slice(filename.indexOf(".") + 1);
+let registration;
+let styleSheet;
 
-  const one = file.find((type) =>
-    type.file_name?.includes(filename.toLowerCase()),
-  );
-  if (one) return one.name;
-
-  const two = file.find((type) => type.extension?.includes(extension));
-  if (two) return two.name;
-
-  return extension;
+// className definitions resolve synchronously: Acode never probes image
+// URLs, so the whole pack loads with a single stylesheet request instead
+// of dozens of individual SVG requests.
+const icons = {};
+for (const [id, className] of Object.entries(iconMap)) {
+	icons[id] = { className };
 }
 
-const folder_style = [
-  style(
-    `.list.collapsible.hidden > div[data-type="root"] > .icon.folder`,
-    "folder",
-  ),
+function mapsFromPack(files, folders) {
+	const fileNames = {};
+	const fileExtensions = {};
+	const folderNames = {};
+	const folderNamesExpanded = {};
 
-  style(
-    `.list.collapsible > div[data-type="root"] > .icon.folder`,
-    "folder-open",
-  ),
+	for (const entry of files) {
+		for (const name of entry.file_name || []) {
+			fileNames[name] = entry.name;
+		}
+		for (const ext of entry.file_extensions || []) {
+			if (ext.startsWith('.')) fileNames[ext] = entry.name;
+			else fileExtensions[ext.toLowerCase()] = entry.name;
+		}
+	}
 
-  style(
-    `.list.collapsible.hidden > div.tile[data-name][data-type="dir"] > .icon.folder`,
-    "folder",
-  ),
+	for (const entry of folders) {
+		for (const name of entry.folder_name || []) {
+			folderNames[name] = entry.name;
+			// Expanded variant only when its asset exists; otherwise Acode
+			// reuses the closed icon (no broken references).
+			if (iconMap[`${entry.name}-open`]) {
+				folderNamesExpanded[name] = `${entry.name}-open`;
+			}
+		}
+	}
 
-  style(
-    `.list.collapsible > div.tile[data-name][data-type="dir"] > .icon.folder`,
-    "folder-open",
-  ),
+	// VS Code matches dotfiles by extension (`.env` -> `env`). Acode does
+	// not, so mirror that here: `.X` resolves like extension `X`, unless a
+	// filename mapping already covers it (exact or case-insensitive).
+	const seenNames = new Set(Object.keys(fileNames).map(k => k.toLowerCase()));
+	for (const [ext, icon] of Object.entries(fileExtensions)) {
+		if (ext.includes('.') || ext.length < 2) continue;
+		const dot = `.${ext}`;
+		if (!fileNames[dot] && !seenNames.has(dot)) {
+			fileNames[dot] = icon;
+			seenNames.add(dot);
+		}
+	}
 
-  style(`#file-browser > ul > li.tile[type="dir"]  > .icon.folder`, "folder"),
-
-  style(
-    `#file-browser > ul > li.tile[type="directory"]  > .icon.folder`,
-    "folder",
-  ),
-
-  folder
-    .map((x) => {
-      return [
-        style(
-          `#file-browser > ul > li.tile[type="directory"][name="${x.folder_name}"] > .icon.folder`,
-          x.icon,
-        ),
-
-        style(
-          `#file-browser > ul > li.tile[type="dir"][name="${x.folder_name}"] > .icon.folder`,
-          x.icon,
-        ),
-
-        style(
-          `.list.collapsible.hidden > div.tile[data-name="${x.folder_name}"][data-type="dir"] > .icon.folder`,
-          x.icon,
-        ),
-      ].join("");
-    })
-    .join("\n"),
-].join("\n");
-
-const file_style = file
-  .map((x) => {
-    return style(`.file.file_type_${x.name}`, x.icon);
-  })
-  .join("\n");
-
-acode.require("helpers").getIconForFile = (x) => {
-  const { getModeForPath } = ace.require("ace/ext/modelist");
-  const { name } = getModeForPath(x);
-  const z = name;
-  const y = get_type(x);
-
-  return `file file_type_default file_type_${z} file_type_${y}`;
-};
-
-class symbols {
-  async init() {
-    this.file_style = <style textContent={file_style}></style>;
-
-    this.folder_style = <style textContent={folder_style}></style>;
-
-    document.head.append(this.file_style, this.folder_style);
-  }
-
-  async destroy() {
-    this.file_style?.remove();
-    this.folder_style?.remove();
-  }
+	return { fileNames, fileExtensions, folderNames, folderNamesExpanded };
 }
 
-if (window.acode) {
-  const Instance = new symbols();
+acode.setPluginInit(plugin.id, async baseUrl => {
+	if (!fileIcons?.register) {
+		// Running on an older Acode build — skip pack registration
+		return;
+	}
 
-  acode.setPluginInit(plugin.id, () => Instance.init());
+	styleSheet = document.createElement('link');
+	styleSheet.rel = 'stylesheet';
+	styleSheet.href = Url.join(baseUrl, 'icons.css');
+	document.head.append(styleSheet);
 
-  acode.setPluginUnmount(plugin.id, () => Instance.destroy());
-}
+	const root = Url.join(PLUGIN_DIR, plugin.id);
+	const files = await fs(Url.join(root, 'file_icons.json')).readFile('json');
+	const folders = await fs(Url.join(root, 'folder_icons.json')).readFile('json');
+
+	registration = fileIcons.register({
+		id: plugin.id,
+		name: 'Symbols Icons',
+		icons,
+		...mapsFromPack(files, folders),
+		file: 'document',
+		folder: 'folder',
+		folderExpanded: 'folder-open',
+		rootFolder: 'folder-gray',
+	});
+});
+
+acode.setPluginUnmount(plugin.id, () => {
+	registration?.dispose();
+	registration = undefined;
+	styleSheet?.remove();
+	styleSheet = undefined;
+});

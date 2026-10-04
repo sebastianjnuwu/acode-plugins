@@ -1,56 +1,24 @@
 {
-  "name": "symbols-icons",
-  "version": "1.0.6",
-  "type": "module",
-  "license": "Apache-2.0",
-  "author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
-  "scripts": {
-    "dev": "webpack serve",
-    "build": "webpack --mode production",
-    "publish": "node .acode/publish.js",
-    "lint": "npx @biomejs/biome lint --write",
-    "format": "npx @biomejs/biome format --write"
-  },
-  "devDependencies": {
-    "@babel/cli": "^8.0.0",
-    "@babel/core": "^8.0.0",
-    "@babel/plugin-transform-runtime": "^8.0.0",
-    "axios": "^1.7.9",
-    "webpack-dev-server": "^6.0.0",
-    "@biomejs/biome": "^2.0.0",
-    "@babel/preset-env": "^8.0.0",
-    "@types/node": "^24.0.0",
-    "babel-loader": "^10.0.0",
-    "colors": "^1.4.0",
-    "copy-webpack-plugin": "^14.0.0",
-    "css-loader": "^7.0.0",
-    "file-loader": "^6.2.0",
-    "html-tag-js": "^2.0.0",
-    "jszip": "^3.10.1",
-    "postcss": "^8.4.33",
-    "postcss-loader": "^8.0.0",
-    "prettier": "^3.0.0",
-    "style-loader": "^4.0.0",
-    "ts-loader": "^9.5.1",
-    "typescript": "^7.0.0",
-    "webpack": "^5.76.0",
-    "webpack-cli": "^7.0.0"
-  },
-  "browserslist": [
-    "> 0.25%, not dead"
-  ],
-  "resolutions": {
-    "terser": ">=5.14.2 ",
-    "glob-parent": ">=5.1.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sebastianjnuwu/acode-plugins"
-  },
-  "bugs": {
-    "url": "https://github.com/sebastianjnuwu/acode-plugins/issues"
-  },
-  "dependencies": {
-    "postcss-preset-env": "^11.0.0"
-  }
+	"name": "symbols-icons",
+	"version": "2.0.0",
+	"type": "module",
+	"license": "Apache-2.0",
+	"author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
+	"scripts": {
+	  "build": "cd .acode/gobuild && go run .",
+	  "publish": "cd .acode/gopublish && go run .",
+		"lint": "npx @biomejs/biome lint --write",
+		"format": "npx @biomejs/biome format --write"
+	},
+	"devDependencies": {
+		"prettier": "^3.0.0",
+		"svgo": "^4.1.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sebastianjnuwu/acode-plugins"
+	},
+	"bugs": {
+		"url": "https://github.com/sebastianjnuwu/acode-plugins/issues"
+	}
 }

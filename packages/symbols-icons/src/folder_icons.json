@@ -1,0 +1,344 @@
+[
+ {
+  "name": "folder-go",
+  "folder_name": ["go"]
+ },
+ {
+  "name": "folder-components",
+  "folder_name": ["components"]
+ },
+ {
+  "name": "folder-orange",
+  "folder_name": [".husky", "server"]
+ },
+ {
+  "name": "folder-changeset",
+  "folder_name": [".changeset"]
+ },
+ {
+  "name": "folder-i18n",
+  "folder_name": ["i18n",
+   "locales",
+   "locale",
+   "l10n",
+   "translation",
+   "translations",
+   "intl",
+   "lang",
+   "langs",
+   "language",
+   "languages"]
+ },
+ {
+  "name": "folder-lock",
+  "folder_name": [".venv", "auth"]
+ },
+ {
+  "name": "folder-gitlab",
+  "folder_name": [".gitlab"]
+ },
+ {
+  "name": "folder-moon",
+  "folder_name": [".moon"]
+ },
+ {
+  "name": "folder-core",
+  "folder_name": ["core"]
+ },
+ {
+  "name": "folder-models",
+  "folder_name": ["model", "models"]
+ },
+ {
+  "name": "folder-interfaces",
+  "folder_name": ["interface", "interfaces", "presentation"]
+ },
+ {
+  "name": "folder-helpers",
+  "folder_name": ["helpers"]
+ },
+ {
+  "name": "folder-shared",
+  "folder_name": ["shared"]
+ },
+ {
+  "name": "folder-router",
+  "folder_name": ["router", "routers", "routes"]
+ },
+ {
+  "name": "folder-modules",
+  "folder_name": ["modules"]
+ },
+ {
+  "name": "folder-angular",
+  "folder_name": ["angular", ".angular"]
+ },
+ {
+  "name": "folder-services",
+  "folder_name": ["services", "service"]
+ },
+ {
+  "name": "folder-providers",
+  "folder_name": ["providers", "provider"]
+ },
+ {
+  "name": "folder-interceptors",
+  "folder_name": ["interceptors", "interceptor"]
+ },
+ {
+  "name": "folder-pipes",
+  "folder_name": ["pipes", "pipe"]
+ },
+ {
+  "name": "folder-firebase",
+  "folder_name": ["firebase"]
+ },
+ {
+  "name": "folder-supabase",
+  "folder_name": ["supabase"]
+ },
+ {
+  "name": "folder-drizzle",
+  "folder_name": [".drizzle", "drizzle"]
+ },
+ {
+  "name": "folder-tina",
+  "folder_name": ["tina"]
+ },
+ {
+  "name": "folder-tauri",
+  "folder_name": ["src-tauri", "tauri"]
+ },
+ {
+  "name": "folder-cursor",
+  "folder_name": [".cursor"]
+ },
+ {
+  "name": "folder-claude",
+  "folder_name": [".claude-code", ".claude", "claude", "claude-config", "claude-prompts"]
+ },
+ {
+  "name": "folder-globe",
+  "folder_name": [".well-known", "well-known"]
+ },
+ {
+  "name": "folder-netlify",
+  "folder_name": [".netlify", "netlify"]
+ },
+ {
+  "name": "folder-vercel",
+  "folder_name": [".vercel", "vercel"]
+ },
+ {
+  "name": "folder-target",
+  "folder_name": ["target"]
+ },
+ {
+  "name": "folder-ios",
+  "folder_name": ["ios"]
+ },
+ {
+  "name": "folder-context",
+  "folder_name": ["context", "contexts"]
+ },
+ {
+  "name": "folder-middleware",
+  "folder_name": ["middleware", "middlewares"]
+ },
+ {
+  "name": "folder-sky-code",
+  "folder_name": ["pages", "screens"]
+ },
+ {
+  "name": "folder-utils",
+  "folder_name": ["util", "utils", "utility", "utilities", "tools", "lib"]
+ },
+ {
+  "name": "folder-database",
+  "folder_name": ["db", "data", "database", "databases"]
+ },
+ {
+  "name": "folder-layout",
+  "folder_name": ["layouts", "layout", "ui"]
+ },
+ {
+  "name": "folder-docker",
+  "folder_name": ["docker", "docker-compose", "dockerfiles", ".docker"]
+ },
+ {
+  "name": "folder-red",
+  "folder_name": [".git", "api", ".turbo"]
+ },
+ {
+  "name": "folder-graphql",
+  "folder_name": ["graphql", "gql"]
+ },
+ {
+  "name": "folder-app",
+  "folder_name": ["app", "apps"]
+ },
+ {
+  "name": "folder-config",
+  "folder_name": ["config"]
+ },
+ {
+  "name": "folder-green",
+  "folder_name": ["env", ".nuxt"]
+ },
+ {
+  "name": "folder-blue",
+  "folder_name": ["client"]
+ },
+ {
+  "name": "folder-purple-code",
+  "folder_name": ["css", "styles"]
+ },
+ {
+  "name": "folder-red-code",
+  "folder_name": ["scripts", "test", "tests", "spec", "specs"]
+ },
+ {
+  "name": "folder-pink-outline",
+  "folder_name": ["storybook"]
+ },
+ {
+  "name": "folder-pink-code",
+  "folder_name": ["stories"]
+ },
+ {
+  "name": "folder-blue-code",
+  "folder_name": ["types"]
+ },
+ {
+  "name": "folder-pink",
+  "folder_name": [".storybook"]
+ },
+ {
+  "name": "folder-vscode",
+  "folder_name": [".vscode"]
+ },
+ {
+  "name": "folder-next",
+  "folder_name": [".next"]
+ },
+ {
+  "name": "folder-purple",
+  "folder_name": [".contentlayer"]
+ },
+ {
+  "name": "folder-node-modules",
+  "folder_name": ["node_modules"]
+ },
+ {
+  "name": "folder-aws",
+  "folder_name": ["aws"]
+ },
+ {
+  "name": "folder-azure",
+  "folder_name": [".azure"]
+ },
+ {
+  "name": "folder-nginx",
+  "folder_name": ["nginx"]
+ },
+ {
+  "name": "folder-react",
+  "folder_name": ["react"]
+ },
+ {
+  "name": "folder-github",
+  "folder_name": [".github"]
+ },
+ {
+  "name": "folder-purple-outline",
+  "folder_name": ["public", "dist", "out"]
+ },
+ {
+  "name": "folder-orange-code",
+  "folder_name": ["source", "src"]
+ },
+ {
+  "name": "folder-documents",
+  "folder_name": ["doc", "docs", "documents", "documentation"]
+ },
+ {
+  "name": "folder-build",
+  "folder_name": ["build"]
+ },
+ {
+  "name": "folder-assets",
+  "folder_name": ["assets", "resources", "static"]
+ },
+ {
+  "name": "folder-prisma",
+  "folder_name": ["prisma"]
+ },
+ {
+  "name": "folder-android",
+  "folder_name": ["android"]
+ },
+ {
+  "name": "folder-mail",
+  "folder_name": ["mail", "mails", "emails", "smtp", "mailers"]
+ },
+ {
+  "name": "folder-images",
+  "folder_name": ["image", "images"]
+ },
+ {
+  "name": "folder-bruno",
+  "folder_name": [".bru", "bru"]
+ },
+ {
+  "name": "folder-mongo",
+  "folder_name": ["mongo", "mongodb"]
+ },
+ {
+  "name": "folder-hooks",
+  "folder_name": ["hooks"]
+ },
+ {
+  "name": "folder-constants",
+  "folder_name": ["constants"]
+ },
+ {
+  "name": "folder-expo",
+  "folder_name": ["expo", ".expo"]
+ },
+ {
+  "name": "folder-gradle",
+  "folder_name": ["gradle", ".gradle"]
+ },
+ {
+  "name": "folder-maven",
+  "folder_name": ["maven", ".mvn"]
+ },
+ {
+  "name": "folder-gray",
+  "folder_name": [".nx"]
+ },
+ {
+  "name": "folder-fonts",
+  "folder_name": ["fonts", "font"]
+ },
+ {
+  "name": "folder-js",
+  "folder_name": ["js", "javascript"]
+ },
+ {
+  "name": "folder-sass",
+  "folder_name": ["sass", "scss"]
+ },
+ {
+  "name": "folder-godot",
+  "folder_name": [".godot"]
+ },
+ {
+  "name": "folder-zed",
+  "folder_name": [".zed"]
+ },
+ {
+  "name": "folder-java",
+  "folder_name": ["java"]
+ }
+]

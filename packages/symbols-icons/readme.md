@@ -5,7 +5,7 @@
 
 <div align="center"> 
   <img src="https://img.shields.io/badge/License-Apache%202.0-black.svg?logo=apache"/>
-  <img src="https://img.shields.io/badge/Version-v1.0.5-black?logo=github"/>
+  <img src="https://img.shields.io/badge/Version-v2.0.0-black?logo=github"/>
 </div>
 
 <h2>• Icon Previews</h2>
@@ -195,3 +195,9 @@
     <td><img src="https://raw.githubusercontent.com/sebastianjnuwu/acode-plugins/acode/packages/symbols-icons/icons/files/zig.svg" alt="zig"/></td>
   </tr>
 </table>
+
+<h2>• How to activate</h2>
+
+1. Requires an Acode build with the `fileIcons` API (versionCode **1012** or newer).
+2. In Acode, open **Plugins**, search for **Symbols Icons** and download it.
+3. Go to **Settings → App settings → Icon pack** and select **Symbols Icons**.
