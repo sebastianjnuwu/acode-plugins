@@ -5,13 +5,12 @@
 	"license": "Apache-2.0",
 	"author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
 	"scripts": {
-	  "build": "cd .acode/gobuild && go run .",
-	  "publish": "cd .acode/gopublish && go run .",
+		"build": "cd .acode/gobuild && go run .",
+		"publish": "cd .acode/gopublish && go run .",
 		"lint": "npx @biomejs/biome lint --write",
 		"format": "npx @biomejs/biome format --write"
 	},
 	"devDependencies": {
-		"prettier": "^3.0.0",
 		"svgo": "^4.1.0"
 	},
 	"repository": {

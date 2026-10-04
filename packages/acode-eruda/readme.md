@@ -14,7 +14,7 @@
       <img src="https://img.shields.io/badge/License-Apache%202.0-0000FF.svg?logo=apache" alt="License Badge"/>
     </a>
     <a href="https://github.com/sebastianjnuwu/acode-plugins/blob/acode/packages/acode-eruda/package.json#L4" target="_blank">
-      <img src="https://img.shields.io/badge/Version-v1.0.7-0000FF?logo=github" alt="Version Badge"/>
+      <img src="https://img.shields.io/badge/Version-v1.0.8-0000FF?logo=github" alt="Version Badge"/>
     </a>
   </p>
   
@@ -34,5 +34,11 @@
 
   <!-- Screenshot of Eruda -->
 <img src="https://eruda.liriliri.io/screenshot.jpg" style="width:100%">
+
+  <p><strong>• How to activate:</strong></p>
+  <ol>
+    <li>In Acode, open <strong>Plugins</strong>, search for <strong>Eruda</strong> and download it.</li>
+    <li>Open the plugin settings and enable <strong>Ativar Eruda</strong> (requires internet once to load Eruda from CDN).</li>
+  </ol>
 
 </div>

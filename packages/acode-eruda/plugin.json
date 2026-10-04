@@ -2,7 +2,7 @@
   "id": "sebastianjnuwu.acode.eruda",
   "name": "Eruda",
   "main": "acode.js",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "Apache-2.0",
   "readme": "readme.md",
   "minVersionCode": 260,

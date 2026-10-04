@@ -8,7 +8,7 @@
 <h1>Acode Purple Theme</h1>
 
   <img alt="License" src="https://img.shields.io/badge/license-Apache%202.0-AA00FF.svg?logo=apache"/>
-  <img alt="Version" src="https://img.shields.io/badge/version-v1.1.7-AA00FF?logo=github"/>
+  <img alt="Version" src="https://img.shields.io/badge/version-v1.1.8-AA00FF?logo=github"/>
 </div>
 <div align="center"> 
 
@@ -20,7 +20,10 @@
 
 </div>
 
-<b>Select theme:</b> Start using the theme: `Acode > Settings > Themes > Acode Purple`.
+<b>How to activate:</b>
+
+1. In Acode, open `Plugins`, search for `Acode Purple` and download it.
+2. Start using the theme: `Acode > Settings > Themes > Acode Purple`.
 
 
 <strong style="color: #AA00FF">• Sponsor:</strong> Support this project by clicking [here.](https://github.com/sponsors/sebastianjnuwu)

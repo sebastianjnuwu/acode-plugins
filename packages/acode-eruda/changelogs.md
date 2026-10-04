@@ -1,5 +1,11 @@
 # Change Logs
 
+## Update Version `v1.0.8`
+- Fix settings listener removal (now unsubscribes the right handler).
+- Handle offline CDN load failure with an error instead of hanging.
+- Avoid duplicate script tags on rapid toggles.
+- New Go-powered build (`npm run build` in seconds).
+
 ## Update Version `v1.0.6`
 
 - Added `changelog.md` to document changes.

@@ -31,12 +31,14 @@ export class PurpleTheme {
     purple_dark.buttonTextColor = '#ffffff';
 
     themes.add(purple_dark);
-    themes.apply(name);
-        
+    // No themes.apply() in the current API: a theme the user already
+    // selected is applied automatically as soon as it is added.
+
   };
-  
+
   async destroy() {
-    
+    // No themes.remove() in the current API: the theme stays registered
+    // until Acode restarts. Re-running init is safe (add ignores dupes).
   };
   
 };

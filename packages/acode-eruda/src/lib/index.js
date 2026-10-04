@@ -2,6 +2,8 @@ const settings = acode.require("settings");
 
 export class Eruda {
   #instance = null;
+  #loading = null;
+  #onUpdate = (val) => this.toggle(val);
 
   constructor() {
     if (settings.get("developerMode") === undefined) {
@@ -10,36 +12,59 @@ export class Eruda {
   }
 
   async init() {
-    settings.on('update:developerMode', (val) => this.toggle(val));
-    
+    settings.on('update:developerMode', this.#onUpdate);
+
     if (settings.get("developerMode")) {
-      await this.toggle(true);
+      try {
+        await this.toggle(true);
+      } catch (error) {
+        console.warn("[eruda]", error?.message || error);
+      }
     }
+  }
+
+  loadScript() {
+    if (this.#loading) return this.#loading;
+    if (window.eruda) return Promise.resolve(window.eruda);
+
+    this.#loading = new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = "https://cdn.jsdelivr.net/npm/eruda";
+      script.onload = () => {
+        this.#loading = null;
+        if (window.eruda) resolve(window.eruda);
+        else reject(new Error("eruda failed to initialize"));
+      };
+      script.onerror = () => {
+        this.#loading = null;
+        script.remove();
+        reject(new Error("could not load eruda from CDN (offline?)"));
+      };
+      document.head.appendChild(script);
+    });
+    return this.#loading;
   }
 
   async toggle(enable) {
     if (enable) {
       if (this.#instance) return this.#instance.init();
 
-      const script = document.createElement("script");
-      script.src = "https://cdn.jsdelivr.net/npm/eruda";
-      
-      script.onload = () => {
-        this.#instance = window.eruda;
-        this.#instance = window.eruda;
+      this.#instance = await this.loadScript();
 
-        this.#instance.init({
-          container: this.#getContainer(),
-          useShadowDom: true,
-          autoScale: true,
-          defaults: { displaySize: 50, theme: 'Dark' }
-        });
-      };
-      
-      document.head.appendChild(script);
+      this.#instance.init({
+        container: this.#getContainer(),
+        useShadowDom: true,
+        autoScale: true,
+        defaults: { displaySize: 50, theme: 'Dark' }
+      });
     } else {
+      this.#loading = null;
       if (this.#instance) {
-        this.#instance.destroy();
+        try {
+          this.#instance.destroy();
+        } catch {
+          // ignore
+        }
         this.#instance = null;
         document.getElementById("eruda-plugin-container")?.remove();
       }
@@ -72,7 +97,7 @@ export class Eruda {
   }
 
   async destroy() {
-    settings.off('update:developerMode');
+    settings.off('update:developerMode', this.#onUpdate);
     await this.toggle(false);
   }
 }
